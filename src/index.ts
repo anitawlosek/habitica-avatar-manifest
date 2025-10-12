@@ -1,6 +1,6 @@
 // index.ts
 import { join } from 'path';
-import { generateAvatarManifest } from './scripts/habiticaProcessor.ts';
+import { generateAvatarManifest } from './scripts/habiticaProcessor';
 import type { HabiticaContent } from './types/habitica-content';
 import { readFileSync, writeFileSync } from 'fs';
 
