@@ -1,9 +1,9 @@
 // Appearances types
 
 export type HabiticaAppearances = {
-    hair: Hair;
+    hair: HabiticaHair;
     shirt: Record<string, HabiticaAppearanceItem>;
-    size: Size;
+    size: HabiticaBodySize;
     skin: Record<string, HabiticaAppearanceItem>;
     chair: Record<string, HabiticaAppearanceItem>;
     background: Record<string, HabiticaBackground>;
@@ -11,7 +11,7 @@ export type HabiticaAppearances = {
 
 export type HabiticaBackground = {
     key: string;
-    set: Set;
+    set: HabiticaBackgroundSet;
     price: number;
     text: string;
     notes: string;
