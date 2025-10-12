@@ -1,0 +1,29 @@
+{
+  "name": "habitica-avatar-manifest",
+  "version": "0.0.1-alpha",
+  "description": "Preprocessed, structured Habitica avatar data including sprites, items, and metadata, ready for use in apps and frontend projects.",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "node --loader ts-node/esm src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anitawlosek/habitica-avatar-manifest.git"
+  },
+  "keywords": [
+    "habitica",
+    "avatar"
+  ],
+  "author": "Anita Włosek (anitawlosek@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anitawlosek/habitica-avatar-manifest/issues"
+  },
+  "homepage": "https://github.com/anitawlosek/habitica-avatar-manifest#readme",
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
