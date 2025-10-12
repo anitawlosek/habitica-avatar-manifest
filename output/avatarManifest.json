@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2025-10-12T20:33:13.341Z",
+  "generatedAt": "2025-10-12T20:51:53.613Z",
   "images": {
     "beach.png": {
       "fileName": "beach.png",
@@ -22942,9 +22942,6 @@
     },
     "gear": {
       "sets": {
-        "healer-0": [
-          "weapon_healer_0"
-        ],
         "healer-1": [
           "weapon_healer_1",
           "armor_healer_1",
@@ -22975,12 +22972,6 @@
           "head_healer_5",
           "shield_healer_5"
         ],
-        "healer-6": [
-          "weapon_healer_6"
-        ],
-        "wizard-0": [
-          "weapon_wizard_0"
-        ],
         "wizard-1": [
           "weapon_wizard_1",
           "armor_wizard_1",
@@ -23005,9 +22996,6 @@
           "weapon_wizard_5",
           "armor_wizard_5",
           "head_wizard_5"
-        ],
-        "wizard-6": [
-          "weapon_wizard_6"
         ],
         "rogue-0": [
           "weapon_rogue_0",
@@ -23047,9 +23035,6 @@
           "weapon_rogue_6",
           "shield_rogue_6"
         ],
-        "warrior-0": [
-          "weapon_warrior_0"
-        ],
         "warrior-1": [
           "weapon_warrior_1",
           "armor_warrior_1",
@@ -23080,9 +23065,6 @@
           "head_warrior_5",
           "shield_warrior_5"
         ],
-        "warrior-6": [
-          "weapon_warrior_6"
-        ],
         "base-0": [
           "weapon_base_0",
           "armor_base_0",
@@ -23110,12 +23092,6 @@
           "armor_special_2",
           "head_special_2"
         ],
-        "special-3": [
-          "weapon_special_3"
-        ],
-        "special-critical": [
-          "weapon_special_critical"
-        ],
         "special-takeThis": [
           "weapon_special_takeThis",
           "armor_special_takeThis",
@@ -23124,42 +23100,9 @@
           "body_special_takeThis",
           "back_special_takeThis"
         ],
-        "special-tridentOfCrashingTides": [
-          "weapon_special_tridentOfCrashingTides"
-        ],
-        "special-taskwoodsLantern": [
-          "weapon_special_taskwoodsLantern"
-        ],
-        "special-bardInstrument": [
-          "weapon_special_bardInstrument"
-        ],
-        "special-lunarScythe": [
-          "weapon_special_lunarScythe"
-        ],
-        "special-mammothRiderSpear": [
-          "weapon_special_mammothRiderSpear"
-        ],
         "special-roguishRainbowMessage": [
           "weapon_special_roguishRainbowMessage",
           "shield_special_roguishRainbowMessage"
-        ],
-        "special-pageBanner": [
-          "weapon_special_pageBanner"
-        ],
-        "special-skeletonKey": [
-          "weapon_special_skeletonKey"
-        ],
-        "special-nomadsScimitar": [
-          "weapon_special_nomadsScimitar"
-        ],
-        "special-fencingFoil": [
-          "weapon_special_fencingFoil"
-        ],
-        "special-tachi": [
-          "weapon_special_tachi"
-        ],
-        "special-aetherCrystals": [
-          "weapon_special_aetherCrystals"
         ],
         "yetiSet": [
           "weapon_special_yeti",
@@ -24395,9 +24338,6 @@
           "head_mystery_301404",
           "eyewear_mystery_301404"
         ],
-        "armoire-basicCrossbow": [
-          "weapon_armoire_basicCrossbow"
-        ],
         "soothing": [
           "weapon_armoire_lunarSceptre",
           "armor_armoire_lunarArmor",
@@ -24418,12 +24358,6 @@
           "armor_armoire_hornedIronArmor",
           "head_armoire_hornedIronHelm"
         ],
-        "armoire-goldWingStaff": [
-          "weapon_armoire_goldWingStaff"
-        ],
-        "armoire-batWand": [
-          "weapon_armoire_batWand"
-        ],
         "shepherd": [
           "weapon_armoire_shepherdsCrook",
           "armor_armoire_shepherdRobes",
@@ -24438,9 +24372,6 @@
           "weapon_armoire_blueLongbow",
           "armor_armoire_ironBlueArcherArmor",
           "head_armoire_ironBlueArcherHelm"
-        ],
-        "armoire-glowingSpear": [
-          "weapon_armoire_glowingSpear"
         ],
         "barrister": [
           "weapon_armoire_barristerGavel",
@@ -24497,9 +24428,6 @@
           "armor_armoire_gownOfHearts",
           "head_armoire_crownOfHearts"
         ],
-        "armoire-forestFungusStaff": [
-          "weapon_armoire_forestFungusStaff"
-        ],
         "festivalAttire": [
           "weapon_armoire_festivalFirecracker",
           "armor_armoire_greenFestivalYukata",
@@ -24509,9 +24437,6 @@
           "weapon_armoire_merchantsDisplayTray",
           "armor_armoire_merchantTunic",
           "head_armoire_merchantChaperon"
-        ],
-        "armoire-battleAxe": [
-          "weapon_armoire_battleAxe"
         ],
         "farrier": [
           "weapon_armoire_hoofClippers",
@@ -24595,12 +24520,6 @@
           "armor_armoire_vernalVestment",
           "head_armoire_vernalHennin"
         ],
-        "armoire-jugglingBalls": [
-          "weapon_armoire_jugglingBalls"
-        ],
-        "armoire-slingshot": [
-          "weapon_armoire_slingshot"
-        ],
         "nephrite": [
           "weapon_armoire_nephriteBow",
           "armor_armoire_nephriteArmor",
@@ -24621,12 +24540,6 @@
           "armor_armoire_invernessCape",
           "head_armoire_deerstalkerCap",
           "shield_armoire_trustyUmbrella"
-        ],
-        "armoire-floridFan": [
-          "weapon_armoire_floridFan"
-        ],
-        "armoire-resplendentRapier": [
-          "weapon_armoire_resplendentRapier"
         ],
         "shadowMaster": [
           "weapon_armoire_shadowMastersMace",
@@ -24731,9 +24644,6 @@
           "head_armoire_heraldsCap",
           "shield_armoire_heraldsMessageScroll"
         ],
-        "armoire-skullLantern": [
-          "weapon_armoire_skullLantern"
-        ],
         "hatchingPotions": [
           "weapon_armoire_potionBase",
           "weapon_armoire_potionBlue",
@@ -24754,9 +24664,6 @@
           "weapon_armoire_shootingStarSpell",
           "armor_armoire_shootingStarCostume",
           "head_armoire_shootingStarCrown"
-        ],
-        "armoire-pinkLongbow": [
-          "weapon_armoire_pinkLongbow"
         ],
         "gardenerSet": [
           "weapon_armoire_gardenersWateringCan",
@@ -24876,87 +24783,9 @@
           "head_armoire_beekeepersHat",
           "shield_armoire_beekeepersHive"
         ],
-        "special-heroicTunic": [
-          "armor_special_heroicTunic"
-        ],
-        "special-finnedOceanicArmor": [
-          "armor_special_finnedOceanicArmor"
-        ],
-        "special-pyromancersRobes": [
-          "armor_special_pyromancersRobes"
-        ],
-        "special-bardRobes": [
-          "armor_special_bardRobes"
-        ],
-        "special-lunarWarriorArmor": [
-          "armor_special_lunarWarriorArmor"
-        ],
-        "special-mammothRiderArmor": [
-          "armor_special_mammothRiderArmor"
-        ],
-        "special-roguishRainbowMessengerRobes": [
-          "armor_special_roguishRainbowMessengerRobes"
-        ],
-        "special-pageArmor": [
-          "armor_special_pageArmor"
-        ],
-        "special-sneakthiefRobes": [
-          "armor_special_sneakthiefRobes"
-        ],
-        "special-snowSovereignRobes": [
-          "armor_special_snowSovereignRobes"
-        ],
-        "special-dandySuit": [
-          "armor_special_dandySuit"
-        ],
-        "special-nomadsCuirass": [
-          "armor_special_nomadsCuirass"
-        ],
-        "special-samuraiArmor": [
-          "armor_special_samuraiArmor"
-        ],
-        "special-turkeyArmorBase": [
-          "armor_special_turkeyArmorBase"
-        ],
-        "special-birthday": [
-          "armor_special_birthday"
-        ],
-        "special-birthday2015": [
-          "armor_special_birthday2015"
-        ],
         "special-gaymerx": [
           "armor_special_gaymerx",
           "head_special_gaymerx"
-        ],
-        "special-birthday2016": [
-          "armor_special_birthday2016"
-        ],
-        "special-birthday2017": [
-          "armor_special_birthday2017"
-        ],
-        "special-birthday2018": [
-          "armor_special_birthday2018"
-        ],
-        "special-turkeyArmorGilded": [
-          "armor_special_turkeyArmorGilded"
-        ],
-        "special-birthday2019": [
-          "armor_special_birthday2019"
-        ],
-        "special-birthday2020": [
-          "armor_special_birthday2020"
-        ],
-        "special-birthday2021": [
-          "armor_special_birthday2021"
-        ],
-        "special-birthday2022": [
-          "armor_special_birthday2022"
-        ],
-        "special-birthday2023": [
-          "armor_special_birthday2023"
-        ],
-        "special-birthday2024": [
-          "armor_special_birthday2024"
         ],
         "mystery-201402": [
           "armor_mystery_201402",
@@ -25165,9 +24994,6 @@
           "armor_mystery_202112",
           "head_mystery_202112"
         ],
-        "mystery-202204": [
-          "armor_mystery_202204"
-        ],
         "mystery-202207": [
           "armor_mystery_202207",
           "head_mystery_202207"
@@ -25355,12 +25181,6 @@
           "head_armoire_fancyPirateHat",
           "shield_armoire_treasureMap"
         ],
-        "armoire-sheetGhostCostume": [
-          "armor_armoire_sheetGhostCostume"
-        ],
-        "armoire-shawlCollarCoat": [
-          "armor_armoire_shawlCollarCoat"
-        ],
         "teaParty": [
           "armor_armoire_teaGown",
           "head_armoire_teaHat",
@@ -25437,87 +25257,9 @@
           "armor_armoire_blackPartyDress",
           "head_armoire_blackHairbow"
         ],
-        "special-fireCoralCirclet": [
-          "head_special_fireCoralCirclet"
-        ],
-        "special-pyromancersTurban": [
-          "head_special_pyromancersTurban"
-        ],
-        "special-bardHat": [
-          "head_special_bardHat"
-        ],
-        "special-lunarWarriorHelm": [
-          "head_special_lunarWarriorHelm"
-        ],
-        "special-mammothRiderHelm": [
-          "head_special_mammothRiderHelm"
-        ],
-        "special-roguishRainbowMessengerHood": [
-          "head_special_roguishRainbowMessengerHood"
-        ],
-        "special-pageHelm": [
-          "head_special_pageHelm"
-        ],
-        "special-clandestineCowl": [
-          "head_special_clandestineCowl"
-        ],
-        "special-snowSovereignCrown": [
-          "head_special_snowSovereignCrown"
-        ],
-        "special-spikedHelm": [
-          "head_special_spikedHelm"
-        ],
-        "special-dandyHat": [
-          "head_special_dandyHat"
-        ],
-        "special-kabuto": [
-          "head_special_kabuto"
-        ],
-        "special-nye": [
-          "head_special_nye"
-        ],
-        "special-turkeyHelmBase": [
-          "head_special_turkeyHelmBase"
-        ],
-        "special-nye2014": [
-          "head_special_nye2014"
-        ],
-        "special-nye2015": [
-          "head_special_nye2015"
-        ],
-        "special-nye2016": [
-          "head_special_nye2016"
-        ],
-        "special-namingDay2017": [
-          "head_special_namingDay2017"
-        ],
-        "special-nye2017": [
-          "head_special_nye2017"
-        ],
-        "special-turkeyHelmGilded": [
-          "head_special_turkeyHelmGilded"
-        ],
-        "special-nye2018": [
-          "head_special_nye2018"
-        ],
         "special-piDay": [
           "head_special_piDay",
           "shield_special_piDay"
-        ],
-        "special-nye2019": [
-          "head_special_nye2019"
-        ],
-        "special-nye2020": [
-          "head_special_nye2020"
-        ],
-        "special-nye2021": [
-          "head_special_nye2021"
-        ],
-        "special-nye2022": [
-          "head_special_nye2022"
-        ],
-        "special-nye2023": [
-          "head_special_nye2023"
         ],
         "mystery-201601": [
           "head_mystery_201601",
@@ -25645,51 +25387,9 @@
           "headAccessory_mystery_301405",
           "eyewear_mystery_301405"
         ],
-        "armoire-blackCat": [
-          "head_armoire_blackCat"
-        ],
-        "armoire-orangeCat": [
-          "head_armoire_orangeCat"
-        ],
-        "armoire-bigWig": [
-          "head_armoire_bigWig"
-        ],
-        "armoire-paperBag": [
-          "head_armoire_paperBag"
-        ],
-        "armoire-birdsNest": [
-          "head_armoire_birdsNest"
-        ],
-        "armoire-tricornHat": [
-          "head_armoire_tricornHat"
-        ],
-        "armoire-beaniePropellerHat": [
-          "head_armoire_beaniePropellerHat"
-        ],
         "fancyFloralSet": [
           "head_armoire_fancyFloralHat",
           "shield_armoire_fancyFloralFan"
-        ],
-        "special-goldenknight": [
-          "shield_special_goldenknight"
-        ],
-        "special-moonpearlShield": [
-          "shield_special_moonpearlShield"
-        ],
-        "special-mammothRiderHorn": [
-          "shield_special_mammothRiderHorn"
-        ],
-        "special-diamondStave": [
-          "shield_special_diamondStave"
-        ],
-        "special-lootBag": [
-          "shield_special_lootBag"
-        ],
-        "special-wintryMirror": [
-          "shield_special_wintryMirror"
-        ],
-        "special-wakizashi": [
-          "shield_special_wakizashi"
         ],
         "mystery-201701": [
           "shield_mystery_201701",
@@ -25706,24 +25406,6 @@
         "mystery-202506": [
           "shield_mystery_202506",
           "back_mystery_202506"
-        ],
-        "armoire-midnightShield": [
-          "shield_armoire_midnightShield"
-        ],
-        "armoire-mysticLamp": [
-          "shield_armoire_mysticLamp"
-        ],
-        "armoire-floralBouquet": [
-          "shield_armoire_floralBouquet"
-        ],
-        "armoire-redRose": [
-          "shield_armoire_redRose"
-        ],
-        "armoire-goldenBaton": [
-          "shield_armoire_goldenBaton"
-        ],
-        "armoire-polishedPocketwatch": [
-          "shield_armoire_polishedPocketwatch"
         ],
         "petFood": [
           "shield_armoire_strawberryFood",
@@ -25742,19 +25424,10 @@
           "back_special_wondercon_red",
           "eyewear_special_wondercon_red"
         ],
-        "special-wondercon_gold": [
-          "body_special_wondercon_gold"
-        ],
         "special-wondercon_black": [
           "body_special_wondercon_black",
           "back_special_wondercon_black",
           "eyewear_special_wondercon_black"
-        ],
-        "special-aetherAmulet": [
-          "body_special_aetherAmulet"
-        ],
-        "special-namingDay2018": [
-          "body_special_namingDay2018"
         ],
         "special-anniversary": [
           "body_special_anniversary",
@@ -25764,48 +25437,6 @@
         "mystery-201706": [
           "body_mystery_201706",
           "back_mystery_201706"
-        ],
-        "special-heroicAureole": [
-          "back_special_heroicAureole"
-        ],
-        "special-snowdriftVeil": [
-          "back_special_snowdriftVeil"
-        ],
-        "special-aetherCloak": [
-          "back_special_aetherCloak"
-        ],
-        "special-turkeyTailBase": [
-          "back_special_turkeyTailBase"
-        ],
-        "special-bearTail": [
-          "back_special_bearTail"
-        ],
-        "special-cactusTail": [
-          "back_special_cactusTail"
-        ],
-        "special-foxTail": [
-          "back_special_foxTail"
-        ],
-        "special-lionTail": [
-          "back_special_lionTail"
-        ],
-        "special-pandaTail": [
-          "back_special_pandaTail"
-        ],
-        "special-pigTail": [
-          "back_special_pigTail"
-        ],
-        "special-tigerTail": [
-          "back_special_tigerTail"
-        ],
-        "special-wolfTail": [
-          "back_special_wolfTail"
-        ],
-        "special-turkeyTailGilded": [
-          "back_special_turkeyTailGilded"
-        ],
-        "special-namingDay2020": [
-          "back_special_namingDay2020"
         ],
         "mystery-201404": [
           "back_mystery_201404",
@@ -25890,120 +25521,6 @@
         "mystery-202510": [
           "back_mystery_202510",
           "eyewear_mystery_202510"
-        ],
-        "special-heroicCirclet": [
-          "headAccessory_special_heroicCirclet"
-        ],
-        "special-bearEars": [
-          "headAccessory_special_bearEars"
-        ],
-        "special-cactusEars": [
-          "headAccessory_special_cactusEars"
-        ],
-        "special-foxEars": [
-          "headAccessory_special_foxEars"
-        ],
-        "special-lionEars": [
-          "headAccessory_special_lionEars"
-        ],
-        "special-pandaEars": [
-          "headAccessory_special_pandaEars"
-        ],
-        "special-pigEars": [
-          "headAccessory_special_pigEars"
-        ],
-        "special-tigerEars": [
-          "headAccessory_special_tigerEars"
-        ],
-        "special-wolfEars": [
-          "headAccessory_special_wolfEars"
-        ],
-        "special-blackHeadband": [
-          "headAccessory_special_blackHeadband"
-        ],
-        "special-blueHeadband": [
-          "headAccessory_special_blueHeadband"
-        ],
-        "special-greenHeadband": [
-          "headAccessory_special_greenHeadband"
-        ],
-        "special-pinkHeadband": [
-          "headAccessory_special_pinkHeadband"
-        ],
-        "special-redHeadband": [
-          "headAccessory_special_redHeadband"
-        ],
-        "special-whiteHeadband": [
-          "headAccessory_special_whiteHeadband"
-        ],
-        "special-yellowHeadband": [
-          "headAccessory_special_yellowHeadband"
-        ],
-        "armoire-comicalArrow": [
-          "headAccessory_armoire_comicalArrow"
-        ],
-        "special-blackTopFrame": [
-          "eyewear_special_blackTopFrame"
-        ],
-        "special-blueTopFrame": [
-          "eyewear_special_blueTopFrame"
-        ],
-        "special-greenTopFrame": [
-          "eyewear_special_greenTopFrame"
-        ],
-        "special-pinkTopFrame": [
-          "eyewear_special_pinkTopFrame"
-        ],
-        "special-redTopFrame": [
-          "eyewear_special_redTopFrame"
-        ],
-        "special-whiteTopFrame": [
-          "eyewear_special_whiteTopFrame"
-        ],
-        "special-yellowTopFrame": [
-          "eyewear_special_yellowTopFrame"
-        ],
-        "special-aetherMask": [
-          "eyewear_special_aetherMask"
-        ],
-        "special-blackHalfMoon": [
-          "eyewear_special_blackHalfMoon"
-        ],
-        "special-blueHalfMoon": [
-          "eyewear_special_blueHalfMoon"
-        ],
-        "special-greenHalfMoon": [
-          "eyewear_special_greenHalfMoon"
-        ],
-        "special-pinkHalfMoon": [
-          "eyewear_special_pinkHalfMoon"
-        ],
-        "special-redHalfMoon": [
-          "eyewear_special_redHalfMoon"
-        ],
-        "special-whiteHalfMoon": [
-          "eyewear_special_whiteHalfMoon"
-        ],
-        "special-yellowHalfMoon": [
-          "eyewear_special_yellowHalfMoon"
-        ],
-        "mystery-202204A": [
-          "eyewear_mystery_202204A"
-        ],
-        "mystery-202204B": [
-          "eyewear_mystery_202204B"
-        ],
-        "armoire-goofyGlasses": [
-          "eyewear_armoire_goofyGlasses"
-        ],
-        "armoire-clownsNose": [
-          "eyewear_armoire_clownsNose"
-        ],
-        "armoire-tragedyMask": [
-          "eyewear_armoire_tragedyMask"
-        ],
-        "armoire-comedyMask": [
-          "eyewear_armoire_comedyMask"
         ]
       },
       "weapon": {

@@ -69,6 +69,11 @@ function processGear(habitica: HabiticaContent): GearItems {
     }
   });
 
+  const filteredSets = Object.fromEntries(
+    Object.entries(gear.sets).filter(([, items]) => items.length >= 2)
+  );
+  gear.sets = filteredSets;
+
   return gear;
 }
 
