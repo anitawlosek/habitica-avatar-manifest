@@ -156,7 +156,6 @@ export function generateAvatarManifest(habitica: HabiticaContent): AvatarManifes
       skin: processSkin(appearances.skin),
       body: processBody(appearances.size),
       chair: processChair(appearances.chair),
-      buffs: {},
     },
   };
 }

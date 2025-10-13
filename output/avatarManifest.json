@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2025-10-12T20:51:53.613Z",
+  "generatedAt": "2025-10-13T14:26:30.013Z",
   "images": {
     "beach.png": {
       "fileName": "beach.png",
@@ -47243,7 +47243,6 @@
         "text": "Yellow Handleless",
         "imageFileName": "handleless_yellow.png"
       }
-    },
-    "buffs": {}
+    }
   }
 }

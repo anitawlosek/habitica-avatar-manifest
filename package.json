@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "build": "node --loader ts-node/esm src/index.ts"
+    "build": "tsx ./src/index.ts"
   },
   "repository": {
     "type": "git",
