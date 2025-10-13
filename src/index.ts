@@ -1,11 +1,9 @@
-// index.ts
-import { join } from 'path';
 import { generateAvatarManifest } from './scripts/habiticaProcessor';
 import type { HabiticaContent } from './types/habitica-content';
-import { readFileSync, writeFileSync } from 'fs';
+import { writeFileSync } from 'fs';
+import { fetchHabiticaContent } from './scripts/habiticaContentProvider';
 
-const contentPath = join(process.cwd(), 'input/content.json');
-const habiticaData = JSON.parse(readFileSync(contentPath, 'utf-8'));
+const habiticaData = await fetchHabiticaContent();
 
 const manifest = generateAvatarManifest(habiticaData as HabiticaContent);
 
