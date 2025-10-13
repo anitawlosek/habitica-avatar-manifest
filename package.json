@@ -2,14 +2,12 @@
   "name": "habitica-avatar-manifest",
   "version": "0.0.1-alpha",
   "description": "Preprocessed, structured Habitica avatar data including sprites, items, and metadata, ready for use in apps and frontend projects.",
-  "main": "src/index.ts",
+  "main": "",
   "types": "src/types/index.d.ts",
+  "files": [
+    "src/types"
+  ],
   "type": "module",
-  "exports": {
-    ".": {
-      "types": "./src/types/index.d.ts"
-    }
-  },
   "scripts": {
     "build": "tsx ./src/index.ts"
   },
