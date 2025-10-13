@@ -33,8 +33,11 @@ export type HairItems = {
 }
 
 export type BodyItems = {
-  slim: ItemMeta;
-  broad: ItemMeta;
+  shirt: Record<string, ItemMeta>;
+  size: {
+    slim: ItemMeta;
+    broad: ItemMeta;
+  };
 }
 
 export type AvatarManifest = {

@@ -149,7 +149,7 @@ export type HabiticaContent = {
   achievements: object;
   animalColorAchievements: object[];
   animalSetAchievements: Record<string, object>;
-  appearances: object;
+  appearances: HabiticaAppearances;
   armoire: object;
   audioThemes: string[];
   backgrounds: Record<string, HabiticaBackgroundList>;

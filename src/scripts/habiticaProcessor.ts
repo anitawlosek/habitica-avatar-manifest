@@ -5,6 +5,7 @@ import {
   HabiticaMount,
   HabiticaAppearanceItem,
   HabiticaBackground,
+  HabiticaAppearances,
 } from '../types/habitica-content';
 import {
   AvatarManifest,
@@ -101,12 +102,12 @@ function processMounts(habitica: HabiticaContent): Record<string, ItemMeta> {
   return result;
 }
 
-function processHair(hair: any): HairItems {
   const processPart = (part: Record<string, HabiticaAppearanceItem>) =>
     Object.fromEntries(
       Object.values(part).map((i) => [i.key, createItemMeta(i.key, i.text)])
     );
 
+function processHair(hair: any): HairItems {
   return {
     color: processPart(hair.color),
     base: processPart(hair.base),
@@ -117,10 +118,10 @@ function processHair(hair: any): HairItems {
   };
 }
 
-function processBody(size: any): BodyItems {
+function processBody(size: HabiticaAppearances['size'], shirt: HabiticaAppearances['shirt']): BodyItems {
   return {
-    slim: createItemMeta(size.slim.key, size.slim.text),
-    broad: createItemMeta(size.broad.key, size.broad.text),
+    shirt: processPart(shirt),
+    size: processPart(size) as BodyItems['size'],
   };
 }
 
@@ -153,7 +154,7 @@ export function generateAvatarManifest(habitica: HabiticaContent): AvatarManifes
       mounts: processMounts(habitica),
       hair: processHair(appearances.hair),
       skin: processSkin(appearances.skin),
-      body: processBody(appearances.size),
+      body: processBody(appearances.size, appearances.shirt),
       chair: processChair(appearances.chair),
     },
   };

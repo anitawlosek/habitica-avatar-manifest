@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2025-10-13T14:51:50.501Z",
+  "generatedAt": "2025-10-13T17:32:58.520Z",
   "items": {
     "backgrounds": {
       "beach": {
@@ -26170,15 +26170,104 @@
       }
     },
     "body": {
-      "slim": {
-        "key": "slim",
-        "text": "Slim",
-        "imageFileName": "slim.png"
+      "shirt": {
+        "black": {
+          "key": "black",
+          "text": "Black",
+          "imageFileName": "black.png"
+        },
+        "blue": {
+          "key": "blue",
+          "text": "Blue",
+          "imageFileName": "blue.png"
+        },
+        "green": {
+          "key": "green",
+          "text": "Green",
+          "imageFileName": "green.png"
+        },
+        "pink": {
+          "key": "pink",
+          "text": "Pink",
+          "imageFileName": "pink.png"
+        },
+        "white": {
+          "key": "white",
+          "text": "White",
+          "imageFileName": "white.png"
+        },
+        "yellow": {
+          "key": "yellow",
+          "text": "Yellow",
+          "imageFileName": "yellow.png"
+        },
+        "convict": {
+          "key": "convict",
+          "text": "Referee",
+          "imageFileName": "convict.png"
+        },
+        "cross": {
+          "key": "cross",
+          "text": "Cross",
+          "imageFileName": "cross.png"
+        },
+        "fire": {
+          "key": "fire",
+          "text": "Fire",
+          "imageFileName": "fire.png"
+        },
+        "horizon": {
+          "key": "horizon",
+          "text": "Horizon",
+          "imageFileName": "horizon.png"
+        },
+        "ocean": {
+          "key": "ocean",
+          "text": "Ocean",
+          "imageFileName": "ocean.png"
+        },
+        "purple": {
+          "key": "purple",
+          "text": "Purple",
+          "imageFileName": "purple.png"
+        },
+        "rainbow": {
+          "key": "rainbow",
+          "text": "Rainbow",
+          "imageFileName": "rainbow.png"
+        },
+        "redblue": {
+          "key": "redblue",
+          "text": "Red and Blue",
+          "imageFileName": "redblue.png"
+        },
+        "thunder": {
+          "key": "thunder",
+          "text": "Thunder",
+          "imageFileName": "thunder.png"
+        },
+        "tropical": {
+          "key": "tropical",
+          "text": "Tropical",
+          "imageFileName": "tropical.png"
+        },
+        "zombie": {
+          "key": "zombie",
+          "text": "Zombie",
+          "imageFileName": "zombie.png"
+        }
       },
-      "broad": {
-        "key": "broad",
-        "text": "Broad",
-        "imageFileName": "broad.png"
+      "size": {
+        "slim": {
+          "key": "slim",
+          "text": "Slim",
+          "imageFileName": "slim.png"
+        },
+        "broad": {
+          "key": "broad",
+          "text": "Broad",
+          "imageFileName": "broad.png"
+        }
       }
     },
     "chair": {
