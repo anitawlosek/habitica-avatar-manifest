@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 20
       # - run: npm ci
-      - run: npm run generate
+      - run: npm install && npm run generate
 
       - name: Commit & Push
         run: |
