@@ -42,7 +42,7 @@ export type BodyItems = {
 
 export type AvatarManifest = {
   version: string;
-  // generatedAt: string;
+  generatedAt: string;
   // images: Record<string, ImageMeta>; // fileName as key
   items: {
     backgrounds: Record<string, ItemMeta>;
