@@ -146,7 +146,7 @@ export function generateAvatarManifest(habitica: HabiticaContent): AvatarManifes
 
   return {
     version: '1.0.0',
-    generatedAt: new Date().toISOString(),
+//    generatedAt: new Date().toISOString(),
     items: {
       backgrounds: processBackgrounds(habitica),
       gear: processGear(habitica),
