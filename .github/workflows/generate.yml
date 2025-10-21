@@ -1,8 +1,11 @@
 name: Generate Habitica Avatar Manifest
 on:
   schedule:
-    - cron: '0 2 * * *' # every day at 02:00 UTC
+    - cron: '0 16 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
