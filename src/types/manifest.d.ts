@@ -45,10 +45,10 @@ export type AvatarManifest = {
   // generatedAt: string;
   // images: Record<string, ImageMeta>; // fileName as key
   items: {
-    backgrounds: Record<string, ItemMeta>;
+    background: Record<string, ItemMeta>;
     gear: GearItems;
-    pets: Record<string, ItemMeta>;
-    mounts: Record<string, ItemMeta>;
+    pet: Record<string, ItemMeta>;
+    mount: Record<string, ItemMeta>;
     hair: HairItems;
     skin: Record<string, ItemMeta>;
     body: BodyItems;

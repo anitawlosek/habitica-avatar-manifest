@@ -148,10 +148,10 @@ export function generateAvatarManifest(habitica: HabiticaContent): AvatarManifes
     version: '1.0.0',
 //    generatedAt: new Date().toISOString(),
     items: {
-      backgrounds: processBackgrounds(habitica),
+      background: processBackgrounds(habitica),
       gear: processGear(habitica),
-      pets: processPets(habitica),
-      mounts: processMounts(habitica),
+      pet: processPets(habitica),
+      mount: processMounts(habitica),
       hair: processHair(appearances.hair),
       skin: processSkin(appearances.skin),
       body: processBody(appearances.size, appearances.shirt),

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "items": {
-    "backgrounds": {
+    "background": {
       "beach": {
         "key": "beach",
         "text": "Beach",
@@ -13278,7 +13278,7 @@
         }
       }
     },
-    "pets": {
+    "pet": {
       "Wolf-Base": {
         "key": "Wolf-Base",
         "text": "Base Wolf",
@@ -19475,7 +19475,7 @@
         "imageFileName": "Cactus-Veteran.png"
       }
     },
-    "mounts": {
+    "mount": {
       "Wolf-Base": {
         "key": "Wolf-Base",
         "text": "Base Wolf",
