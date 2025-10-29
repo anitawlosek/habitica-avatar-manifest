@@ -89428,5 +89428,71 @@
     "width": 68,
     "height": 68,
     "format": "png"
+  },
+  "avatar_snowball_wizard.png": {
+    "fileName": "avatar_snowball_wizard.png",
+    "width": 120,
+    "height": 105,
+    "format": "png"
+  },
+  "avatar_snowball_warrior.png": {
+    "fileName": "avatar_snowball_warrior.png",
+    "width": 120,
+    "height": 105,
+    "format": "png"
+  },
+  "avatar_snowball_rogue.png": {
+    "fileName": "avatar_snowball_rogue.png",
+    "width": 120,
+    "height": 105,
+    "format": "png"
+  },
+  "avatar_snowball_healer.png": {
+    "fileName": "avatar_snowball_healer.png",
+    "width": 120,
+    "height": 105,
+    "format": "png"
+  },
+  "ghost.png": {
+    "fileName": "ghost.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
+  "avatar_floral_wizard.png": {
+    "fileName": "avatar_floral_wizard.png",
+    "width": 99,
+    "height": 99,
+    "format": "png"
+  },
+  "avatar_floral_warrior.png": {
+    "fileName": "avatar_floral_warrior.png",
+    "width": 99,
+    "height": 99,
+    "format": "png"
+  },
+  "avatar_floral_rogue.png": {
+    "fileName": "avatar_floral_rogue.png",
+    "width": 99,
+    "height": 99,
+    "format": "png"
+  },
+  "avatar_floral_healer.png": {
+    "fileName": "avatar_floral_healer.png",
+    "width": 99,
+    "height": 99,
+    "format": "png"
+  },
+  "seafoam_star.png": {
+    "fileName": "seafoam_star.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
+  "zzz.png": {
+    "fileName": "zzz.png",
+    "width": 40,
+    "height": 40,
+    "format": "png"
   }
 }

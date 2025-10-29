@@ -51,6 +51,8 @@ export type AvatarManifest = {
     skin: Record<string, ItemMeta>;
     body: BodyItems;
     chair: Record<string, ItemMeta>;
+    buff: Record<string, ItemMeta>;
+    sleep: Record<string, ItemMeta>;
   }
 };
 

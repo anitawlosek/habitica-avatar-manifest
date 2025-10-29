@@ -46028,5 +46028,86 @@
         "icon_chair_handleless_yellow"
       ]
     }
+  },
+  "buff": {
+    "snowball_wizard": {
+      "key": "snowball_wizard",
+      "text": "Snowball (Wizard)",
+      "imageFileNames": [
+        "avatar_snowball_wizard"
+      ]
+    },
+    "snowball_warrior": {
+      "key": "snowball_warrior",
+      "text": "Snowball (Warrior)",
+      "imageFileNames": [
+        "avatar_snowball_warrior"
+      ]
+    },
+    "snowball_rogue": {
+      "key": "snowball_rogue",
+      "text": "Snowball (Rogue)",
+      "imageFileNames": [
+        "avatar_snowball_rogue"
+      ]
+    },
+    "snowball_healer": {
+      "key": "snowball_healer",
+      "text": "Snowball (Healer)",
+      "imageFileNames": [
+        "avatar_snowball_healer"
+      ]
+    },
+    "ghost": {
+      "key": "ghost",
+      "text": "Spooky Sparkles",
+      "imageFileNames": [
+        "ghost"
+      ]
+    },
+    "shinySeed_wizard": {
+      "key": "shinySeed_wizard",
+      "text": "Shiny Seed (Wizard)",
+      "imageFileNames": [
+        "avatar_floral_wizard"
+      ]
+    },
+    "shinySeed_warrior": {
+      "key": "shinySeed_warrior",
+      "text": "Shiny Seed (Warrior)",
+      "imageFileNames": [
+        "avatar_floral_warrior"
+      ]
+    },
+    "shinySeed_rogue": {
+      "key": "shinySeed_rogue",
+      "text": "Shiny Seed (Rogue)",
+      "imageFileNames": [
+        "avatar_floral_rogue"
+      ]
+    },
+    "shinySeed_healer": {
+      "key": "shinySeed_healer",
+      "text": "Shiny Seed (Healer)",
+      "imageFileNames": [
+        "avatar_floral_healer"
+      ]
+    },
+    "seafoam": {
+      "key": "seafoam",
+      "text": "Seafoam",
+      "imageFileNames": [
+        "seafoam_star"
+      ]
+    }
+  },
+  "sleep": {
+    "true": {
+      "key": "true",
+      "text": "Sleep mode",
+      "imageFileNames": [
+        "zzz"
+      ]
+    }
   }
 }

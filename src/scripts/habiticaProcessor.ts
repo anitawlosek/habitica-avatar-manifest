@@ -1,3 +1,4 @@
+import { buffImageFileNames, buffItems, sleepItem } from '../constants';
 import {
   HabiticaContent,
   HabiticaGearItem,
@@ -19,11 +20,11 @@ import { getImageFileNames } from './imagesDetailsProvider';
 // Helpers
 // -------------------------
 
-const imageFileNames: string[] = [];
+const imageFileNamesList: string[] = [];
 
 function createItemMeta(type: string, key: string, text: string, habiticaContent: HabiticaContent) {
   const fileNames = getImageFileNames(type, key, habiticaContent);
-  imageFileNames.push(...fileNames);
+  imageFileNamesList.push(...fileNames);
 
   return { key, text, imageFileNames: fileNames };
 }
@@ -143,10 +144,16 @@ export async function generateAvatarManifest(habiticaContent: HabiticaContent): 
       skin: processSkin(habiticaContent),
       body: processBody(habiticaContent),
       chair: processChair(habiticaContent),
+      buff: Object.fromEntries(
+        buffItems.map((i) => [i.key, i])
+      ),
+      sleep: { [sleepItem.key]: sleepItem },
     };
 
+  const imageFileNames = Array.from(new Set([...imageFileNamesList, ...buffImageFileNames, ...sleepItem.imageFileNames]));
+
   return {
-    imageFileNames: Array.from(new Set(imageFileNames)),
+    imageFileNames,
     items,
   };
 }
