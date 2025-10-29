@@ -88145,6 +88145,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_915533_sleep.png": {
+    "fileName": "skin_915533_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_ddc994.png": {
     "fileName": "skin_ddc994.png",
     "width": 90,
@@ -88155,6 +88161,12 @@
     "fileName": "icon_skin_ddc994.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_ddc994_sleep.png": {
+    "fileName": "skin_ddc994_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_f5a76e.png": {
@@ -88169,6 +88181,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_f5a76e_sleep.png": {
+    "fileName": "skin_f5a76e_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_ea8349.png": {
     "fileName": "skin_ea8349.png",
     "width": 90,
@@ -88179,6 +88197,12 @@
     "fileName": "icon_skin_ea8349.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_ea8349_sleep.png": {
+    "fileName": "skin_ea8349_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_c06534.png": {
@@ -88193,6 +88217,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_c06534_sleep.png": {
+    "fileName": "skin_c06534_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_98461a.png": {
     "fileName": "skin_98461a.png",
     "width": 90,
@@ -88203,6 +88233,12 @@
     "fileName": "icon_skin_98461a.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_98461a_sleep.png": {
+    "fileName": "skin_98461a_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_c3e1dc.png": {
@@ -88217,6 +88253,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_c3e1dc_sleep.png": {
+    "fileName": "skin_c3e1dc_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_6bd049.png": {
     "fileName": "skin_6bd049.png",
     "width": 90,
@@ -88227,6 +88269,12 @@
     "fileName": "icon_skin_6bd049.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_6bd049_sleep.png": {
+    "fileName": "skin_6bd049_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_eb052b.png": {
@@ -88241,6 +88289,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_eb052b_sleep.png": {
+    "fileName": "skin_eb052b_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_f69922.png": {
     "fileName": "skin_f69922.png",
     "width": 90,
@@ -88251,6 +88305,12 @@
     "fileName": "icon_skin_f69922.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_f69922_sleep.png": {
+    "fileName": "skin_f69922_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_f5d70f.png": {
@@ -88265,6 +88325,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_f5d70f_sleep.png": {
+    "fileName": "skin_f5d70f_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_0ff591.png": {
     "fileName": "skin_0ff591.png",
     "width": 90,
@@ -88275,6 +88341,12 @@
     "fileName": "icon_skin_0ff591.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_0ff591_sleep.png": {
+    "fileName": "skin_0ff591_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_2b43f6.png": {
@@ -88289,6 +88361,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_2b43f6_sleep.png": {
+    "fileName": "skin_2b43f6_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_d7a9f7.png": {
     "fileName": "skin_d7a9f7.png",
     "width": 90,
@@ -88299,6 +88377,12 @@
     "fileName": "icon_skin_d7a9f7.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_d7a9f7_sleep.png": {
+    "fileName": "skin_d7a9f7_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_800ed0.png": {
@@ -88313,6 +88397,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_800ed0_sleep.png": {
+    "fileName": "skin_800ed0_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_rainbow.png": {
     "fileName": "skin_rainbow.png",
     "width": 90,
@@ -88323,6 +88413,12 @@
     "fileName": "icon_skin_rainbow.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_rainbow_sleep.png": {
+    "fileName": "skin_rainbow_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_bear.png": {
@@ -88337,6 +88433,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_bear_sleep.png": {
+    "fileName": "skin_bear_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_cactus.png": {
     "fileName": "skin_cactus.png",
     "width": 90,
@@ -88347,6 +88449,12 @@
     "fileName": "icon_skin_cactus.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_cactus_sleep.png": {
+    "fileName": "skin_cactus_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_fox.png": {
@@ -88361,6 +88469,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_fox_sleep.png": {
+    "fileName": "skin_fox_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_lion.png": {
     "fileName": "skin_lion.png",
     "width": 90,
@@ -88371,6 +88485,12 @@
     "fileName": "icon_skin_lion.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_lion_sleep.png": {
+    "fileName": "skin_lion_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_panda.png": {
@@ -88385,6 +88505,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_panda_sleep.png": {
+    "fileName": "skin_panda_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_pig.png": {
     "fileName": "skin_pig.png",
     "width": 90,
@@ -88395,6 +88521,12 @@
     "fileName": "icon_skin_pig.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_pig_sleep.png": {
+    "fileName": "skin_pig_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_tiger.png": {
@@ -88409,6 +88541,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_tiger_sleep.png": {
+    "fileName": "skin_tiger_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_wolf.png": {
     "fileName": "skin_wolf.png",
     "width": 90,
@@ -88419,6 +88557,12 @@
     "fileName": "icon_skin_wolf.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_wolf_sleep.png": {
+    "fileName": "skin_wolf_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_pastelPink.png": {
@@ -88433,6 +88577,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_pastelPink_sleep.png": {
+    "fileName": "skin_pastelPink_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_pastelOrange.png": {
     "fileName": "skin_pastelOrange.png",
     "width": 90,
@@ -88443,6 +88593,12 @@
     "fileName": "icon_skin_pastelOrange.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_pastelOrange_sleep.png": {
+    "fileName": "skin_pastelOrange_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_pastelYellow.png": {
@@ -88457,6 +88613,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_pastelYellow_sleep.png": {
+    "fileName": "skin_pastelYellow_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_pastelGreen.png": {
     "fileName": "skin_pastelGreen.png",
     "width": 90,
@@ -88467,6 +88629,12 @@
     "fileName": "icon_skin_pastelGreen.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_pastelGreen_sleep.png": {
+    "fileName": "skin_pastelGreen_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_pastelBlue.png": {
@@ -88481,6 +88649,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_pastelBlue_sleep.png": {
+    "fileName": "skin_pastelBlue_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_pastelPurple.png": {
     "fileName": "skin_pastelPurple.png",
     "width": 90,
@@ -88491,6 +88665,12 @@
     "fileName": "icon_skin_pastelPurple.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_pastelPurple_sleep.png": {
+    "fileName": "skin_pastelPurple_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_pastelRainbowChevron.png": {
@@ -88505,6 +88685,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_pastelRainbowChevron_sleep.png": {
+    "fileName": "skin_pastelRainbowChevron_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_pastelRainbowDiagonal.png": {
     "fileName": "skin_pastelRainbowDiagonal.png",
     "width": 90,
@@ -88515,6 +88701,12 @@
     "fileName": "icon_skin_pastelRainbowDiagonal.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_pastelRainbowDiagonal_sleep.png": {
+    "fileName": "skin_pastelRainbowDiagonal_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_monster.png": {
@@ -88529,6 +88721,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_monster_sleep.png": {
+    "fileName": "skin_monster_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_pumpkin.png": {
     "fileName": "skin_pumpkin.png",
     "width": 90,
@@ -88539,6 +88737,12 @@
     "fileName": "icon_skin_pumpkin.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_pumpkin_sleep.png": {
+    "fileName": "skin_pumpkin_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_skeleton.png": {
@@ -88553,6 +88757,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_skeleton_sleep.png": {
+    "fileName": "skin_skeleton_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_zombie.png": {
     "fileName": "skin_zombie.png",
     "width": 90,
@@ -88563,6 +88773,12 @@
     "fileName": "icon_skin_zombie.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_zombie_sleep.png": {
+    "fileName": "skin_zombie_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_ghost.png": {
@@ -88577,6 +88793,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_ghost_sleep.png": {
+    "fileName": "skin_ghost_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_shadow.png": {
     "fileName": "skin_shadow.png",
     "width": 90,
@@ -88587,6 +88809,12 @@
     "fileName": "icon_skin_shadow.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_shadow_sleep.png": {
+    "fileName": "skin_shadow_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_candycorn.png": {
@@ -88601,6 +88829,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_candycorn_sleep.png": {
+    "fileName": "skin_candycorn_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_ogre.png": {
     "fileName": "skin_ogre.png",
     "width": 90,
@@ -88611,6 +88845,12 @@
     "fileName": "icon_skin_ogre.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_ogre_sleep.png": {
+    "fileName": "skin_ogre_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_pumpkin2.png": {
@@ -88625,6 +88865,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_pumpkin2_sleep.png": {
+    "fileName": "skin_pumpkin2_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_reptile.png": {
     "fileName": "skin_reptile.png",
     "width": 90,
@@ -88635,6 +88881,12 @@
     "fileName": "icon_skin_reptile.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_reptile_sleep.png": {
+    "fileName": "skin_reptile_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_shadow2.png": {
@@ -88649,6 +88901,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_shadow2_sleep.png": {
+    "fileName": "skin_shadow2_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_skeleton2.png": {
     "fileName": "skin_skeleton2.png",
     "width": 90,
@@ -88659,6 +88917,12 @@
     "fileName": "icon_skin_skeleton2.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_skeleton2_sleep.png": {
+    "fileName": "skin_skeleton2_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_transparent.png": {
@@ -88673,6 +88937,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_transparent_sleep.png": {
+    "fileName": "skin_transparent_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_zombie2.png": {
     "fileName": "skin_zombie2.png",
     "width": 90,
@@ -88683,6 +88953,12 @@
     "fileName": "icon_skin_zombie2.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_zombie2_sleep.png": {
+    "fileName": "skin_zombie2_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_clownfish.png": {
@@ -88697,6 +88973,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_clownfish_sleep.png": {
+    "fileName": "skin_clownfish_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_deepocean.png": {
     "fileName": "skin_deepocean.png",
     "width": 90,
@@ -88707,6 +88989,12 @@
     "fileName": "icon_skin_deepocean.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_deepocean_sleep.png": {
+    "fileName": "skin_deepocean_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_merblue.png": {
@@ -88721,6 +89009,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_merblue_sleep.png": {
+    "fileName": "skin_merblue_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_mergold.png": {
     "fileName": "skin_mergold.png",
     "width": 90,
@@ -88731,6 +89025,12 @@
     "fileName": "icon_skin_mergold.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_mergold_sleep.png": {
+    "fileName": "skin_mergold_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_mergreen.png": {
@@ -88745,6 +89045,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_mergreen_sleep.png": {
+    "fileName": "skin_mergreen_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_merruby.png": {
     "fileName": "skin_merruby.png",
     "width": 90,
@@ -88755,6 +89061,12 @@
     "fileName": "icon_skin_merruby.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_merruby_sleep.png": {
+    "fileName": "skin_merruby_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_shark.png": {
@@ -88769,6 +89081,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_shark_sleep.png": {
+    "fileName": "skin_shark_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_tropicalwater.png": {
     "fileName": "skin_tropicalwater.png",
     "width": 90,
@@ -88779,6 +89097,12 @@
     "fileName": "icon_skin_tropicalwater.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_tropicalwater_sleep.png": {
+    "fileName": "skin_tropicalwater_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_aurora.png": {
@@ -88793,6 +89117,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_aurora_sleep.png": {
+    "fileName": "skin_aurora_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_dapper.png": {
     "fileName": "skin_dapper.png",
     "width": 90,
@@ -88803,6 +89133,12 @@
     "fileName": "icon_skin_dapper.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_dapper_sleep.png": {
+    "fileName": "skin_dapper_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_festive.png": {
@@ -88817,6 +89153,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_festive_sleep.png": {
+    "fileName": "skin_festive_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_holly.png": {
     "fileName": "skin_holly.png",
     "width": 90,
@@ -88827,6 +89169,12 @@
     "fileName": "icon_skin_holly.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_holly_sleep.png": {
+    "fileName": "skin_holly_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_polar.png": {
@@ -88841,6 +89189,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_polar_sleep.png": {
+    "fileName": "skin_polar_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_sugar.png": {
     "fileName": "skin_sugar.png",
     "width": 90,
@@ -88851,6 +89205,12 @@
     "fileName": "icon_skin_sugar.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_sugar_sleep.png": {
+    "fileName": "skin_sugar_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "skin_snowy.png": {
@@ -88865,6 +89225,12 @@
     "height": 68,
     "format": "png"
   },
+  "skin_snowy_sleep.png": {
+    "fileName": "skin_snowy_sleep.png",
+    "width": 90,
+    "height": 90,
+    "format": "png"
+  },
   "skin_winterstar.png": {
     "fileName": "skin_winterstar.png",
     "width": 90,
@@ -88875,6 +89241,12 @@
     "fileName": "icon_skin_winterstar.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "skin_winterstar_sleep.png": {
+    "fileName": "skin_winterstar_sleep.png",
+    "width": 90,
+    "height": 90,
     "format": "png"
   },
   "slim_shirt_black.png": {

@@ -78,6 +78,8 @@ export const getImageFileNames = (settingType: string, value: string | number | 
             fileNames.push(`${value}`, `shop_${value}`);
             break;
         case 'skin':
+            fileNames.push(`skin_${value}`, `icon_skin_${value}`, `skin_${value}_sleep`);
+            break;
         case 'chair':
         case 'background':
         default:

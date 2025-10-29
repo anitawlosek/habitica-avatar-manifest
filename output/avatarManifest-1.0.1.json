@@ -45178,7 +45178,8 @@
       "text": "Skin Tone 1",
       "imageFileNames": [
         "skin_915533",
-        "icon_skin_915533"
+        "icon_skin_915533",
+        "skin_915533_sleep"
       ]
     },
     "ddc994": {
@@ -45186,7 +45187,8 @@
       "text": "Skin Tone 2",
       "imageFileNames": [
         "skin_ddc994",
-        "icon_skin_ddc994"
+        "icon_skin_ddc994",
+        "skin_ddc994_sleep"
       ]
     },
     "f5a76e": {
@@ -45194,7 +45196,8 @@
       "text": "Skin Tone 3",
       "imageFileNames": [
         "skin_f5a76e",
-        "icon_skin_f5a76e"
+        "icon_skin_f5a76e",
+        "skin_f5a76e_sleep"
       ]
     },
     "ea8349": {
@@ -45202,7 +45205,8 @@
       "text": "Skin Tone 4",
       "imageFileNames": [
         "skin_ea8349",
-        "icon_skin_ea8349"
+        "icon_skin_ea8349",
+        "skin_ea8349_sleep"
       ]
     },
     "c06534": {
@@ -45210,7 +45214,8 @@
       "text": "Skin Tone 5",
       "imageFileNames": [
         "skin_c06534",
-        "icon_skin_c06534"
+        "icon_skin_c06534",
+        "skin_c06534_sleep"
       ]
     },
     "98461a": {
@@ -45218,7 +45223,8 @@
       "text": "Skin Tone 6",
       "imageFileNames": [
         "skin_98461a",
-        "icon_skin_98461a"
+        "icon_skin_98461a",
+        "skin_98461a_sleep"
       ]
     },
     "c3e1dc": {
@@ -45226,7 +45232,8 @@
       "text": "Cyan",
       "imageFileNames": [
         "skin_c3e1dc",
-        "icon_skin_c3e1dc"
+        "icon_skin_c3e1dc",
+        "skin_c3e1dc_sleep"
       ]
     },
     "6bd049": {
@@ -45234,7 +45241,8 @@
       "text": "Green",
       "imageFileNames": [
         "skin_6bd049",
-        "icon_skin_6bd049"
+        "icon_skin_6bd049",
+        "skin_6bd049_sleep"
       ]
     },
     "eb052b": {
@@ -45242,7 +45250,8 @@
       "text": "Red",
       "imageFileNames": [
         "skin_eb052b",
-        "icon_skin_eb052b"
+        "icon_skin_eb052b",
+        "skin_eb052b_sleep"
       ]
     },
     "f69922": {
@@ -45250,7 +45259,8 @@
       "text": "Orange",
       "imageFileNames": [
         "skin_f69922",
-        "icon_skin_f69922"
+        "icon_skin_f69922",
+        "skin_f69922_sleep"
       ]
     },
     "f5d70f": {
@@ -45258,7 +45268,8 @@
       "text": "Yellow",
       "imageFileNames": [
         "skin_f5d70f",
-        "icon_skin_f5d70f"
+        "icon_skin_f5d70f",
+        "skin_f5d70f_sleep"
       ]
     },
     "0ff591": {
@@ -45266,7 +45277,8 @@
       "text": "Turquoise",
       "imageFileNames": [
         "skin_0ff591",
-        "icon_skin_0ff591"
+        "icon_skin_0ff591",
+        "skin_0ff591_sleep"
       ]
     },
     "2b43f6": {
@@ -45274,7 +45286,8 @@
       "text": "Blue",
       "imageFileNames": [
         "skin_2b43f6",
-        "icon_skin_2b43f6"
+        "icon_skin_2b43f6",
+        "skin_2b43f6_sleep"
       ]
     },
     "d7a9f7": {
@@ -45282,7 +45295,8 @@
       "text": "Lavender",
       "imageFileNames": [
         "skin_d7a9f7",
-        "icon_skin_d7a9f7"
+        "icon_skin_d7a9f7",
+        "skin_d7a9f7_sleep"
       ]
     },
     "800ed0": {
@@ -45290,7 +45304,8 @@
       "text": "Purple",
       "imageFileNames": [
         "skin_800ed0",
-        "icon_skin_800ed0"
+        "icon_skin_800ed0",
+        "skin_800ed0_sleep"
       ]
     },
     "rainbow": {
@@ -45298,7 +45313,8 @@
       "text": "Rainbow",
       "imageFileNames": [
         "skin_rainbow",
-        "icon_skin_rainbow"
+        "icon_skin_rainbow",
+        "skin_rainbow_sleep"
       ]
     },
     "bear": {
@@ -45306,7 +45322,8 @@
       "text": "Bear",
       "imageFileNames": [
         "skin_bear",
-        "icon_skin_bear"
+        "icon_skin_bear",
+        "skin_bear_sleep"
       ]
     },
     "cactus": {
@@ -45314,7 +45331,8 @@
       "text": "Cactus",
       "imageFileNames": [
         "skin_cactus",
-        "icon_skin_cactus"
+        "icon_skin_cactus",
+        "skin_cactus_sleep"
       ]
     },
     "fox": {
@@ -45322,7 +45340,8 @@
       "text": "Fox",
       "imageFileNames": [
         "skin_fox",
-        "icon_skin_fox"
+        "icon_skin_fox",
+        "skin_fox_sleep"
       ]
     },
     "lion": {
@@ -45330,7 +45349,8 @@
       "text": "Lion",
       "imageFileNames": [
         "skin_lion",
-        "icon_skin_lion"
+        "icon_skin_lion",
+        "skin_lion_sleep"
       ]
     },
     "panda": {
@@ -45338,7 +45358,8 @@
       "text": "Panda",
       "imageFileNames": [
         "skin_panda",
-        "icon_skin_panda"
+        "icon_skin_panda",
+        "skin_panda_sleep"
       ]
     },
     "pig": {
@@ -45346,7 +45367,8 @@
       "text": "Pig",
       "imageFileNames": [
         "skin_pig",
-        "icon_skin_pig"
+        "icon_skin_pig",
+        "skin_pig_sleep"
       ]
     },
     "tiger": {
@@ -45354,7 +45376,8 @@
       "text": "Tiger",
       "imageFileNames": [
         "skin_tiger",
-        "icon_skin_tiger"
+        "icon_skin_tiger",
+        "skin_tiger_sleep"
       ]
     },
     "wolf": {
@@ -45362,7 +45385,8 @@
       "text": "Wolf",
       "imageFileNames": [
         "skin_wolf",
-        "icon_skin_wolf"
+        "icon_skin_wolf",
+        "skin_wolf_sleep"
       ]
     },
     "pastelPink": {
@@ -45370,7 +45394,8 @@
       "text": "Pastel Pink",
       "imageFileNames": [
         "skin_pastelPink",
-        "icon_skin_pastelPink"
+        "icon_skin_pastelPink",
+        "skin_pastelPink_sleep"
       ]
     },
     "pastelOrange": {
@@ -45378,7 +45403,8 @@
       "text": "Pastel Orange",
       "imageFileNames": [
         "skin_pastelOrange",
-        "icon_skin_pastelOrange"
+        "icon_skin_pastelOrange",
+        "skin_pastelOrange_sleep"
       ]
     },
     "pastelYellow": {
@@ -45386,7 +45412,8 @@
       "text": "Pastel Yellow",
       "imageFileNames": [
         "skin_pastelYellow",
-        "icon_skin_pastelYellow"
+        "icon_skin_pastelYellow",
+        "skin_pastelYellow_sleep"
       ]
     },
     "pastelGreen": {
@@ -45394,7 +45421,8 @@
       "text": "Pastel Green",
       "imageFileNames": [
         "skin_pastelGreen",
-        "icon_skin_pastelGreen"
+        "icon_skin_pastelGreen",
+        "skin_pastelGreen_sleep"
       ]
     },
     "pastelBlue": {
@@ -45402,7 +45430,8 @@
       "text": "Pastel Blue",
       "imageFileNames": [
         "skin_pastelBlue",
-        "icon_skin_pastelBlue"
+        "icon_skin_pastelBlue",
+        "skin_pastelBlue_sleep"
       ]
     },
     "pastelPurple": {
@@ -45410,7 +45439,8 @@
       "text": "Pastel Purple",
       "imageFileNames": [
         "skin_pastelPurple",
-        "icon_skin_pastelPurple"
+        "icon_skin_pastelPurple",
+        "skin_pastelPurple_sleep"
       ]
     },
     "pastelRainbowChevron": {
@@ -45418,7 +45448,8 @@
       "text": "Pastel Rainbow Chevron",
       "imageFileNames": [
         "skin_pastelRainbowChevron",
-        "icon_skin_pastelRainbowChevron"
+        "icon_skin_pastelRainbowChevron",
+        "skin_pastelRainbowChevron_sleep"
       ]
     },
     "pastelRainbowDiagonal": {
@@ -45426,7 +45457,8 @@
       "text": "Pastel Rainbow Diagonal",
       "imageFileNames": [
         "skin_pastelRainbowDiagonal",
-        "icon_skin_pastelRainbowDiagonal"
+        "icon_skin_pastelRainbowDiagonal",
+        "skin_pastelRainbowDiagonal_sleep"
       ]
     },
     "monster": {
@@ -45434,7 +45466,8 @@
       "text": "Monster",
       "imageFileNames": [
         "skin_monster",
-        "icon_skin_monster"
+        "icon_skin_monster",
+        "skin_monster_sleep"
       ]
     },
     "pumpkin": {
@@ -45442,7 +45475,8 @@
       "text": "Pumpkin",
       "imageFileNames": [
         "skin_pumpkin",
-        "icon_skin_pumpkin"
+        "icon_skin_pumpkin",
+        "skin_pumpkin_sleep"
       ]
     },
     "skeleton": {
@@ -45450,7 +45484,8 @@
       "text": "Skeleton",
       "imageFileNames": [
         "skin_skeleton",
-        "icon_skin_skeleton"
+        "icon_skin_skeleton",
+        "skin_skeleton_sleep"
       ]
     },
     "zombie": {
@@ -45458,7 +45493,8 @@
       "text": "Zombie",
       "imageFileNames": [
         "skin_zombie",
-        "icon_skin_zombie"
+        "icon_skin_zombie",
+        "skin_zombie_sleep"
       ]
     },
     "ghost": {
@@ -45466,7 +45502,8 @@
       "text": "Ghost",
       "imageFileNames": [
         "skin_ghost",
-        "icon_skin_ghost"
+        "icon_skin_ghost",
+        "skin_ghost_sleep"
       ]
     },
     "shadow": {
@@ -45474,7 +45511,8 @@
       "text": "Shadow",
       "imageFileNames": [
         "skin_shadow",
-        "icon_skin_shadow"
+        "icon_skin_shadow",
+        "skin_shadow_sleep"
       ]
     },
     "candycorn": {
@@ -45482,7 +45520,8 @@
       "text": "Candy Corn",
       "imageFileNames": [
         "skin_candycorn",
-        "icon_skin_candycorn"
+        "icon_skin_candycorn",
+        "skin_candycorn_sleep"
       ]
     },
     "ogre": {
@@ -45490,7 +45529,8 @@
       "text": "Ogre",
       "imageFileNames": [
         "skin_ogre",
-        "icon_skin_ogre"
+        "icon_skin_ogre",
+        "skin_ogre_sleep"
       ]
     },
     "pumpkin2": {
@@ -45498,7 +45538,8 @@
       "text": "Jack O' Lantern",
       "imageFileNames": [
         "skin_pumpkin2",
-        "icon_skin_pumpkin2"
+        "icon_skin_pumpkin2",
+        "skin_pumpkin2_sleep"
       ]
     },
     "reptile": {
@@ -45506,7 +45547,8 @@
       "text": "Reptile",
       "imageFileNames": [
         "skin_reptile",
-        "icon_skin_reptile"
+        "icon_skin_reptile",
+        "skin_reptile_sleep"
       ]
     },
     "shadow2": {
@@ -45514,7 +45556,8 @@
       "text": "Shade",
       "imageFileNames": [
         "skin_shadow2",
-        "icon_skin_shadow2"
+        "icon_skin_shadow2",
+        "skin_shadow2_sleep"
       ]
     },
     "skeleton2": {
@@ -45522,7 +45565,8 @@
       "text": "Bones",
       "imageFileNames": [
         "skin_skeleton2",
-        "icon_skin_skeleton2"
+        "icon_skin_skeleton2",
+        "skin_skeleton2_sleep"
       ]
     },
     "transparent": {
@@ -45530,7 +45574,8 @@
       "text": "Transparent",
       "imageFileNames": [
         "skin_transparent",
-        "icon_skin_transparent"
+        "icon_skin_transparent",
+        "skin_transparent_sleep"
       ]
     },
     "zombie2": {
@@ -45538,7 +45583,8 @@
       "text": "Undead",
       "imageFileNames": [
         "skin_zombie2",
-        "icon_skin_zombie2"
+        "icon_skin_zombie2",
+        "skin_zombie2_sleep"
       ]
     },
     "clownfish": {
@@ -45546,7 +45592,8 @@
       "text": "Clownfish",
       "imageFileNames": [
         "skin_clownfish",
-        "icon_skin_clownfish"
+        "icon_skin_clownfish",
+        "skin_clownfish_sleep"
       ]
     },
     "deepocean": {
@@ -45554,7 +45601,8 @@
       "text": "Deep Ocean",
       "imageFileNames": [
         "skin_deepocean",
-        "icon_skin_deepocean"
+        "icon_skin_deepocean",
+        "skin_deepocean_sleep"
       ]
     },
     "merblue": {
@@ -45562,7 +45610,8 @@
       "text": "Merblue",
       "imageFileNames": [
         "skin_merblue",
-        "icon_skin_merblue"
+        "icon_skin_merblue",
+        "skin_merblue_sleep"
       ]
     },
     "mergold": {
@@ -45570,7 +45619,8 @@
       "text": "Mergold",
       "imageFileNames": [
         "skin_mergold",
-        "icon_skin_mergold"
+        "icon_skin_mergold",
+        "skin_mergold_sleep"
       ]
     },
     "mergreen": {
@@ -45578,7 +45628,8 @@
       "text": "Mergreen",
       "imageFileNames": [
         "skin_mergreen",
-        "icon_skin_mergreen"
+        "icon_skin_mergreen",
+        "skin_mergreen_sleep"
       ]
     },
     "merruby": {
@@ -45586,7 +45637,8 @@
       "text": "Merruby",
       "imageFileNames": [
         "skin_merruby",
-        "icon_skin_merruby"
+        "icon_skin_merruby",
+        "skin_merruby_sleep"
       ]
     },
     "shark": {
@@ -45594,7 +45646,8 @@
       "text": "Shark",
       "imageFileNames": [
         "skin_shark",
-        "icon_skin_shark"
+        "icon_skin_shark",
+        "skin_shark_sleep"
       ]
     },
     "tropicalwater": {
@@ -45602,7 +45655,8 @@
       "text": "Tropical Water",
       "imageFileNames": [
         "skin_tropicalwater",
-        "icon_skin_tropicalwater"
+        "icon_skin_tropicalwater",
+        "skin_tropicalwater_sleep"
       ]
     },
     "aurora": {
@@ -45610,7 +45664,8 @@
       "text": "Aurora",
       "imageFileNames": [
         "skin_aurora",
-        "icon_skin_aurora"
+        "icon_skin_aurora",
+        "skin_aurora_sleep"
       ]
     },
     "dapper": {
@@ -45618,7 +45673,8 @@
       "text": "Dapper",
       "imageFileNames": [
         "skin_dapper",
-        "icon_skin_dapper"
+        "icon_skin_dapper",
+        "skin_dapper_sleep"
       ]
     },
     "festive": {
@@ -45626,7 +45682,8 @@
       "text": "Festive",
       "imageFileNames": [
         "skin_festive",
-        "icon_skin_festive"
+        "icon_skin_festive",
+        "skin_festive_sleep"
       ]
     },
     "holly": {
@@ -45634,7 +45691,8 @@
       "text": "Holly",
       "imageFileNames": [
         "skin_holly",
-        "icon_skin_holly"
+        "icon_skin_holly",
+        "skin_holly_sleep"
       ]
     },
     "polar": {
@@ -45642,7 +45700,8 @@
       "text": "Polar",
       "imageFileNames": [
         "skin_polar",
-        "icon_skin_polar"
+        "icon_skin_polar",
+        "skin_polar_sleep"
       ]
     },
     "sugar": {
@@ -45650,7 +45709,8 @@
       "text": "Sugar",
       "imageFileNames": [
         "skin_sugar",
-        "icon_skin_sugar"
+        "icon_skin_sugar",
+        "skin_sugar_sleep"
       ]
     },
     "snowy": {
@@ -45658,7 +45718,8 @@
       "text": "Snowy",
       "imageFileNames": [
         "skin_snowy",
-        "icon_skin_snowy"
+        "icon_skin_snowy",
+        "skin_snowy_sleep"
       ]
     },
     "winterstar": {
@@ -45666,7 +45727,8 @@
       "text": "Winter Star",
       "imageFileNames": [
         "skin_winterstar",
-        "icon_skin_winterstar"
+        "icon_skin_winterstar",
+        "skin_winterstar_sleep"
       ]
     }
   },
