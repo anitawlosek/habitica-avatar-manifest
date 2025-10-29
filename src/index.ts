@@ -3,7 +3,7 @@ import type { HabiticaContent } from './types/habitica-content';
 import { writeFileSync, readFileSync } from 'fs';
 import { fetchHabiticaContent } from './scripts/habiticaContentProvider';
 import { ImagesMeta } from './types';
-import { getImagesMeta } from './scripts/imagesDetailsProvider';
+import { getImagesMeta, handleAddedAndRemovedImages } from './scripts/imagesDetailsProvider';
 
 const VERSION = '1.0.1';
 const OUTPUT_DIR = 'output';
@@ -32,24 +32,17 @@ if (process.argv.includes('--all-images')) {
     const addedImages = newImageList.filter(image => !previousImageList.includes(image));
     const removedImages = previousImageList.filter(image => !newImageList.includes(image));
 
-    if (addedImages.length > 0) {
-        // Generate images meta for new images only
-        console.log('✅ Added images:', addedImages);
-        const newImagesMeta: ImagesMeta = await getImagesMeta(addedImages);
+    if (addedImages.length > 0 || removedImages.length > 0) {
+        const updatedImagesMeta = await handleAddedAndRemovedImages(
+            JSON.parse(readFileSync(IMAGES_META_FILE, 'utf-8')),
+            addedImages,
+            removedImages,
+            newImageList
+        );
 
-        // Merge previous and new images manifest
-        const previousImagesMeta: ImagesMeta = JSON.parse(readFileSync(IMAGES_META_FILE, 'utf-8'));
-        const mergedImagesMeta = Object.assign(newImagesMeta, previousImagesMeta);
-
-        writeFileSync(IMAGES_META_FILE, JSON.stringify(mergedImagesMeta, null, 2));
-    }
-
-    if (removedImages.length > 0) {
-        console.log('❌ Removed images:', removedImages);
+        writeFileSync(IMAGES_META_FILE, JSON.stringify(updatedImagesMeta, null, 2));
+        writeFileSync(IMAGE_FILE_NAMES, JSON.stringify(newImageList, null, 2));
     }
 }
-
-writeFileSync(IMAGE_FILE_NAMES, JSON.stringify(manifest.imageFileNames, null, 2));
-
 
 console.log('✅ Avatar manifest generated!');
