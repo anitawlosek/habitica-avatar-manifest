@@ -8,7 +8,7 @@ export type ImageMeta = {
 export type ItemMeta = {
   key: string;
   text: string;
-  imageFileName: string; // reference to ImageMeta.fileName
+  imageFileNames: string[]; // reference to ImageMeta.fileName
 };
 
 export type GearItems = {
@@ -41,9 +41,7 @@ export type BodyItems = {
 }
 
 export type AvatarManifest = {
-  version: string;
-  // generatedAt: string;
-  // images: Record<string, ImageMeta>; // fileName as key
+  imageFileNames: string[]; // fileName as key
   items: {
     background: Record<string, ItemMeta>;
     gear: GearItems;
@@ -55,3 +53,5 @@ export type AvatarManifest = {
     chair: Record<string, ItemMeta>;
   }
 };
+
+export type ImagesMeta = Record<string, ImageMeta>; // fileName as key
