@@ -40,20 +40,22 @@ export type BodyItems = {
   };
 }
 
+export type AvatarItemsDetails = {
+  background: Record<string, ItemMeta>;
+  gear: GearItems;
+  pet: Record<string, ItemMeta>;
+  mount: Record<string, ItemMeta>;
+  hair: HairItems;
+  skin: Record<string, ItemMeta>;
+  body: BodyItems;
+  chair: Record<string, ItemMeta>;
+  buff: Record<string, ItemMeta>;
+  sleep: Record<string, ItemMeta>;
+};
+
 export type AvatarManifest = {
   imageFileNames: string[]; // fileName as key
-  items: {
-    background: Record<string, ItemMeta>;
-    gear: GearItems;
-    pet: Record<string, ItemMeta>;
-    mount: Record<string, ItemMeta>;
-    hair: HairItems;
-    skin: Record<string, ItemMeta>;
-    body: BodyItems;
-    chair: Record<string, ItemMeta>;
-    buff: Record<string, ItemMeta>;
-    sleep: Record<string, ItemMeta>;
-  }
-};
+  items: AvatarItemsDetails;
+}
 
 export type ImagesMeta = Record<string, ImageMeta>; // fileName as key

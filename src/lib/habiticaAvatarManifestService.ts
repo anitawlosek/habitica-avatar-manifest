@@ -1,5 +1,5 @@
-import { IMAGES_META_FILE, MANIFEST_FILE, IMAGE_FILE_NAMES } from "../constants";
-import { AvatarManifest, ImagesMeta } from "../types/manifest";
+import { IMAGES_META_FILE, ITEMS_DETAILS_FILE, IMAGE_FILE_NAMES } from "../constants";
+import { AvatarItemsDetails, ImagesMeta } from "../types/manifest";
 
 const GITHUB_URL_BASE = `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/refs/heads/main`;
 
@@ -14,8 +14,8 @@ async function getJsonFromUrl<T>(file: string): Promise<T> {
   return data;
 }
 
-export async function getHabiticaAvatarManifest(): Promise<AvatarManifest> {
-    return getJsonFromUrl<AvatarManifest>(MANIFEST_FILE);
+export async function getHabiticaAvatarItemsDetail(): Promise<AvatarItemsDetails> {
+    return getJsonFromUrl<AvatarItemsDetails>(ITEMS_DETAILS_FILE);
 }
 
 export async function getHabiticaImagesMeta() {
