@@ -1,4 +1,4 @@
-export * from "./habiticaAvatarManifestService.js";
-export * from "../types/manifest.js";
-export * from "../constants.js";
+export * from "./habiticaAvatarManifestService";
+export * from "../types/manifest";
+export * from "../constants";
 //# sourceMappingURL=index.js.map

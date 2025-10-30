@@ -35,20 +35,21 @@ export type BodyItems = {
         broad: ItemMeta;
     };
 };
+export type AvatarItemsDetails = {
+    background: Record<string, ItemMeta>;
+    gear: GearItems;
+    pet: Record<string, ItemMeta>;
+    mount: Record<string, ItemMeta>;
+    hair: HairItems;
+    skin: Record<string, ItemMeta>;
+    body: BodyItems;
+    chair: Record<string, ItemMeta>;
+    buff: Record<string, ItemMeta>;
+    sleep: Record<string, ItemMeta>;
+};
 export type AvatarManifest = {
     imageFileNames: string[];
-    items: {
-        background: Record<string, ItemMeta>;
-        gear: GearItems;
-        pet: Record<string, ItemMeta>;
-        mount: Record<string, ItemMeta>;
-        hair: HairItems;
-        skin: Record<string, ItemMeta>;
-        body: BodyItems;
-        chair: Record<string, ItemMeta>;
-        buff: Record<string, ItemMeta>;
-        sleep: Record<string, ItemMeta>;
-    };
+    items: AvatarItemsDetails;
 };
 export type ImagesMeta = Record<string, ImageMeta>;
 //# sourceMappingURL=manifest.d.ts.map

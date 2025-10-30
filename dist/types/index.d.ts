@@ -1,3 +1,3 @@
-export * from './manifest.js';
-export * from './habitica-content.js';
+export * from './manifest';
+export * from './habitica-content';
 //# sourceMappingURL=index.d.ts.map
