@@ -4,7 +4,7 @@ import { writeFileSync, readFileSync } from 'fs';
 import { fetchHabiticaContent } from './scripts/habiticaContentProvider';
 import { ImagesMeta } from './types';
 import { getImagesMeta, handleAddedAndRemovedImages } from './scripts/imagesDetailsProvider';
-import { IMAGE_FILE_NAMES, IMAGES_META_FILE, MANIFEST_FILE } from './constants';
+import { IMAGE_FILE_NAMES, IMAGES_META_FILE, ITEMS_DETAILS_FILE } from './constants';
 
 // Get Habitica content data
 const habiticaData = await fetchHabiticaContent();
@@ -12,7 +12,7 @@ const habiticaData = await fetchHabiticaContent();
 // Create avatar manifest
 const manifest = await generateAvatarManifest(habiticaData as HabiticaContent);
 
-writeFileSync(MANIFEST_FILE, JSON.stringify(manifest.items, null, 2));
+writeFileSync(ITEMS_DETAILS_FILE, JSON.stringify(manifest.items, null, 2));
 
 // Regenerate images manifest only for all images if --all-images flag is provided
 if (process.argv.includes('--all-images')) {
