@@ -1,4 +1,4 @@
-import { buffImageFileNames, buffItems, sleepItem } from '../constants';
+import { buffImageFileNames, buffItems, sleepItem } from './constants';
 import {
   HabiticaContent,
   HabiticaGearItem,

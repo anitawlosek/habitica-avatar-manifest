@@ -4,12 +4,7 @@ import { writeFileSync, readFileSync } from 'fs';
 import { fetchHabiticaContent } from './scripts/habiticaContentProvider';
 import { ImagesMeta } from './types';
 import { getImagesMeta, handleAddedAndRemovedImages } from './scripts/imagesDetailsProvider';
-
-const VERSION = '1.0.1';
-const OUTPUT_DIR = 'output';
-const MANIFEST_FILE = `${OUTPUT_DIR}/avatarManifest-${VERSION}.json`;
-const IMAGE_FILE_NAMES = `${OUTPUT_DIR}/imageFileNames-${VERSION}.json`;
-const IMAGES_META_FILE = `${OUTPUT_DIR}/imagesMeta-${VERSION}.json`;
+import { IMAGE_FILE_NAMES, IMAGES_META_FILE, MANIFEST_FILE } from './constants';
 
 // Get Habitica content data
 const habiticaData = await fetchHabiticaContent();
