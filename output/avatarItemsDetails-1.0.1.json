@@ -46120,8 +46120,8 @@
         "avatar_snowball_healer"
       ]
     },
-    "ghost": {
-      "key": "ghost",
+    "spookySparkles": {
+      "key": "spookySparkles",
       "text": "Spooky Sparkles",
       "imageFileNames": [
         "ghost"
