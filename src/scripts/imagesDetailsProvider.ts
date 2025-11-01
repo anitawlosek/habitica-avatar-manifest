@@ -33,7 +33,7 @@ export const getImageFileNames = (settingType: string, value: string | number | 
         case 'hair.flower':
             if (value == '0') break;
 
-            fileNames.push(`icon_hair_flower_${value}`);
+            fileNames.push(`icon_hair_flower_${value}`, `hair_flower_${value}`);
             break;
         case 'body.shirt':
             for (const size in habiticaContent.appearances.size) {
