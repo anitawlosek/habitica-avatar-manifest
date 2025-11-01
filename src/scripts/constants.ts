@@ -27,3 +27,5 @@ export const buffItems = [
 ];
 
 export const sleepItem = { key: `true`, text: `Sleep mode`, imageFileNames: ['zzz'] };
+
+export const headBase = 'head_0';

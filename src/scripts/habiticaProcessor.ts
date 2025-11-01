@@ -1,4 +1,4 @@
-import { buffImageFileNames, buffItems, sleepItem } from './constants';
+import { buffImageFileNames, buffItems, headBase, sleepItem } from './constants';
 import {
   HabiticaContent,
   HabiticaGearItem,
@@ -91,10 +91,10 @@ function processMounts(habiticaContent: HabiticaContent): Record<string, ItemMet
   return result;
 }
 
-  const processPart = (type: string, part: Record<string, HabiticaAppearanceItem>, habiticaContent: HabiticaContent) =>
-    Object.fromEntries(
-      Object.values(part).map((i) => [i.key, createItemMeta(type, i.key, i.text, habiticaContent)])
-    );
+const processPart = (type: string, part: Record<string, HabiticaAppearanceItem>, habiticaContent: HabiticaContent) =>
+  Object.fromEntries(
+    Object.values(part).map((i) => [i.key, createItemMeta(type, i.key, i.text, habiticaContent)])
+  );
 
 function processHair(habiticaContent: HabiticaContent): HairItems {
   const habiticaHair = habiticaContent.appearances.hair;
@@ -136,21 +136,26 @@ function processChair(habiticaContent: HabiticaContent): Record<string, ItemMeta
 
 export async function generateAvatarManifest(habiticaContent: HabiticaContent): Promise<AvatarManifest> {
   const items = {
-      background: processBackgrounds(habiticaContent),
-      gear: processGear(habiticaContent),
-      pet: processPets(habiticaContent),
-      mount: processMounts(habiticaContent),
-      hair: processHair(habiticaContent),
-      skin: processSkin(habiticaContent),
-      body: processBody(habiticaContent),
-      chair: processChair(habiticaContent),
-      buff: Object.fromEntries(
-        buffItems.map((i) => [i.key, i])
-      ),
-      sleep: { [sleepItem.key]: sleepItem },
-    };
+    background: processBackgrounds(habiticaContent),
+    gear: processGear(habiticaContent),
+    pet: processPets(habiticaContent),
+    mount: processMounts(habiticaContent),
+    hair: processHair(habiticaContent),
+    skin: processSkin(habiticaContent),
+    body: processBody(habiticaContent),
+    chair: processChair(habiticaContent),
+    buff: Object.fromEntries(
+      buffItems.map((i) => [i.key, i])
+    ),
+    sleep: { [sleepItem.key]: sleepItem },
+  };
 
-  const imageFileNames = Array.from(new Set([...imageFileNamesList, ...buffImageFileNames, ...sleepItem.imageFileNames]));
+  const imageFileNames = Array.from(new Set([
+    ...imageFileNamesList,
+    ...buffImageFileNames,
+    ...sleepItem.imageFileNames,
+    headBase
+  ]));
 
   return {
     imageFileNames,
