@@ -74,7 +74,7 @@ jobs:
         git rm -rf .
 
         # Add back the dist directory and essential files from main
-        git checkout main -- package.json README.md LICENSE .npmignore
+        git checkout main -- package.json README.md LICENSE
         
         # Force add dist directory (ignore .gitignore for this)
         git add dist/ -f
