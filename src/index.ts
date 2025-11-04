@@ -1,10 +1,10 @@
 import { generateAvatarManifest } from './scripts/habiticaProcessor';
 import type { HabiticaContent } from './types/habitica-content';
-import { writeFileSync, readFileSync } from 'fs';
+import { writeFileSync, readFileSync, mkdirSync, existsSync, copyFileSync } from 'fs';
 import { fetchHabiticaContent } from './scripts/habiticaContentProvider';
 import { ImagesMeta } from './types';
 import { getImagesMeta, handleAddedAndRemovedImages } from './scripts/imagesDetailsProvider';
-import { IMAGE_FILE_NAMES, IMAGES_META_FILE, ITEMS_DETAILS_FILE } from './constants';
+import { OUTPUT_DIR, IMAGE_FILE_NAMES, IMAGES_META_FILE, ITEMS_DETAILS_FILE, PREV_VERSION } from './constants';
 
 // Get Habitica content data
 const habiticaData = await fetchHabiticaContent();
@@ -12,6 +12,19 @@ const habiticaData = await fetchHabiticaContent();
 // Create avatar manifest
 const manifest = await generateAvatarManifest(habiticaData as HabiticaContent);
 
+// Check if there is directory to write files
+// If not, create it
+if (!existsSync(OUTPUT_DIR)) {
+    mkdirSync(OUTPUT_DIR, { recursive: true });
+    //copy files from previous version
+    const previousVersion = `output/${PREV_VERSION}/`;
+    if (existsSync(previousVersion)) {
+        copyFileSync(`${previousVersion}/imagesMeta.json`, IMAGES_META_FILE);
+        copyFileSync(`${previousVersion}/imageFileNames.json`, IMAGE_FILE_NAMES);
+    }
+}
+
+// Write avatar manifest items to file
 writeFileSync(ITEMS_DETAILS_FILE, JSON.stringify(manifest.items, null, 2));
 
 // Regenerate images manifest only for all images if --all-images flag is provided
