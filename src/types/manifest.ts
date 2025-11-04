@@ -40,7 +40,7 @@ export type BodyItems = {
   };
 }
 
-export type AvatarItemsDetails = {
+export type AvatarManifestItems = {
   background: Record<string, ItemMeta>;
   gear: GearItems;
   pet: Record<string, ItemMeta>;
@@ -55,7 +55,7 @@ export type AvatarItemsDetails = {
 
 export type AvatarManifest = {
   imageFileNames: string[]; // fileName as key
-  items: AvatarItemsDetails;
+  items: AvatarManifestItems;
 }
 
 export type ImagesMeta = Record<string, ImageMeta>; // fileName as key
