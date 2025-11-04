@@ -1,0 +1,146 @@
+name: Build and Release
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # Fetch full history for proper git operations
+        token: ${{ secrets.GH_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Extract version from package.json
+      id: package-version
+      run: |
+        VERSION=$(node -p "require('./package.json').version")
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+        echo "branch-name=v$VERSION" >> $GITHUB_OUTPUT
+        echo "Version: $VERSION"
+        echo "Branch: v$VERSION"
+    
+    - name: Build project
+      run: npm run build
+    
+    - name: Verify dist directory exists
+      run: |
+        if [ ! -d "dist" ]; then
+          echo "Error: dist directory not found after build"
+          exit 1
+        fi
+        echo "✅ dist directory created successfully"
+        ls -la dist/
+    
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+    
+    - name: Check if version branch exists
+      id: check-branch
+      run: |
+        BRANCH_NAME="v${{ steps.package-version.outputs.version }}"
+        if git ls-remote --exit-code --heads origin $BRANCH_NAME; then
+          echo "branch-exists=true" >> $GITHUB_OUTPUT
+          echo "⚠️ Branch $BRANCH_NAME already exists"
+        else
+          echo "branch-exists=false" >> $GITHUB_OUTPUT
+          echo "✅ Branch $BRANCH_NAME does not exist, will create new"
+        fi
+    
+    - name: Create or update version branch
+      run: |
+        BRANCH_NAME="v${{ steps.package-version.outputs.version }}"
+        
+        # Create new branch from main
+        git checkout -b $BRANCH_NAME
+        
+        # Remove all files except dist and essential files
+        git rm -rf .
+
+        # Add back the dist directory and essential files from main
+        git checkout main -- package.json README.md LICENSE .npmignore
+        
+        # Force add dist directory (ignore .gitignore for this)
+        git add dist/ -f
+        
+        # Commit the built files
+        git commit -m "Release v${{ steps.package-version.outputs.version }}
+
+        Built from commit: ${{ github.sha }}
+        Build date: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+        
+        Changes:
+        - Built distribution files
+        - Updated package.json for release
+        - Added release README"
+    
+    - name: Push version branch
+      run: |
+        BRANCH_NAME="v${{ steps.package-version.outputs.version }}"
+        
+        if [ "${{ steps.check-branch.outputs.branch-exists }}" = "true" ]; then
+          echo "🔄 Updating existing branch $BRANCH_NAME"
+          git push origin HEAD:refs/heads/$BRANCH_NAME --force
+        else
+          echo "🚀 Creating new branch $BRANCH_NAME"
+          git push origin HEAD:refs/heads/$BRANCH_NAME
+        fi
+        
+        echo "✅ Successfully pushed to branch: $BRANCH_NAME"
+    
+    - name: Create GitHub Release from release branch
+      uses: softprops/action-gh-release@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      with:
+        tag_name: v${{ steps.package-version.outputs.version }}
+        target_commitish: v${{ steps.package-version.outputs.version }}
+        name: Release v${{ steps.package-version.outputs.version }}
+        body: |
+          ## Release v${{ steps.package-version.outputs.version }}
+          
+          ### Installation
+          ```bash
+          npm install github:anitawlosek/habitica-avatar-manifest#v${{ steps.package-version.outputs.version }}
+          ```
+          
+          ### What's included
+          - Built distribution files in `dist/` directory
+          - TypeScript declarations
+          - Optimized for production use
+          
+          ### Branch
+          The built files are available on branch: `v${{ steps.package-version.outputs.version }}`
+          
+          ---
+          **Built from:** ${{ github.sha }}  
+          **Build date:** ${{ github.event.head_commit.timestamp }}
+        draft: false
+        prerelease: ${{ contains(steps.package-version.outputs.version, 'alpha') || contains(steps.package-version.outputs.version, 'beta') || contains(steps.package-version.outputs.version, 'rc') }}
+    
+    - name: Summary
+      run: |
+        echo "🎉 Build and Release Complete!"
+        echo ""
+        echo "📦 Version: ${{ steps.package-version.outputs.version }}"
+        echo "🌿 Branch: v${{ steps.package-version.outputs.version }}"
+        echo "📋 Commit: ${{ github.sha }}"
+        echo ""
+        echo "To install this version:"
+        echo "npm install github:anitawlosek/habitica-avatar-manifest#v${{ steps.package-version.outputs.version }}"
