@@ -22,11 +22,29 @@ import { getImageFileNames } from './imagesDetailsProvider';
 
 const imageFileNamesList: string[] = [];
 
-function createItemMeta(type: string, key: string, text: string, habiticaContent: HabiticaContent) {
+function createItemMeta(
+  type: string, 
+  key: string, 
+  text: string, 
+  habiticaContent: HabiticaContent,
+  options?: {
+    notes?: string;
+    price?: number;
+    currency?: string;
+    set?: string;
+  }
+) {
   const fileNames = getImageFileNames(type, key, habiticaContent);
   imageFileNamesList.push(...fileNames);
 
-  return { key, text, imageFileNames: fileNames };
+  const itemMeta: ItemMeta = { key, text, imageFileNames: fileNames };
+  
+  if (options?.notes) itemMeta.notes = options.notes;
+  if (options?.price !== undefined) itemMeta.price = options.price;
+  if (options?.currency) itemMeta.currency = options.currency;
+  if (options?.set) itemMeta.set = options.set;
+
+  return itemMeta;
 }
 
 // -------------------------
@@ -48,9 +66,12 @@ function processGear(habiticaContent: HabiticaContent): GearItems {
   };
 
   Object.values(gearFlat).forEach((item: HabiticaGearItem) => {
-    const { key, text, type, set } = item;
+    const { key, text, type, set, notes } = item;
     if (type in gear) {
-      (gear[type] as Record<string, ItemMeta>)[key] = createItemMeta(`gear.${type}`, key, text, habiticaContent);
+      (gear[type] as Record<string, ItemMeta>)[key] = createItemMeta(`gear.${type}`, key, text, habiticaContent, {
+        notes,
+        set,
+      });
     }
 
     if (set) {
@@ -70,7 +91,12 @@ function processGear(habiticaContent: HabiticaContent): GearItems {
 function processBackgrounds(habiticaContent: HabiticaContent): Record<string, ItemMeta> {
   const result: Record<string, ItemMeta> = {};
   Object.values(habiticaContent.backgroundsFlat).forEach((bg: HabiticaBackground) => {
-    result[bg.key] = createItemMeta('background', bg.key, bg.text, habiticaContent);
+    result[bg.key] = createItemMeta('background', bg.key, bg.text, habiticaContent, {
+      notes: bg.notes,
+      price: bg.price,
+      currency: bg.currency,
+      set: bg.set?.key,
+    });
   });
   return result;
 }
@@ -78,7 +104,10 @@ function processBackgrounds(habiticaContent: HabiticaContent): Record<string, It
 function processPets(habiticaContent: HabiticaContent): Record<string, ItemMeta> {
   const result: Record<string, ItemMeta> = {};
   Object.values(habiticaContent.petInfo).forEach((pet: HabiticaPet) => {
-    result[pet.key] = createItemMeta('pet', pet.key, pet.text, habiticaContent);
+    result[pet.key] = createItemMeta('pet', pet.key, pet.text, habiticaContent, {
+      price: pet.value,
+      currency: pet.currency,
+    });
   });
   return result;
 }
@@ -93,7 +122,10 @@ function processMounts(habiticaContent: HabiticaContent): Record<string, ItemMet
 
 const processPart = (type: string, part: Record<string, HabiticaAppearanceItem>, habiticaContent: HabiticaContent) =>
   Object.fromEntries(
-    Object.values(part).map((i) => [i.key, createItemMeta(type, i.key, i.text, habiticaContent)])
+    Object.values(part).map((i) => [i.key, createItemMeta(type, i.key, i.text, habiticaContent, {
+      price: i.price,
+      set: i.set?.key,
+    })])
   );
 
 function processHair(habiticaContent: HabiticaContent): HairItems {
@@ -120,7 +152,10 @@ function processBody(habiticaContent: HabiticaContent): BodyItems {
 
 function processSkin(habiticaContent: HabiticaContent): Record<string, ItemMeta> {
   return Object.fromEntries(
-    Object.values(habiticaContent.appearances.skin).map((i) => [i.key, createItemMeta('skin', i.key, i.text, habiticaContent)])
+    Object.values(habiticaContent.appearances.skin).map((i) => [i.key, createItemMeta('skin', i.key, i.text, habiticaContent, {
+      price: i.price,
+      set: i.set?.key,
+    })])
   );
 }
 

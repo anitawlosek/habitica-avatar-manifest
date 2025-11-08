@@ -9,6 +9,10 @@ export type ItemMeta = {
   key: string;
   text: string;
   imageFileNames: string[]; // reference to ImageMeta.fileName
+  notes?: string;
+  price?: number;
+  currency?: string;
+  set?: string;
 };
 
 export type GearItems = {
