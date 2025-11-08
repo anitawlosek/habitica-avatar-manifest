@@ -9107,6 +9107,18 @@
     "height": 68,
     "format": "png"
   },
+  "weapon_armoire_blacksmithsHammer.png": {
+    "fileName": "weapon_armoire_blacksmithsHammer.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_armoire_blacksmithsHammer.png": {
+    "fileName": "shop_weapon_armoire_blacksmithsHammer.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "broad_armor_healer_1.png": {
     "fileName": "broad_armor_healer_1.png",
     "width": 90,
@@ -16919,6 +16931,24 @@
     "height": 68,
     "format": "png"
   },
+  "broad_armor_armoire_blacksmithsApron.png": {
+    "fileName": "broad_armor_armoire_blacksmithsApron.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "slim_armor_armoire_blacksmithsApron.png": {
+    "fileName": "slim_armor_armoire_blacksmithsApron.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_armor_armoire_blacksmithsApron.png": {
+    "fileName": "shop_armor_armoire_blacksmithsApron.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "head_healer_1.png": {
     "fileName": "head_healer_1.png",
     "width": 90,
@@ -22279,6 +22309,18 @@
   },
   "shop_head_armoire_blackHairbow.png": {
     "fileName": "shop_head_armoire_blackHairbow.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "head_armoire_blacksmithsGoggles.png": {
+    "fileName": "head_armoire_blacksmithsGoggles.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_head_armoire_blacksmithsGoggles.png": {
+    "fileName": "shop_head_armoire_blacksmithsGoggles.png",
     "width": 68,
     "height": 68,
     "format": "png"

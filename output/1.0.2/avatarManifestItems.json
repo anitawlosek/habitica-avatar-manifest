@@ -4948,6 +4948,11 @@
         "head_armoire_beekeepersHat",
         "shield_armoire_beekeepersHive"
       ],
+      "blacksmith": [
+        "weapon_armoire_blacksmithsHammer",
+        "armor_armoire_blacksmithsApron",
+        "head_armoire_blacksmithsGoggles"
+      ],
       "special-gaymerx": [
         "armor_special_gaymerx",
         "head_special_gaymerx"
@@ -8660,6 +8665,14 @@
         "imageFileNames": [
           "weapon_armoire_beekeepersSmoker",
           "shop_weapon_armoire_beekeepersSmoker"
+        ]
+      },
+      "weapon_armoire_blacksmithsHammer": {
+        "key": "weapon_armoire_blacksmithsHammer",
+        "text": "Blacksmith's Hammer",
+        "imageFileNames": [
+          "weapon_armoire_blacksmithsHammer",
+          "shop_weapon_armoire_blacksmithsHammer"
         ]
       }
     },
@@ -12574,6 +12587,15 @@
           "slim_armor_armoire_blackPartyDress",
           "shop_armor_armoire_blackPartyDress"
         ]
+      },
+      "armor_armoire_blacksmithsApron": {
+        "key": "armor_armoire_blacksmithsApron",
+        "text": "Blacksmith's Apron",
+        "imageFileNames": [
+          "broad_armor_armoire_blacksmithsApron",
+          "slim_armor_armoire_blacksmithsApron",
+          "shop_armor_armoire_blacksmithsApron"
+        ]
       }
     },
     "head": {
@@ -16156,6 +16178,14 @@
         "imageFileNames": [
           "head_armoire_blackHairbow",
           "shop_head_armoire_blackHairbow"
+        ]
+      },
+      "head_armoire_blacksmithsGoggles": {
+        "key": "head_armoire_blacksmithsGoggles",
+        "text": "Blacksmith's Goggles",
+        "imageFileNames": [
+          "head_armoire_blacksmithsGoggles",
+          "shop_head_armoire_blacksmithsGoggles"
         ]
       }
     },
