@@ -13,6 +13,7 @@ export type ItemMeta = {
   price?: number;
   currency?: string;
   set?: string;
+  twoHanded?: boolean;
 };
 
 export type GearItems = {

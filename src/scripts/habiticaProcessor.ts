@@ -32,6 +32,7 @@ function createItemMeta(
     price?: number;
     currency?: string;
     set?: string;
+    twoHanded?: boolean;
   }
 ) {
   const fileNames = getImageFileNames(type, key, habiticaContent);
@@ -43,6 +44,7 @@ function createItemMeta(
   if (options?.price !== undefined) itemMeta.price = options.price;
   if (options?.currency) itemMeta.currency = options.currency;
   if (options?.set) itemMeta.set = options.set;
+  if (options?.twoHanded !== undefined) itemMeta.twoHanded = options.twoHanded;
 
   return itemMeta;
 }
@@ -66,11 +68,12 @@ function processGear(habiticaContent: HabiticaContent): GearItems {
   };
 
   Object.values(gearFlat).forEach((item: HabiticaGearItem) => {
-    const { key, text, type, set, notes } = item;
+    const { key, text, type, set, notes, twoHanded } = item;
     if (type in gear) {
       (gear[type] as Record<string, ItemMeta>)[key] = createItemMeta(`gear.${type}`, key, text, habiticaContent, {
         notes,
         set,
+        twoHanded,
       });
     }
 
