@@ -61,7 +61,7 @@ When generated with `--all-images` flag, includes detailed image information:
 
 ### As a Package (Recommended)
 ```bash
-npm install github:anitawlosek/habitica-avatar-manifest#v1.0.2-beta
+npm install github:anitawlosek/habitica-avatar-manifest#v1.1.0
 ```
 
 ```typescript
@@ -84,7 +84,7 @@ console.log(manifestItems.gear.sets.animal); // Animal gear set items
 ```
 
 ### Direct Download
-Download the latest files from the [output directory](./output/1.0.2/) or directly from the repository:
+Download the latest files from the [output directory](./output/1.1.0/) or directly from the repository:
 - `avatarManifestItems.json` - Main manifest data
 - `imagesMeta.json` - Image metadata 
 - `imageFileNames.json` - Image filename list
@@ -159,7 +159,7 @@ This will:
 1. Fetch latest data from Habitica API (`/api/v3/content`)
 2. Transform and normalize the data structure
 3. Probe all image URLs for dimensions and format
-4. Output files to the versioned `output/1.0.2/` directory:
+4. Output files to the versioned `output/1.1.0/` directory:
    - `avatarManifestItems.json` - Main manifest data
    - `imagesMeta.json` - Image metadata (dimensions, format)
    - `imageFileNames.json` - List of all image filenames
@@ -205,9 +205,9 @@ Manual updates can be triggered via the GitHub Actions "workflow_dispatch" event
 ### Data Sources
 
 All data is fetched directly from this repository's GitHub releases:
-- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.0.2/avatarManifestItems.json`
-- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.0.2/imagesMeta.json`
-- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.0.2/imageFileNames.json`
+- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.1.0/avatarManifestItems.json`
+- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.1.0/imagesMeta.json`
+- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.1.0/imageFileNames.json`
 
 This ensures you always get the latest data without needing to update the package. Output files are versioned to maintain backward compatibility.
 
