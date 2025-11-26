@@ -3780,6 +3780,36 @@
       "notes": "Sing tales of heroic deeds in a Castle Hall with Banners.",
       "price": 7
     },
+    "nighttime_street_with_shops": {
+      "key": "nighttime_street_with_shops",
+      "text": "Nighttime Street with Shops",
+      "imageFileNames": [
+        "background_nighttime_street_with_shops",
+        "icon_background_nighttime_street_with_shops"
+      ],
+      "notes": "Enjoy the warm glow of a Nighttime Street with Shops.",
+      "price": 7
+    },
+    "winter_desert_with_saguaros": {
+      "key": "winter_desert_with_saguaros",
+      "text": "Winter Desert with Saguaros",
+      "imageFileNames": [
+        "background_winter_desert_with_saguaros",
+        "icon_background_winter_desert_with_saguaros"
+      ],
+      "notes": "Breathe the crisp air of a Winter Desert with Saguaros.",
+      "price": 7
+    },
+    "elegant_palace": {
+      "key": "elegant_palace",
+      "text": "Elegant Palace",
+      "imageFileNames": [
+        "background_elegant_palace",
+        "icon_background_elegant_palace"
+      ],
+      "notes": "Admire the colorful halls of an Elegant Palace.",
+      "price": 7
+    },
     "birthday_bash": {
       "key": "birthday_bash",
       "text": "Birthday Bash",
@@ -5192,6 +5222,29 @@
         "head_special_fall2025Rogue",
         "shield_special_fall2025Rogue"
       ],
+      "winter2026RimeReaperWarriorSet": [
+        "weapon_special_winter2026Warrior",
+        "armor_special_winter2026Warrior",
+        "head_special_winter2026Warrior",
+        "shield_special_winter2026Warrior"
+      ],
+      "winter2026MidwinterCandleMageSet": [
+        "weapon_special_winter2026Mage",
+        "armor_special_winter2026Mage",
+        "head_special_winter2026Mage"
+      ],
+      "winter2026PolarBearHealerSet": [
+        "weapon_special_winter2026Healer",
+        "armor_special_winter2026Healer",
+        "head_special_winter2026Healer",
+        "shield_special_winter2026Healer"
+      ],
+      "winter2026SkiRogueSet": [
+        "weapon_special_winter2026Rogue",
+        "armor_special_winter2026Rogue",
+        "head_special_winter2026Rogue",
+        "shield_special_winter2026Rogue"
+      ],
       "mystery-201411": [
         "weapon_mystery_201411",
         "head_mystery_201411"
@@ -5281,6 +5334,15 @@
       "mystery-202511": [
         "weapon_mystery_202511",
         "shield_mystery_202511"
+      ],
+      "mystery-202512": [
+        "weapon_mystery_202512",
+        "armor_mystery_202512",
+        "head_mystery_202512"
+      ],
+      "mystery-202601": [
+        "weapon_mystery_202601",
+        "back_mystery_202601"
       ],
       "mystery-301404": [
         "weapon_mystery_301404",
@@ -6335,6 +6397,10 @@
       "mystery-202507": [
         "head_mystery_202507",
         "back_mystery_202507"
+      ],
+      "mystery-202602": [
+        "head_mystery_202602",
+        "back_mystery_202602"
       ],
       "mystery-301405": [
         "head_mystery_301405",
@@ -7640,7 +7706,7 @@
           "weapon_special_winter2018Mage",
           "shop_weapon_special_winter2018Mage"
         ],
-        "notes": "Magic--and glitter--is in the air! Increases Intelligence by 15 and Perception by 7. Limited Edition 2017-2018 Winter Gear. Two-handed item.",
+        "notes": "Magic—and glitter—is in the air! Increases Intelligence by 15 and Perception by 7. Limited Edition 2017-2018 Winter Gear. Two-handed item.",
         "set": "winter2018ConfettiSet",
         "twoHanded": true
       },
@@ -8935,6 +9001,47 @@
         "notes": "A mighty weapon to cut a safe path through an autumn forest full of obstacles. Increases Strength by 8. Limited Edition Fall 2025 Gear. ",
         "set": "fall2025SkeletonRogueSet"
       },
+      "weapon_special_winter2026Warrior": {
+        "key": "weapon_special_winter2026Warrior",
+        "text": "Rime Scythe",
+        "imageFileNames": [
+          "weapon_special_winter2026Warrior",
+          "shop_weapon_special_winter2026Warrior"
+        ],
+        "notes": "Scythes help cut, reap, and cover large areas—all things you need when refining a task list. Increases Strength by 15. Limited Edition Winter 2025-2026 Gear. ",
+        "set": "winter2026RimeReaperWarriorSet"
+      },
+      "weapon_special_winter2026Mage": {
+        "key": "weapon_special_winter2026Mage",
+        "text": "Candelabra Staff",
+        "imageFileNames": [
+          "weapon_special_winter2026Mage",
+          "shop_weapon_special_winter2026Mage"
+        ],
+        "notes": "Candelabras help by holding multiple candles at a time—follow its lead the next time you need to multitask. Increases Intelligence by 15 and Perception by 7. Limited Edition Winter 2025-2026 Gear. Two-handed item.",
+        "set": "winter2026MidwinterCandleMageSet",
+        "twoHanded": true
+      },
+      "weapon_special_winter2026Healer": {
+        "key": "weapon_special_winter2026Healer",
+        "text": "Polar Staff",
+        "imageFileNames": [
+          "weapon_special_winter2026Healer",
+          "shop_weapon_special_winter2026Healer"
+        ],
+        "notes": "Staffs help with support, stability, and direction—all things that help you truly conquer a task list. Increases Intelligence by 9. Limited Edition Winter 2025-2026 Gear. ",
+        "set": "winter2026PolarBearHealerSet"
+      },
+      "weapon_special_winter2026Rogue": {
+        "key": "weapon_special_winter2026Rogue",
+        "text": "Ski Pole",
+        "imageFileNames": [
+          "weapon_special_winter2026Rogue",
+          "shop_weapon_special_winter2026Rogue"
+        ],
+        "notes": "Ski poles help you maintain balance, stability, and timing—all things you need to be truly productive. Increases Strength by 8. Limited Edition Winter 2025-2026 Gear. ",
+        "set": "winter2026SkiRogueSet"
+      },
       "weapon_mystery_201411": {
         "key": "weapon_mystery_201411",
         "text": "Pitchfork of Feasting",
@@ -9159,6 +9266,26 @@
         "notes": "The icy glow of this sword will make quick work of even dark red tasks. Confers no benefit. November 2025 Subscriber Item. ",
         "set": "mystery-202511"
       },
+      "weapon_mystery_202512": {
+        "key": "weapon_mystery_202512",
+        "text": "Cookie Champion's Blade",
+        "imageFileNames": [
+          "weapon_mystery_202512",
+          "shop_weapon_mystery_202512"
+        ],
+        "notes": "A shining sword cast from sugar, mint, and arcane enchantments. Confers no benefit. December 2025 Subscriber Item. ",
+        "set": "mystery-202512"
+      },
+      "weapon_mystery_202601": {
+        "key": "weapon_mystery_202601",
+        "text": "Winter's Aegis",
+        "imageFileNames": [
+          "weapon_mystery_202601",
+          "shop_weapon_mystery_202601"
+        ],
+        "notes": "An icy bubble shield that grants magical protection from opposing elements. Confers no benefit. January 2026 Subscriber Item. ",
+        "set": "mystery-202601"
+      },
       "weapon_mystery_301404": {
         "key": "weapon_mystery_301404",
         "text": "Steampunk Cane",
@@ -9329,7 +9456,7 @@
           "weapon_armoire_habiticanDiploma",
           "shop_weapon_armoire_habiticanDiploma"
         ],
-        "notes": "A certificate of significant achievement -- well done! Increases Intelligence by 11. Enchanted Armoire: Graduate Set (Item 1 of 3). ",
+        "notes": "A certificate of significant achievement—well done! Increases Intelligence by 11. Enchanted Armoire: Graduate Set (Item 1 of 3). ",
         "set": "graduate"
       },
       "weapon_armoire_sandySpade": {
@@ -10134,7 +10261,7 @@
           "weapon_armoire_ridingBroom",
           "shop_weapon_armoire_ridingBroom"
         ],
-        "notes": "Run all your most magical errands on this fine broom--or, just take it for a joyride around the neighborhood. Whee! Increases Strength by 5 and Intelligence by 3. Enchanted Armoire: Spooky Sorcery Set (Item 1 of 3) ",
+        "notes": "Run all your most magical errands on this fine broom—or, just take it for a joyride around the neighborhood. Whee! Increases Strength by 5 and Intelligence by 3. Enchanted Armoire: Spooky Sorcery Set (Item 1 of 3) ",
         "set": "somethingSpooky"
       },
       "weapon_armoire_rollingPin": {
@@ -11966,7 +12093,7 @@
           "slim_armor_special_summer2020Rogue",
           "shop_armor_special_summer2020Rogue"
         ],
-        "notes": "A crocodile makes the perfect Rogue, waiting for the perfect moment to strike. Borrow their skills--and their explosive speed. Increases Perception by 15. Limited Edition 2020 Summer Gear.",
+        "notes": "A crocodile makes the perfect Rogue, waiting for the perfect moment to strike. Borrow their skills—and their explosive speed. Increases Perception by 15. Limited Edition 2020 Summer Gear.",
         "set": "summer2020CrocodileRogueSet"
       },
       "armor_special_summer2020Warrior": {
@@ -12970,6 +13097,50 @@
         "notes": "A hard and narrow target in this seasonal armor is hardest to hit. Increases Perception by 15. Limited Edition Fall 2025 Gear.",
         "set": "fall2025SkeletonRogueSet"
       },
+      "armor_special_winter2026Warrior": {
+        "key": "armor_special_winter2026Warrior",
+        "text": "Rime Reaper Suit",
+        "imageFileNames": [
+          "broad_armor_special_winter2026Warrior",
+          "slim_armor_special_winter2026Warrior",
+          "shop_armor_special_winter2026Warrior"
+        ],
+        "notes": "Icicles will snap and slide with every step on your way to completing your Dailies. Increases Constitution by 9. Limited Edition Winter 2025-2026 Gear.",
+        "set": "winter2026RimeReaperWarriorSet"
+      },
+      "armor_special_winter2026Mage": {
+        "key": "armor_special_winter2026Mage",
+        "text": "Midwinter Candle Robe",
+        "imageFileNames": [
+          "broad_armor_special_winter2026Mage",
+          "slim_armor_special_winter2026Mage",
+          "shop_armor_special_winter2026Mage"
+        ],
+        "notes": "Glide smoothly along your path like wax on your way to completing your Dailies. Increases Intelligence by 9. Limited Edition Winter 2025-2026 Gear.",
+        "set": "winter2026MidwinterCandleMageSet"
+      },
+      "armor_special_winter2026Healer": {
+        "key": "armor_special_winter2026Healer",
+        "text": "Polar Robe",
+        "imageFileNames": [
+          "broad_armor_special_winter2026Healer",
+          "slim_armor_special_winter2026Healer",
+          "shop_armor_special_winter2026Healer"
+        ],
+        "notes": "Like a natural light show, you will be stunning on your way to completing your Dailies. Increases Constitution by 15. Limited Edition Winter 2025-2026 Gear.",
+        "set": "winter2026PolarBearHealerSet"
+      },
+      "armor_special_winter2026Rogue": {
+        "key": "armor_special_winter2026Rogue",
+        "text": "Ski Suit and Skis",
+        "imageFileNames": [
+          "broad_armor_special_winter2026Rogue",
+          "slim_armor_special_winter2026Rogue",
+          "shop_armor_special_winter2026Rogue"
+        ],
+        "notes": "Go speedily swishing down the slopes on your way to completing your Dailies. Increases Perception by 15. Limited Edition Winter 2025-2026 Gear.",
+        "set": "winter2026SkiRogueSet"
+      },
       "armor_mystery_201402": {
         "key": "armor_mystery_201402",
         "text": "Messenger Robes",
@@ -13718,6 +13889,17 @@
         "notes": "Bright silks protect you from the weather, hot or cold. Confers no benefit. September 2025 Subscriber Item.",
         "set": "mystery-202509"
       },
+      "armor_mystery_202512": {
+        "key": "armor_mystery_202512",
+        "text": "Cookie Champion Armor",
+        "imageFileNames": [
+          "broad_armor_mystery_202512",
+          "slim_armor_mystery_202512",
+          "shop_armor_mystery_202512"
+        ],
+        "notes": "Ready for battle in this plate that is both sweet and strong. Confers no benefit. December 2025 Subscriber Item.",
+        "set": "mystery-202512"
+      },
       "armor_mystery_301404": {
         "key": "armor_mystery_301404",
         "text": "Steampunk Suit",
@@ -14254,7 +14436,7 @@
           "slim_armor_armoire_robeOfSpades",
           "shop_armor_armoire_robeOfSpades"
         ],
-        "notes": "These luxuriant robes conceal hidden pockets for treasures or weapons--your choice! Increases Strength by 13. Enchanted Armoire: Ace of Spades Set (Item 2 of 3).",
+        "notes": "These luxuriant robes conceal hidden pockets for treasures or weapons—your choice! Increases Strength by 13. Enchanted Armoire: Ace of Spades Set (Item 2 of 3).",
         "set": "aceOfSpades"
       },
       "armor_armoire_softBlueSuit": {
@@ -14595,7 +14777,7 @@
           "slim_armor_armoire_bathtub",
           "shop_armor_armoire_bathtub"
         ],
-        "notes": "Time for a little R&R? Here's your own personal bathtub -- and a guarantee that the water is always the right temperature! Increases Constitution by 8. Enchanted Armoire: Bubble Bath Set (Item 2 of 4).",
+        "notes": "Time for a little R&R? Here's your own personal bathtub—and a guarantee that the water is always the right temperature! Increases Constitution by 8. Enchanted Armoire: Bubble Bath Set (Item 2 of 4).",
         "set": "bath"
       },
       "armor_armoire_bagpipersKilt": {
@@ -15367,7 +15549,7 @@
           "head_special_mammothRiderHelm",
           "shop_head_special_mammothRiderHelm"
         ],
-        "notes": "Don't let its fluffiness fool you--this hat will grant you piercing powers of perception! Increases Perception by 15.",
+        "notes": "Don't let its fluffiness fool you—this hat will grant you piercing powers of perception! Increases Perception by 15.",
         "set": "special-mammothRiderHelm"
       },
       "head_special_roguishRainbowMessengerHood": {
@@ -15767,7 +15949,7 @@
           "head_special_fall2015Warrior",
           "shop_head_special_fall2015Warrior"
         ],
-        "notes": "Everyone would want this hat--if they only had a brain. Increases Strength by 9. Limited Edition 2015 Fall Gear.",
+        "notes": "Everyone would want this hat—if they only had a brain. Increases Strength by 9. Limited Edition 2015 Fall Gear.",
         "set": "scarecrowWarriorSet"
       },
       "head_special_fall2015Mage": {
@@ -17530,6 +17712,46 @@
         "notes": "Pale and hooded, this mask covers your head while you cover all your important tasks. Increases Perception by 9. Limited Edition Fall 2025 Gear.",
         "set": "fall2025SkeletonRogueSet"
       },
+      "head_special_winter2026Warrior": {
+        "key": "head_special_winter2026Warrior",
+        "text": "Rime Reaper Helmet",
+        "imageFileNames": [
+          "head_special_winter2026Warrior",
+          "shop_head_special_winter2026Warrior"
+        ],
+        "notes": "Maintain focus and concentration as you set your sights on greater goals this season. Increases Strength by 9. Limited Edition 2025-2026 Winter Gear.",
+        "set": "winter2026RimeReaperWarriorSet"
+      },
+      "head_special_winter2026Mage": {
+        "key": "head_special_winter2026Mage",
+        "text": "Midwinter Candle Hat",
+        "imageFileNames": [
+          "head_special_winter2026Mage",
+          "shop_head_special_winter2026Mage"
+        ],
+        "notes": "Maintain focus and illumination as you set your sights on greater gooals this season. Increases Perception by 7. Limited Edition 2025-2026 Winter Gear.",
+        "set": "winter2026MidwinterCandleMageSet"
+      },
+      "head_special_winter2026Healer": {
+        "key": "head_special_winter2026Healer",
+        "text": "Polar Bear Mask",
+        "imageFileNames": [
+          "head_special_winter2026Healer",
+          "shop_head_special_winter2026Healer"
+        ],
+        "notes": "Maintain focus and clarity as you set your sights on greater goals this season. Increases Intelligence by 7. Limited Edition 2025-2026 Winter Gear.",
+        "set": "winter2026PolarBearHealerSet"
+      },
+      "head_special_winter2026Rogue": {
+        "key": "head_special_winter2026Rogue",
+        "text": "Ski Mask and Goggles",
+        "imageFileNames": [
+          "head_special_winter2026Rogue",
+          "shop_head_special_winter2026Rogue"
+        ],
+        "notes": "Maintain focus and vision as you set your sights on greater goals this season. Increases Perception by 9. Limited Edition 2025-2026 Winter Gear.",
+        "set": "winter2026SkiRogueSet"
+      },
       "head_mystery_201402": {
         "key": "head_mystery_201402",
         "text": "Winged Helm",
@@ -18429,6 +18651,26 @@
         ],
         "notes": "Backwards hats are still cool, right? Confers no benefit. July 2025 Subscriber Item.",
         "set": "mystery-202507"
+      },
+      "head_mystery_202512": {
+        "key": "head_mystery_202512",
+        "text": "Cookie Champion Helm",
+        "imageFileNames": [
+          "head_mystery_202512",
+          "shop_head_mystery_202512"
+        ],
+        "notes": "Gingerbread forged with ancient magic will protect you as long as you can hold off your urge to try a bite! Confers no benefit. December 2025 Subscriber Item.",
+        "set": "mystery-202512"
+      },
+      "head_mystery_202602": {
+        "key": "head_mystery_202602",
+        "text": "Sakura Fox Ears",
+        "imageFileNames": [
+          "head_mystery_202602",
+          "shop_head_mystery_202602"
+        ],
+        "notes": " Your hearing will be sharpened by these ears such that you can hear the buds of blossoms growing on tree branches as spring approaches. Confers no benefit. February 2026 Subscriber Item.",
+        "set": "mystery-202602"
       },
       "head_mystery_301404": {
         "key": "head_mystery_301404",
@@ -21319,6 +21561,36 @@
         "notes": "A mighty weapon to cut your To Do’s right in half. Increases Strength by 8. Limited Edition Fall 2025 Gear.",
         "set": "fall2025SkeletonRogueSet"
       },
+      "shield_special_winter2026Warrior": {
+        "key": "shield_special_winter2026Warrior",
+        "text": "Rime Shield",
+        "imageFileNames": [
+          "shield_special_winter2026Warrior",
+          "shop_shield_special_winter2026Warrior"
+        ],
+        "notes": "Stop obstacles cold with this handy, spikey shield. Increases Constitution by 7. Limited Edition Winter 2025-2026 Gear.",
+        "set": "winter2026RimeReaperWarriorSet"
+      },
+      "shield_special_winter2026Healer": {
+        "key": "shield_special_winter2026Healer",
+        "text": "Starburst",
+        "imageFileNames": [
+          "shield_special_winter2026Healer",
+          "shop_shield_special_winter2026Healer"
+        ],
+        "notes": "Stars help with wayfinding, energy, and illumination—all things that help you better conquer a task list. Increases Constitution by 9. Limited Edition Winter 2025-2026 Gear.",
+        "set": "winter2026PolarBearHealerSet"
+      },
+      "shield_special_winter2026Rogue": {
+        "key": "shield_special_winter2026Rogue",
+        "text": "Ski Pole",
+        "imageFileNames": [
+          "shield_special_winter2026Rogue",
+          "shop_shield_special_winter2026Rogue"
+        ],
+        "notes": "Ski poles help you maintain balance, stability, and timing—all things you need to be truly productive. Increases Strength by 8. Limited Edition Winter 2025-2026 Gear.",
+        "set": "winter2026SkiRogueSet"
+      },
       "shield_mystery_201601": {
         "key": "shield_mystery_201601",
         "text": "Resolution Slayer",
@@ -21606,7 +21878,7 @@
           "shield_armoire_festivalParasol",
           "shop_shield_armoire_festivalParasol"
         ],
-        "notes": "This lightweight parasol will shield you from the glare--whether it's from the sun or from dark red Dailies! Increases Constitution by 8. Enchanted Armoire: Festival Attire Set (Item 2 of 3).",
+        "notes": "This lightweight parasol will shield you from the glare—whether it's from the sun or from dark red Dailies! Increases Constitution by 8. Enchanted Armoire: Festival Attire Set (Item 2 of 3).",
         "set": "festivalAttire"
       },
       "shield_armoire_vikingShield": {
@@ -22076,7 +22348,7 @@
           "shield_armoire_bagpipes",
           "shop_shield_armoire_bagpipes"
         ],
-        "notes": "The uncharitable might say you're planning to wake the dead with these bagpipes -- but you know you're just motivating your Party to success! Increases Strength by 6. Enchanted Armoire: Bagpiper Set (Item 3 of 3).",
+        "notes": "The uncharitable might say you're planning to wake the dead with these bagpipes—but you know you're just motivating your Party to success! Increases Strength by 6. Enchanted Armoire: Bagpiper Set (Item 3 of 3).",
         "set": "bonnieBagpiper"
       },
       "shield_armoire_heraldsMessageScroll": {
@@ -22957,6 +23229,26 @@
         ],
         "notes": "Fly silently across the haunted skies with these giant wings. Confers no benefit. October 2025 Subscriber Item.",
         "set": "mystery-202510"
+      },
+      "back_mystery_202601": {
+        "key": "back_mystery_202601",
+        "text": "Winter's Sigil",
+        "imageFileNames": [
+          "back_mystery_202601",
+          "shop_back_mystery_202601"
+        ],
+        "notes": "This mark grants the user control over the elements of the season of cold and frost. Confers no benefit. January 2026 Subscriber Item.",
+        "set": "mystery-202601"
+      },
+      "back_mystery_202602": {
+        "key": "back_mystery_202602",
+        "text": "Five Tails of Sakura",
+        "imageFileNames": [
+          "back_mystery_202602",
+          "shop_back_mystery_202602"
+        ],
+        "notes": "These fluffy tails are the color of cherry blossoms, a reminder that spring is on the way! Confers no benefit. February 2026 Subscriber Item.",
+        "set": "mystery-202602"
       }
     },
     "body": {
@@ -23763,7 +24055,7 @@
           "headAccessory_mystery_202004",
           "shop_headAccessory_mystery_202004"
         ],
-        "notes": "They twitch just a bit if the scent of flowers drifts by--use them to find a pretty garden! Confers no benefit. April 2020 Subscriber Item.",
+        "notes": "They twitch just a bit if the scent of flowers drifts by—use them to find a pretty garden! Confers no benefit. April 2020 Subscriber Item.",
         "set": "mystery-202004"
       },
       "headAccessory_mystery_202005": {
