@@ -5800,6 +5800,11 @@
         "armor_armoire_blacksmithsApron",
         "head_armoire_blacksmithsGoggles"
       ],
+      "musicalInstrumentTwo": [
+        "weapon_armoire_bambooFlute",
+        "shield_armoire_doubleBass",
+        "back_armoire_harpsichord"
+      ],
       "special-gaymerx": [
         "armor_special_gaymerx",
         "head_special_gaymerx"
@@ -10403,6 +10408,16 @@
         ],
         "notes": "This hammer is for metalworking, but it is perfectly adept amidst hot red coals and hot red Daily tasks, as well. Increases Strength by 11. Enchanted Armoire: Blacksmith Set (Item 3 of 3). ",
         "set": "blacksmith"
+      },
+      "weapon_armoire_bambooFlute": {
+        "key": "weapon_armoire_bambooFlute",
+        "text": "Bamboo Flute",
+        "imageFileNames": [
+          "weapon_armoire_bambooFlute",
+          "shop_weapon_armoire_bambooFlute"
+        ],
+        "notes": "Hwhoooo! Hu-whooooo! Gather your party for a meditation session or self-care nap while relaxing to tunes played on this bamboo flute. Increases Constitution and Intelligence by 6 each. Enchanted Armoire: Musical Instrument Set 2 (Item 2 of 3)",
+        "set": "musicalInstrumentTwo"
       }
     },
     "armor": {
@@ -22620,6 +22635,16 @@
         ],
         "notes": "The ready warrior packs a pillow for any expedition. Get ready to take on new obligations… even while you nap. Increases Intelligence and Perception by 8 each. Enchanted Armoire: Orange Loungewear Set (Item 3 of 3).",
         "set": "orangeLoungewear"
+      },
+      "shield_armoire_doubleBass": {
+        "key": "shield_armoire_doubleBass",
+        "text": "Double Bass",
+        "imageFileNames": [
+          "shield_armoire_doubleBass",
+          "shop_shield_armoire_doubleBass"
+        ],
+        "notes": "Bom doo bom brrrr brr brr brrrr! Gather your party for some grounding or dancing as you listen to music on this deep double bass. Increases Constitution and Strength by 6 each. Enchanted Armoire: Musical Instrument Set 2 (Item 3 of 3)",
+        "set": "musicalInstrumentTwo"
       }
     },
     "back": {
@@ -23249,6 +23274,16 @@
         ],
         "notes": "These fluffy tails are the color of cherry blossoms, a reminder that spring is on the way! Confers no benefit. February 2026 Subscriber Item.",
         "set": "mystery-202602"
+      },
+      "back_armoire_harpsichord": {
+        "key": "back_armoire_harpsichord",
+        "text": "Harpsichord",
+        "imageFileNames": [
+          "back_armoire_harpsichord",
+          "shop_back_armoire_harpsichord"
+        ],
+        "notes": "Pting! Ptiiing! Gather your party for a dinner or picnic and listen to a tinny melody on this harpsichord. Increases Perception and Intelligence by 6 each. Enchanted Armoire: Musical Instrument Set 2 (Item 1 of 3)",
+        "set": "musicalInstrumentTwo"
       }
     },
     "body": {

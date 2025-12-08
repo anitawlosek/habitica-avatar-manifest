@@ -9227,6 +9227,18 @@
     "height": 68,
     "format": "png"
   },
+  "weapon_armoire_bambooFlute.png": {
+    "fileName": "weapon_armoire_bambooFlute.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_armoire_bambooFlute.png": {
+    "fileName": "shop_weapon_armoire_bambooFlute.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "broad_armor_healer_1.png": {
     "fileName": "broad_armor_healer_1.png",
     "width": 90,
@@ -25967,6 +25979,18 @@
     "height": 68,
     "format": "png"
   },
+  "shield_armoire_doubleBass.png": {
+    "fileName": "shield_armoire_doubleBass.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_shield_armoire_doubleBass.png": {
+    "fileName": "shop_shield_armoire_doubleBass.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "body_special_wondercon_red.png": {
     "fileName": "body_special_wondercon_red.png",
     "width": 90,
@@ -27127,6 +27151,18 @@
   },
   "shop_back_mystery_202602.png": {
     "fileName": "shop_back_mystery_202602.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "back_armoire_harpsichord.png": {
+    "fileName": "back_armoire_harpsichord.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_back_armoire_harpsichord.png": {
+    "fileName": "shop_back_armoire_harpsichord.png",
     "width": 68,
     "height": 68,
     "format": "png"
