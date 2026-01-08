@@ -17159,6 +17159,24 @@
     "height": 68,
     "format": "png"
   },
+  "broad_armor_armoire_loneCowpokeOutfit.png": {
+    "fileName": "broad_armor_armoire_loneCowpokeOutfit.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "slim_armor_armoire_loneCowpokeOutfit.png": {
+    "fileName": "slim_armor_armoire_loneCowpokeOutfit.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_armor_armoire_loneCowpokeOutfit.png": {
+    "fileName": "shop_armor_armoire_loneCowpokeOutfit.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "head_healer_1.png": {
     "fileName": "head_healer_1.png",
     "width": 90,
@@ -22603,6 +22621,18 @@
   },
   "shop_head_armoire_blacksmithsGoggles.png": {
     "fileName": "shop_head_armoire_blacksmithsGoggles.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "head_armoire_loneCowpokeHat.png": {
+    "fileName": "head_armoire_loneCowpokeHat.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_head_armoire_loneCowpokeHat.png": {
+    "fileName": "shop_head_armoire_loneCowpokeHat.png",
     "width": 68,
     "height": 68,
     "format": "png"

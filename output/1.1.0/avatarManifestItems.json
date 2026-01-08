@@ -6279,6 +6279,10 @@
         "armor_armoire_blackPartyDress",
         "head_armoire_blackHairbow"
       ],
+      "loneCowpoke": [
+        "armor_armoire_loneCowpokeOutfit",
+        "head_armoire_loneCowpokeHat"
+      ],
       "special-piDay": [
         "head_special_piDay",
         "shield_special_piDay"
@@ -15267,6 +15271,17 @@
         ],
         "notes": "This apron doesn’t feel as heavy as it looks once you’ve got it on. It will shield you from stray sparks while allowing you to maneuver freely. Increases Constitution by 11. Enchanted Armoire: Blacksmith Set (Item 2 of 3).",
         "set": "blacksmith"
+      },
+      "armor_armoire_loneCowpokeOutfit": {
+        "key": "armor_armoire_loneCowpokeOutfit",
+        "text": "Lone Cowpoke Outfit",
+        "imageFileNames": [
+          "broad_armor_armoire_loneCowpokeOutfit",
+          "slim_armor_armoire_loneCowpokeOutfit",
+          "shop_armor_armoire_loneCowpokeOutfit"
+        ],
+        "notes": "Whoa, there! Want to make a statement when you ride into town as a mysterious stranger ready to be productive? Here’s the perfect outfit, complete with chaps and a shining, silver belt buckle. Increases Constitution by 10. Enchanted Armoire: Lone Cowpoke Set (Item 2 of 2)",
+        "set": "loneCowpoke"
       }
     },
     "head": {
@@ -19816,6 +19831,16 @@
         ],
         "notes": "Shatter and heat-resistant ocular protection is yours when you’re working in a forge. Increases Perception by 11. Enchanted Armoire: Blacksmith Set (Item 1 of 3).",
         "set": "blacksmith"
+      },
+      "head_armoire_loneCowpokeHat": {
+        "key": "head_armoire_loneCowpokeHat",
+        "text": "Lone Cowpoke Hat",
+        "imageFileNames": [
+          "head_armoire_loneCowpokeHat",
+          "shop_head_armoire_loneCowpokeHat"
+        ],
+        "notes": "Howdy there, pardner! D’you hate when you’re out on the range, workin’ on tasks, and sun gets in your eyes? Well, good thing you’ve got a hat for that now. Increases Perception by 10. Enchanted Armoire: Lone Cowpoke Set (Item 1 of 2)",
+        "set": "loneCowpoke"
       }
     },
     "shield": {
