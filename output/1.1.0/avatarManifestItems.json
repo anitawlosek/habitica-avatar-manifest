@@ -5805,6 +5805,10 @@
         "shield_armoire_doubleBass",
         "back_armoire_harpsichord"
       ],
+      "prettyInPink": [
+        "weapon_armoire_prettyPinkParasol",
+        "shield_armoire_prettyPinkGiftBox"
+      ],
       "special-gaymerx": [
         "armor_special_gaymerx",
         "head_special_gaymerx"
@@ -10422,6 +10426,16 @@
         ],
         "notes": "Hwhoooo! Hu-whooooo! Gather your party for a meditation session or self-care nap while relaxing to tunes played on this bamboo flute. Increases Constitution and Intelligence by 6 each. Enchanted Armoire: Musical Instrument Set 2 (Item 2 of 3) ",
         "set": "musicalInstrumentTwo"
+      },
+      "weapon_armoire_prettyPinkParasol": {
+        "key": "weapon_armoire_prettyPinkParasol",
+        "text": "Pretty Pink Parasol",
+        "imageFileNames": [
+          "weapon_armoire_prettyPinkParasol",
+          "shop_weapon_armoire_prettyPinkParasol"
+        ],
+        "notes": "Pretty and practical is the preeminent permutation. And for a particularly impressive presentation, give this parasol a spin! Increases all stats by 2 each. Enchanted Armoire: Pretty in Pink Set (Item 1 of 2) ",
+        "set": "prettyInPink"
       }
     },
     "armor": {
@@ -22670,6 +22684,16 @@
         ],
         "notes": "Bom doo bom brrrr brr brr brrrr! Gather your party for some grounding or dancing as you listen to music on this deep double bass. Increases Constitution and Strength by 6 each. Enchanted Armoire: Musical Instrument Set 2 (Item 3 of 3)",
         "set": "musicalInstrumentTwo"
+      },
+      "shield_armoire_prettyPinkGiftBox": {
+        "key": "shield_armoire_prettyPinkGiftBox",
+        "text": "Pretty Pink Present",
+        "imageFileNames": [
+          "shield_armoire_prettyPinkGiftBox",
+          "shop_shield_armoire_prettyPinkGiftBox"
+        ],
+        "notes": "Is this gift from a dear friend? A caring relative? A true love? A secret admirer? Whoever sent it knows you’ll be pleased with what’s inside. Increases all stats by 2 each. Enchanted Armoire: Pretty in Pink Set (Item 2 of 2)",
+        "set": "prettyInPink"
       }
     },
     "back": {

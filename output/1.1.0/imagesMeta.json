@@ -9239,6 +9239,18 @@
     "height": 68,
     "format": "png"
   },
+  "weapon_armoire_prettyPinkParasol.png": {
+    "fileName": "weapon_armoire_prettyPinkParasol.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_armoire_prettyPinkParasol.png": {
+    "fileName": "shop_weapon_armoire_prettyPinkParasol.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "broad_armor_healer_1.png": {
     "fileName": "broad_armor_healer_1.png",
     "width": 90,
@@ -26017,6 +26029,18 @@
   },
   "shop_shield_armoire_doubleBass.png": {
     "fileName": "shop_shield_armoire_doubleBass.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_armoire_prettyPinkGiftBox.png": {
+    "fileName": "shield_armoire_prettyPinkGiftBox.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_shield_armoire_prettyPinkGiftBox.png": {
+    "fileName": "shop_shield_armoire_prettyPinkGiftBox.png",
     "width": 68,
     "height": 68,
     "format": "png"
