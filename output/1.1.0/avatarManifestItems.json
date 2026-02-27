@@ -3810,6 +3810,36 @@
       "notes": "Admire the colorful halls of an Elegant Palace.",
       "price": 7
     },
+    "waterfall_with_rainbow": {
+      "key": "waterfall_with_rainbow",
+      "text": "Waterfall with Rainbow",
+      "imageFileNames": [
+        "background_waterfall_with_rainbow",
+        "icon_background_waterfall_with_rainbow"
+      ],
+      "notes": "Admire the breathtaking beauty of a Waterfall with a Rainbow.",
+      "price": 7
+    },
+    "riding_a_comet": {
+      "key": "riding_a_comet",
+      "text": "Riding a Comet",
+      "imageFileNames": [
+        "background_riding_a_comet",
+        "icon_background_riding_a_comet"
+      ],
+      "notes": "Travel through space while Riding a Comet!",
+      "price": 7
+    },
+    "elven_citadel": {
+      "key": "elven_citadel",
+      "text": "Elven Citadel",
+      "imageFileNames": [
+        "background_elven_citadel",
+        "icon_background_elven_citadel"
+      ],
+      "notes": "Take the scenic journey to an Elven Citadel.",
+      "price": 7
+    },
     "birthday_bash": {
       "key": "birthday_bash",
       "text": "Birthday Bash",
@@ -5245,6 +5275,29 @@
         "head_special_winter2026Rogue",
         "shield_special_winter2026Rogue"
       ],
+      "spring2026FrogWarriorSet": [
+        "weapon_special_spring2026Warrior",
+        "armor_special_spring2026Warrior",
+        "head_special_spring2026Warrior",
+        "shield_special_spring2026Warrior"
+      ],
+      "spring2026BranchRogueSet": [
+        "weapon_special_spring2026Rogue",
+        "armor_special_spring2026Rogue",
+        "head_special_spring2026Rogue",
+        "shield_special_spring2026Rogue"
+      ],
+      "spring2026SnowdropHealerSet": [
+        "weapon_special_spring2026Healer",
+        "armor_special_spring2026Healer",
+        "head_special_spring2026Healer",
+        "shield_special_spring2026Healer"
+      ],
+      "spring2026MaypoleMageSet": [
+        "weapon_special_spring2026Mage",
+        "armor_special_spring2026Mage",
+        "head_special_spring2026Mage"
+      ],
       "mystery-201411": [
         "weapon_mystery_201411",
         "head_mystery_201411"
@@ -5343,6 +5396,10 @@
       "mystery-202601": [
         "weapon_mystery_202601",
         "back_mystery_202601"
+      ],
+      "mystery-202603": [
+        "weapon_mystery_202603",
+        "head_mystery_202603"
       ],
       "mystery-301404": [
         "weapon_mystery_301404",
@@ -6071,6 +6128,10 @@
         "armor_mystery_202509",
         "body_mystery_202509"
       ],
+      "mystery-202604": [
+        "armor_mystery_202604",
+        "head_mystery_202604"
+      ],
       "mystery-301703": [
         "armor_mystery_301703",
         "head_mystery_301703",
@@ -6440,6 +6501,10 @@
       "mystery-202506": [
         "shield_mystery_202506",
         "back_mystery_202506"
+      ],
+      "mystery-202605": [
+        "shield_mystery_202605",
+        "back_mystery_202605"
       ],
       "petFood": [
         "shield_armoire_strawberryFood",
@@ -9055,6 +9120,47 @@
         "notes": "Ski poles help you maintain balance, stability, and timing—all things you need to be truly productive. Increases Strength by 8. Limited Edition Winter 2025-2026 Gear. ",
         "set": "winter2026SkiRogueSet"
       },
+      "weapon_special_spring2026Warrior": {
+        "key": "weapon_special_spring2026Warrior",
+        "text": "Mighty Froggy Foil",
+        "imageFileNames": [
+          "weapon_special_spring2026Warrior",
+          "shop_weapon_special_spring2026Warrior"
+        ],
+        "notes": "An opportunity to duel might present itself at any moment, and with this formidable foil, you will be ready! Increases Strength by 15. Limited Edition Spring 2026 Gear. ",
+        "set": "spring2026FrogWarriorSet"
+      },
+      "weapon_special_spring2026Rogue": {
+        "key": "weapon_special_spring2026Rogue",
+        "text": "Spring Branch",
+        "imageFileNames": [
+          "weapon_special_spring2026Rogue",
+          "shop_weapon_special_spring2026Rogue"
+        ],
+        "notes": "An opportunity to grow is nearly upon you, and with these budding branches, you will be ready! Increases Strength by 8. Limited Edition Spring 2026 Gear. ",
+        "set": "spring2026BranchRogueSet"
+      },
+      "weapon_special_spring2026Healer": {
+        "key": "weapon_special_spring2026Healer",
+        "text": "Snowdrop Staff",
+        "imageFileNames": [
+          "weapon_special_spring2026Healer",
+          "shop_weapon_special_spring2026Healer"
+        ],
+        "notes": "An opportunity to begin anew with a fresh start is right up ahead, and with this splendid staff, you will be ready! Increases Intelligence by 9. Limited Edition Spring 2026 Gear. ",
+        "set": "spring2026SnowdropHealerSet"
+      },
+      "weapon_special_spring2026Mage": {
+        "key": "weapon_special_spring2026Mage",
+        "text": "Maypole Parasol",
+        "imageFileNames": [
+          "weapon_special_spring2026Mage",
+          "shop_weapon_special_spring2026Mage"
+        ],
+        "notes": "An opportunity to celebrate approaches, and with this pretty parasol pole, you will be ready! Increases Intelligence by 15 and Perception by 7. Limited Edition Spring 2026 Gear. Two-handed item.",
+        "set": "spring2026MaypoleMageSet",
+        "twoHanded": true
+      },
       "weapon_mystery_201411": {
         "key": "weapon_mystery_201411",
         "text": "Pitchfork of Feasting",
@@ -9298,6 +9404,16 @@
         ],
         "notes": "An icy bubble shield that grants magical protection from opposing elements. Confers no benefit. January 2026 Subscriber Item. ",
         "set": "mystery-202601"
+      },
+      "weapon_mystery_202603": {
+        "key": "weapon_mystery_202603",
+        "text": "Wisteria Wizard Staff",
+        "imageFileNames": [
+          "weapon_mystery_202603",
+          "shop_weapon_mystery_202603"
+        ],
+        "notes": "Cast spells to warm the spring air and encourage the blossoms to bud! Confers no benefit. March 2026 Subscriber Item. ",
+        "set": "mystery-202603"
       },
       "weapon_mystery_301404": {
         "key": "weapon_mystery_301404",
@@ -13174,6 +13290,50 @@
         "notes": "Go speedily swishing down the slopes on your way to completing your Dailies. Increases Perception by 15. Limited Edition Winter 2025-2026 Gear.",
         "set": "winter2026SkiRogueSet"
       },
+      "armor_special_spring2026Warrior": {
+        "key": "armor_special_spring2026Warrior",
+        "text": "Frog Armor",
+        "imageFileNames": [
+          "broad_armor_special_spring2026Warrior",
+          "slim_armor_special_spring2026Warrior",
+          "shop_armor_special_spring2026Warrior"
+        ],
+        "notes": "Spring into action just as soon as the snow begins to thaw. Increases Constitution by 9. Limited Edition Spring 2026 Gear.",
+        "set": "spring2026FrogWarriorSet"
+      },
+      "armor_special_spring2026Rogue": {
+        "key": "armor_special_spring2026Rogue",
+        "text": "Birch Bark Armor",
+        "imageFileNames": [
+          "broad_armor_special_spring2026Rogue",
+          "slim_armor_special_spring2026Rogue",
+          "shop_armor_special_spring2026Rogue"
+        ],
+        "notes": "Withstand inevitable spring rains as well as light breezes. Increases Perception by 15. Limited Edition Spring 2026 Gear.",
+        "set": "spring2026BranchRogueSet"
+      },
+      "armor_special_spring2026Healer": {
+        "key": "armor_special_spring2026Healer",
+        "text": "Snowdrop Gown",
+        "imageFileNames": [
+          "broad_armor_special_spring2026Healer",
+          "slim_armor_special_spring2026Healer",
+          "shop_armor_special_spring2026Healer"
+        ],
+        "notes": "Glide gracefully from a cold, dark winter into glorious spring. Increases Constitution by 15. Limited Edition Spring 2026 Gear.",
+        "set": "spring2026SnowdropHealerSet"
+      },
+      "armor_special_spring2026Mage": {
+        "key": "armor_special_spring2026Mage",
+        "text": "Maypole Dancer Outfit",
+        "imageFileNames": [
+          "broad_armor_special_spring2026Mage",
+          "slim_armor_special_spring2026Mage",
+          "shop_armor_special_spring2026Mage"
+        ],
+        "notes": "Arrive ready to dance, picnic, and enjoy the warm weather spring brings. Increases Intelligence by 9. Limited Edition Spring 2026 Gear.",
+        "set": "spring2026MaypoleMageSet"
+      },
       "armor_mystery_201402": {
         "key": "armor_mystery_201402",
         "text": "Messenger Robes",
@@ -13932,6 +14092,17 @@
         ],
         "notes": "Ready for battle in this plate that is both sweet and strong. Confers no benefit. December 2025 Subscriber Item.",
         "set": "mystery-202512"
+      },
+      "armor_mystery_202604": {
+        "key": "armor_mystery_202604",
+        "text": "Audacious Astronaut Spacesuit",
+        "imageFileNames": [
+          "broad_armor_mystery_202604",
+          "slim_armor_mystery_202604",
+          "shop_armor_mystery_202604"
+        ],
+        "notes": "One small step for your To Do list, one giant leap for your sense of accomplishment! Confers no benefit. April 2026 Subscriber Item.",
+        "set": "mystery-202604"
       },
       "armor_mystery_301404": {
         "key": "armor_mystery_301404",
@@ -17796,6 +17967,46 @@
         "notes": "Maintain focus and vision as you set your sights on greater goals this season. Increases Perception by 9. Limited Edition 2025-2026 Winter Gear.",
         "set": "winter2026SkiRogueSet"
       },
+      "head_special_spring2026Warrior": {
+        "key": "head_special_spring2026Warrior",
+        "text": "Frog Warrior Helm",
+        "imageFileNames": [
+          "head_special_spring2026Warrior",
+          "shop_head_special_spring2026Warrior"
+        ],
+        "notes": "Frogs are well-known for their resistance to corruption. This helm will grant you their noble qualities! Increases Strength by 9. Limited Edition Spring 2026 Gear.",
+        "set": "spring2026FrogWarriorSet"
+      },
+      "head_special_spring2026Rogue": {
+        "key": "head_special_spring2026Rogue",
+        "text": "Spring Branch Helm",
+        "imageFileNames": [
+          "head_special_spring2026Rogue",
+          "shop_head_special_spring2026Rogue"
+        ],
+        "notes": "Make a striking statement with twigs and buds growing wild in all directions. Increases Perception by 9. Limited Edition Spring 2026 Gear.",
+        "set": "spring2026BranchRogueSet"
+      },
+      "head_special_spring2026Healer": {
+        "key": "head_special_spring2026Healer",
+        "text": "Snowdrop Helm",
+        "imageFileNames": [
+          "head_special_spring2026Healer",
+          "shop_head_special_spring2026Healer"
+        ],
+        "notes": "Make a hopeful statement with these beautiful, resilient petals. Increases Intelligence by 7. Limited Edition Spring 2026 Gear.",
+        "set": "spring2026SnowdropHealerSet"
+      },
+      "head_special_spring2026Mage": {
+        "key": "head_special_spring2026Mage",
+        "text": "Mayflower Crown",
+        "imageFileNames": [
+          "head_special_spring2026Mage",
+          "shop_head_special_spring2026Mage"
+        ],
+        "notes": "Make a joyous statement with bright blooms encircling your head. Increases Perception by 7. Limited Edition Spring 2026 Gear.",
+        "set": "spring2026MaypoleMageSet"
+      },
       "head_mystery_201402": {
         "key": "head_mystery_201402",
         "text": "Winged Helm",
@@ -18713,8 +18924,28 @@
           "head_mystery_202602",
           "shop_head_mystery_202602"
         ],
-        "notes": " Your hearing will be sharpened by these ears such that you can hear the buds of blossoms growing on tree branches as spring approaches. Confers no benefit. February 2026 Subscriber Item.",
+        "notes": "Your hearing will be sharpened by these ears such that you can hear the buds of blossoms growing on tree branches as spring approaches. Confers no benefit. February 2026 Subscriber Item.",
         "set": "mystery-202602"
+      },
+      "head_mystery_202603": {
+        "key": "head_mystery_202603",
+        "text": "Wisteria Wizard Hat",
+        "imageFileNames": [
+          "head_mystery_202603",
+          "shop_head_mystery_202603"
+        ],
+        "notes": "This jaunty hat not only enhances your magical ability, it also has a lovely spring scent! Confers no benefit. March 2026 Subscriber Item.",
+        "set": "mystery-202603"
+      },
+      "head_mystery_202604": {
+        "key": "head_mystery_202604",
+        "text": "Audacious Astronaut Helmet",
+        "imageFileNames": [
+          "head_mystery_202604",
+          "shop_head_mystery_202604"
+        ],
+        "notes": "In space, no one can hear you check off your To Do’s. But the real reward is your sense of personal accomplishment! Confers no benefit. April 2026 Subscriber Item.",
+        "set": "mystery-202604"
       },
       "head_mystery_301404": {
         "key": "head_mystery_301404",
@@ -21645,6 +21876,36 @@
         "notes": "Ski poles help you maintain balance, stability, and timing—all things you need to be truly productive. Increases Strength by 8. Limited Edition Winter 2025-2026 Gear.",
         "set": "winter2026SkiRogueSet"
       },
+      "shield_special_spring2026Warrior": {
+        "key": "shield_special_spring2026Warrior",
+        "text": "Frog Warrior Candelabra",
+        "imageFileNames": [
+          "shield_special_spring2026Warrior",
+          "shop_shield_special_spring2026Warrior"
+        ],
+        "notes": "Not only can this candelabra light your way, you can use it to melt any lingering snow and ice. Increases Constitution by 7. Limited Edition Spring 2026 Gear.",
+        "set": "spring2026FrogWarriorSet"
+      },
+      "shield_special_spring2026Rogue": {
+        "key": "shield_special_spring2026Rogue",
+        "text": "Spring Branch",
+        "imageFileNames": [
+          "shield_special_spring2026Rogue",
+          "shop_shield_special_spring2026Rogue"
+        ],
+        "notes": "Reach out and reach high with these branches. They double as a back scratcher in a pinch. Increases Strength by 8. Limited Edition Spring 2026 Gear.",
+        "set": "spring2026BranchRogueSet"
+      },
+      "shield_special_spring2026Healer": {
+        "key": "shield_special_spring2026Healer",
+        "text": "Snowdrop Leaf",
+        "imageFileNames": [
+          "shield_special_spring2026Healer",
+          "shop_shield_special_spring2026Healer"
+        ],
+        "notes": "Create a light breeze with this fan as the days grow warmer. It doubles as a writing utensil in a pinch. Increases Constitution by 9. Limited Edition Spring 2026 Gear.",
+        "set": "spring2026SnowdropHealerSet"
+      },
       "shield_mystery_201601": {
         "key": "shield_mystery_201601",
         "text": "Resolution Slayer",
@@ -21794,6 +22055,16 @@
         ],
         "notes": "This rugged shield of icy rock protects you from bad Habits but won't freeze your hands. Confers no benefit. November 2025 Subscriber Item.",
         "set": "mystery-202511"
+      },
+      "shield_mystery_202605": {
+        "key": "shield_mystery_202605",
+        "text": "Nightfall Shield",
+        "imageFileNames": [
+          "shield_mystery_202605",
+          "shop_shield_mystery_202605"
+        ],
+        "notes": "Let the moon’s shining light protect you from dangers in the dark. Confers no benefit. May 2026 Subscriber Item.",
+        "set": "mystery-202605"
       },
       "shield_mystery_301405": {
         "key": "shield_mystery_301405",
@@ -23323,6 +23594,16 @@
         ],
         "notes": "These fluffy tails are the color of cherry blossoms, a reminder that spring is on the way! Confers no benefit. February 2026 Subscriber Item.",
         "set": "mystery-202602"
+      },
+      "back_mystery_202605": {
+        "key": "back_mystery_202605",
+        "text": "Nightfall Nimbus",
+        "imageFileNames": [
+          "back_mystery_202605",
+          "shop_back_mystery_202605"
+        ],
+        "notes": "A glowing aureole of moonlight and starlight to illuminate the darkest night. Confers no benefit. May 2026 Subscriber Item.",
+        "set": "mystery-202605"
       },
       "back_armoire_harpsichord": {
         "key": "back_armoire_harpsichord",
