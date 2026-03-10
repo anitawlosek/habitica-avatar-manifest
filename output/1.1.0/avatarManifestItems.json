@@ -6348,6 +6348,11 @@
         "armor_armoire_loneCowpokeOutfit",
         "head_armoire_loneCowpokeHat"
       ],
+      "yellowLoungewear": [
+        "armor_armoire_softYellowSuit",
+        "head_armoire_floppyYellowHat",
+        "shield_armoire_softYellowPillow"
+      ],
       "special-piDay": [
         "head_special_piDay",
         "shield_special_piDay"
@@ -15467,6 +15472,17 @@
         ],
         "notes": "Whoa, there! Want to make a statement when you ride into town as a mysterious stranger ready to be productive? Here’s the perfect outfit, complete with chaps and a shining, silver belt buckle. Increases Constitution by 10. Enchanted Armoire: Lone Cowpoke Set (Item 2 of 2)",
         "set": "loneCowpoke"
+      },
+      "armor_armoire_softYellowSuit": {
+        "key": "armor_armoire_softYellowSuit",
+        "text": "Soft Yellow Suit",
+        "imageFileNames": [
+          "broad_armor_armoire_softYellowSuit",
+          "slim_armor_armoire_softYellowSuit",
+          "shop_armor_armoire_softYellowSuit"
+        ],
+        "notes": "Yellow is an energetic color. Wear this to bed, and you will wake up with the sun the next morning ready to tackle a day full of tasks. Increases Constitution and Strength by 9 each. Enchanted Armoire: Yellow Loungewear Set (Item 2 of 3).",
+        "set": "yellowLoungewear"
       }
     },
     "head": {
@@ -20086,6 +20102,16 @@
         ],
         "notes": "Howdy there, pardner! D’you hate when you’re out on the range, workin’ on tasks, and sun gets in your eyes? Well, good thing you’ve got a hat for that now. Increases Perception by 10. Enchanted Armoire: Lone Cowpoke Set (Item 1 of 2)",
         "set": "loneCowpoke"
+      },
+      "head_armoire_floppyYellowHat": {
+        "key": "head_armoire_floppyYellowHat",
+        "text": "Yellow Floppy Hat",
+        "imageFileNames": [
+          "head_armoire_floppyYellowHat",
+          "shop_head_armoire_floppyYellowHat"
+        ],
+        "notes": "Many spells have been sewn into this simple hat, giving it a youthful yellow color. Increases all stats by 3 each. Enchanted Armoire: Yellow Loungewear Set (Item 1 of 3).",
+        "set": "yellowLoungewear"
       }
     },
     "shield": {
@@ -22965,6 +22991,16 @@
         ],
         "notes": "Is this gift from a dear friend? A caring relative? A true love? A secret admirer? Whoever sent it knows you’ll be pleased with what’s inside. Increases all stats by 2 each. Enchanted Armoire: Pretty in Pink Set (Item 2 of 2)",
         "set": "prettyInPink"
+      },
+      "shield_armoire_softYellowPillow": {
+        "key": "shield_armoire_softYellowPillow",
+        "text": "Soft Yellow Pillow",
+        "imageFileNames": [
+          "shield_armoire_softYellowPillow",
+          "shop_shield_armoire_softYellowPillow"
+        ],
+        "notes": "The experienced warrior packs a pillow for any expedition. Grow and shine as you consolidate all you’ve learned during past adventures… even while you nap. Increases Intelligence and Perception by 9 each. Enchanted Armoire: Yellow Loungewear Set (Item 3 of 3).",
+        "set": "yellowLoungewear"
       }
     },
     "back": {

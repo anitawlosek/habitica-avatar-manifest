@@ -17375,6 +17375,24 @@
     "height": 68,
     "format": "png"
   },
+  "broad_armor_armoire_softYellowSuit.png": {
+    "fileName": "broad_armor_armoire_softYellowSuit.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "slim_armor_armoire_softYellowSuit.png": {
+    "fileName": "slim_armor_armoire_softYellowSuit.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_armor_armoire_softYellowSuit.png": {
+    "fileName": "shop_armor_armoire_softYellowSuit.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "head_healer_1.png": {
     "fileName": "head_healer_1.png",
     "width": 90,
@@ -22907,6 +22925,18 @@
     "height": 68,
     "format": "png"
   },
+  "head_armoire_floppyYellowHat.png": {
+    "fileName": "head_armoire_floppyYellowHat.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_head_armoire_floppyYellowHat.png": {
+    "fileName": "shop_head_armoire_floppyYellowHat.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "shield_healer_1.png": {
     "fileName": "shield_healer_1.png",
     "width": 90,
@@ -26347,6 +26377,18 @@
   },
   "shop_shield_armoire_prettyPinkGiftBox.png": {
     "fileName": "shop_shield_armoire_prettyPinkGiftBox.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_armoire_softYellowPillow.png": {
+    "fileName": "shield_armoire_softYellowPillow.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_shield_armoire_softYellowPillow.png": {
+    "fileName": "shop_shield_armoire_softYellowPillow.png",
     "width": 68,
     "height": 68,
     "format": "png"
