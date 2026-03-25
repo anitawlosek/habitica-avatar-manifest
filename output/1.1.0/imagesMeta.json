@@ -4619,6 +4619,18 @@
     "height": 68,
     "format": "png"
   },
+  "background_on_a_strange_planet.png": {
+    "fileName": "background_on_a_strange_planet.png",
+    "width": 141,
+    "height": 147,
+    "format": "png"
+  },
+  "icon_background_on_a_strange_planet.png": {
+    "fileName": "icon_background_on_a_strange_planet.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "background_airship.gif": {
     "fileName": "background_airship.gif",
     "width": 141,

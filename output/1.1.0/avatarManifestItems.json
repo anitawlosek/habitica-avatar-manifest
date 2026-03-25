@@ -3850,6 +3850,16 @@
       "notes": "Habitica's having a birthday party, and everyone's invited!",
       "price": 0
     },
+    "on_a_strange_planet": {
+      "key": "on_a_strange_planet",
+      "text": "On a Strange Planet",
+      "imageFileNames": [
+        "background_on_a_strange_planet",
+        "icon_background_on_a_strange_planet"
+      ],
+      "notes": "Venture where no Habitican has gone before: On a Strange Planet.",
+      "price": 0
+    },
     "airship": {
       "key": "airship",
       "text": "Airship",
