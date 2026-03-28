@@ -3858,7 +3858,7 @@
         "icon_background_on_a_strange_planet"
       ],
       "notes": "Venture where no Habitican has gone before: On a Strange Planet.",
-      "price": 0
+      "price": 1
     },
     "airship": {
       "key": "airship",
