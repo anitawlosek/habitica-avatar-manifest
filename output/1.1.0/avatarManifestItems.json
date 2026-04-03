@@ -34501,6 +34501,14 @@
         "stable_Pet-Wolf-Cryptid"
       ]
     },
+    "Wolf-Alien": {
+      "key": "Wolf-Alien",
+      "text": "Alien Wolf",
+      "imageFileNames": [
+        "Pet-Wolf-Alien",
+        "stable_Pet-Wolf-Alien"
+      ]
+    },
     "TigerCub-Veggie": {
       "key": "TigerCub-Veggie",
       "text": "Garden Tiger Cub",
@@ -34547,6 +34555,14 @@
       "imageFileNames": [
         "Pet-TigerCub-Cryptid",
         "stable_Pet-TigerCub-Cryptid"
+      ]
+    },
+    "TigerCub-Alien": {
+      "key": "TigerCub-Alien",
+      "text": "Alien Tiger Cub",
+      "imageFileNames": [
+        "Pet-TigerCub-Alien",
+        "stable_Pet-TigerCub-Alien"
       ]
     },
     "PandaCub-Veggie": {
@@ -34597,6 +34613,14 @@
         "stable_Pet-PandaCub-Cryptid"
       ]
     },
+    "PandaCub-Alien": {
+      "key": "PandaCub-Alien",
+      "text": "Alien Panda Cub",
+      "imageFileNames": [
+        "Pet-PandaCub-Alien",
+        "stable_Pet-PandaCub-Alien"
+      ]
+    },
     "LionCub-Veggie": {
       "key": "LionCub-Veggie",
       "text": "Garden Lion Cub",
@@ -34643,6 +34667,14 @@
       "imageFileNames": [
         "Pet-LionCub-Cryptid",
         "stable_Pet-LionCub-Cryptid"
+      ]
+    },
+    "LionCub-Alien": {
+      "key": "LionCub-Alien",
+      "text": "Alien Lion Cub",
+      "imageFileNames": [
+        "Pet-LionCub-Alien",
+        "stable_Pet-LionCub-Alien"
       ]
     },
     "Fox-Veggie": {
@@ -34693,6 +34725,14 @@
         "stable_Pet-Fox-Cryptid"
       ]
     },
+    "Fox-Alien": {
+      "key": "Fox-Alien",
+      "text": "Alien Fox",
+      "imageFileNames": [
+        "Pet-Fox-Alien",
+        "stable_Pet-Fox-Alien"
+      ]
+    },
     "FlyingPig-Veggie": {
       "key": "FlyingPig-Veggie",
       "text": "Garden Flying Pig",
@@ -34739,6 +34779,14 @@
       "imageFileNames": [
         "Pet-FlyingPig-Cryptid",
         "stable_Pet-FlyingPig-Cryptid"
+      ]
+    },
+    "FlyingPig-Alien": {
+      "key": "FlyingPig-Alien",
+      "text": "Alien Flying Pig",
+      "imageFileNames": [
+        "Pet-FlyingPig-Alien",
+        "stable_Pet-FlyingPig-Alien"
       ]
     },
     "Dragon-Veggie": {
@@ -34789,6 +34837,14 @@
         "stable_Pet-Dragon-Cryptid"
       ]
     },
+    "Dragon-Alien": {
+      "key": "Dragon-Alien",
+      "text": "Alien Dragon",
+      "imageFileNames": [
+        "Pet-Dragon-Alien",
+        "stable_Pet-Dragon-Alien"
+      ]
+    },
     "Cactus-Veggie": {
       "key": "Cactus-Veggie",
       "text": "Garden Cactus",
@@ -34837,6 +34893,14 @@
         "stable_Pet-Cactus-Cryptid"
       ]
     },
+    "Cactus-Alien": {
+      "key": "Cactus-Alien",
+      "text": "Alien Cactus",
+      "imageFileNames": [
+        "Pet-Cactus-Alien",
+        "stable_Pet-Cactus-Alien"
+      ]
+    },
     "BearCub-Veggie": {
       "key": "BearCub-Veggie",
       "text": "Garden Bear Cub",
@@ -34883,6 +34947,14 @@
       "imageFileNames": [
         "Pet-BearCub-Cryptid",
         "stable_Pet-BearCub-Cryptid"
+      ]
+    },
+    "BearCub-Alien": {
+      "key": "BearCub-Alien",
+      "text": "Alien Bear Cub",
+      "imageFileNames": [
+        "Pet-BearCub-Alien",
+        "stable_Pet-BearCub-Alien"
       ]
     },
     "Wolf-Veteran": {

@@ -42941,6 +42941,18 @@
     "height": 68,
     "format": "png"
   },
+  "Pet-Wolf-Alien.png": {
+    "fileName": "Pet-Wolf-Alien.png",
+    "width": 81,
+    "height": 99,
+    "format": "png"
+  },
+  "stable_Pet-Wolf-Alien.png": {
+    "fileName": "stable_Pet-Wolf-Alien.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "Pet-TigerCub-Veggie.png": {
     "fileName": "Pet-TigerCub-Veggie.png",
     "width": 81,
@@ -43009,6 +43021,18 @@
   },
   "stable_Pet-TigerCub-Cryptid.png": {
     "fileName": "stable_Pet-TigerCub-Cryptid.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "Pet-TigerCub-Alien.png": {
+    "fileName": "Pet-TigerCub-Alien.png",
+    "width": 81,
+    "height": 99,
+    "format": "png"
+  },
+  "stable_Pet-TigerCub-Alien.png": {
+    "fileName": "stable_Pet-TigerCub-Alien.png",
     "width": 68,
     "height": 68,
     "format": "png"
@@ -43085,6 +43109,18 @@
     "height": 68,
     "format": "png"
   },
+  "Pet-PandaCub-Alien.png": {
+    "fileName": "Pet-PandaCub-Alien.png",
+    "width": 81,
+    "height": 99,
+    "format": "png"
+  },
+  "stable_Pet-PandaCub-Alien.png": {
+    "fileName": "stable_Pet-PandaCub-Alien.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "Pet-LionCub-Veggie.png": {
     "fileName": "Pet-LionCub-Veggie.png",
     "width": 81,
@@ -43153,6 +43189,18 @@
   },
   "stable_Pet-LionCub-Cryptid.png": {
     "fileName": "stable_Pet-LionCub-Cryptid.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "Pet-LionCub-Alien.png": {
+    "fileName": "Pet-LionCub-Alien.png",
+    "width": 81,
+    "height": 99,
+    "format": "png"
+  },
+  "stable_Pet-LionCub-Alien.png": {
+    "fileName": "stable_Pet-LionCub-Alien.png",
     "width": 68,
     "height": 68,
     "format": "png"
@@ -43229,6 +43277,18 @@
     "height": 68,
     "format": "png"
   },
+  "Pet-Fox-Alien.png": {
+    "fileName": "Pet-Fox-Alien.png",
+    "width": 81,
+    "height": 99,
+    "format": "png"
+  },
+  "stable_Pet-Fox-Alien.png": {
+    "fileName": "stable_Pet-Fox-Alien.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "Pet-FlyingPig-Veggie.png": {
     "fileName": "Pet-FlyingPig-Veggie.png",
     "width": 81,
@@ -43297,6 +43357,18 @@
   },
   "stable_Pet-FlyingPig-Cryptid.png": {
     "fileName": "stable_Pet-FlyingPig-Cryptid.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "Pet-FlyingPig-Alien.png": {
+    "fileName": "Pet-FlyingPig-Alien.png",
+    "width": 81,
+    "height": 99,
+    "format": "png"
+  },
+  "stable_Pet-FlyingPig-Alien.png": {
+    "fileName": "stable_Pet-FlyingPig-Alien.png",
     "width": 68,
     "height": 68,
     "format": "png"
@@ -43385,6 +43457,18 @@
     "height": 68,
     "format": "png"
   },
+  "Pet-Dragon-Alien.png": {
+    "fileName": "Pet-Dragon-Alien.png",
+    "width": 81,
+    "height": 99,
+    "format": "png"
+  },
+  "stable_Pet-Dragon-Alien.png": {
+    "fileName": "stable_Pet-Dragon-Alien.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "Pet-Cactus-Veggie.png": {
     "fileName": "Pet-Cactus-Veggie.png",
     "width": 81,
@@ -43457,6 +43541,18 @@
     "height": 68,
     "format": "png"
   },
+  "Pet-Cactus-Alien.png": {
+    "fileName": "Pet-Cactus-Alien.png",
+    "width": 81,
+    "height": 99,
+    "format": "png"
+  },
+  "stable_Pet-Cactus-Alien.png": {
+    "fileName": "stable_Pet-Cactus-Alien.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "Pet-BearCub-Veggie.png": {
     "fileName": "Pet-BearCub-Veggie.png",
     "width": 81,
@@ -43525,6 +43621,18 @@
   },
   "stable_Pet-BearCub-Cryptid.png": {
     "fileName": "stable_Pet-BearCub-Cryptid.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "Pet-BearCub-Alien.png": {
+    "fileName": "Pet-BearCub-Alien.png",
+    "width": 81,
+    "height": 99,
+    "format": "png"
+  },
+  "stable_Pet-BearCub-Alien.png": {
+    "fileName": "stable_Pet-BearCub-Alien.png",
     "width": 68,
     "height": 68,
     "format": "png"
