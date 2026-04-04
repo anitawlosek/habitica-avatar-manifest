@@ -45,10 +45,19 @@ export type BodyItems = {
   };
 }
 
+export type PetTree = {
+  byType: Record<string, string[]>; // egg id, list of pet ids
+  byColor: Record<string, string[]>; // hatchingPotion id, list od pet ids
+  special: string[]; // list of pet ids that are not hached from eggs
+}
+
 export type AvatarManifestItems = {
   background: Record<string, ItemMeta>;
   gear: GearItems;
+  egg: Record<string, ImageMeta>;
+  hatchingPotion: Record<string, ItemMeta>;
   pet: Record<string, ItemMeta>;
+  petTree: PetTree;
   mount: Record<string, ItemMeta>;
   hair: HairItems;
   skin: Record<string, ItemMeta>;

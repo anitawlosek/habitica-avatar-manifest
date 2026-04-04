@@ -4,10 +4,19 @@ import { writeFileSync, readFileSync, mkdirSync, existsSync, copyFileSync } from
 import { fetchHabiticaContent } from './scripts/habiticaContentProvider';
 import { ImagesMeta } from './types';
 import { getImagesMeta, handleAddedAndRemovedImages } from './scripts/imagesDetailsProvider';
-import { OUTPUT_DIR, IMAGE_FILE_NAMES, IMAGES_META_FILE, ITEMS_DETAILS_FILE, PREV_VERSION } from './constants';
+import { INPUT_DIR, HABITICA_CONTENT_FILE, OUTPUT_DIR, IMAGE_FILE_NAMES, IMAGES_META_FILE, ITEMS_DETAILS_FILE, PREV_VERSION } from './constants';
 
 // Get Habitica content data
 const habiticaData = await fetchHabiticaContent();
+
+
+// Check if there is directory to write files
+// If not, create it
+if (!existsSync(INPUT_DIR)) {
+    mkdirSync(INPUT_DIR, { recursive: true });
+}
+
+writeFileSync(HABITICA_CONTENT_FILE, JSON.stringify(habiticaData, null, 2));
 
 // Create avatar manifest
 const manifest = await generateAvatarManifest(habiticaData as HabiticaContent);
@@ -17,10 +26,11 @@ const manifest = await generateAvatarManifest(habiticaData as HabiticaContent);
 if (!existsSync(OUTPUT_DIR)) {
     mkdirSync(OUTPUT_DIR, { recursive: true });
     //copy files from previous version
-    const previousVersion = `output/${PREV_VERSION}/`;
-    if (existsSync(previousVersion)) {
-        copyFileSync(`${previousVersion}/imagesMeta.json`, IMAGES_META_FILE);
-        copyFileSync(`${previousVersion}/imageFileNames.json`, IMAGE_FILE_NAMES);
+    const previousVersionDir = `output/${PREV_VERSION}/`;
+
+    if (existsSync(previousVersionDir)) {
+        copyFileSync(`${previousVersionDir}/imagesMeta.json`, IMAGES_META_FILE);
+        copyFileSync(`${previousVersionDir}/imageFileNames.json`, IMAGE_FILE_NAMES);
     }
 }
 
