@@ -49,6 +49,12 @@ export const getImageFileNames = (settingType: string, value: string | number | 
                     `icon_${value}_shirt_${shirt}`);
             }
             break;
+        case 'egg':
+            fileNames.push(`Pet_Egg_${value}`);
+            break;
+        case 'hatchingPotion':
+            fileNames.push(`Pet_HatchingPotion_${value}`);
+            break;
         case 'pet':
             fileNames.push(
                 `Pet-${value}`,

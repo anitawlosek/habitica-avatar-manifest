@@ -115,6 +115,27 @@ export type HabiticaGearBase = {
     "0": HabiticaGearItem;
 }
 
+// Egg and hatching potion types
+
+export type HabiticaEgg = {
+    key: string;
+    text: string;
+    mountText: string;
+    notes: string;
+    value: number;
+    adjective?: string;
+}
+
+export type HabiticaHatchingPotion = {
+    key: string;
+    text: string;
+    notes: string;
+    value: number;
+    premium: boolean;
+    limited?: boolean;
+    wacky?: boolean;
+}
+
 // Stable types
 
 export type HabiticaPet = {
@@ -160,7 +181,7 @@ export type HabiticaContent = {
   classes: HabiticaMemberClass[];
   dropEggs: object;
   dropHatchingPotions: object;
-  eggs: Record<string, object>;
+  eggs: Record<string, HabiticaEgg>;
   events: object;
   faq: object;
   food: object;
@@ -170,7 +191,7 @@ export type HabiticaContent = {
   };
   gearTypes: HabiticaGearType[];
   gems: Record<string, object>;
-  hatchingPotions: Record<string, object>;
+  hatchingPotions: Record<string, HabiticaHatchingPotion>;
   itemList: Record<string, object>;
   loginIncentives: Record<string, object>;
   mountInfo: Record<string, HabiticaMount>;

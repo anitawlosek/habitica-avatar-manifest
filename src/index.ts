@@ -17,10 +17,11 @@ const manifest = await generateAvatarManifest(habiticaData as HabiticaContent);
 if (!existsSync(OUTPUT_DIR)) {
     mkdirSync(OUTPUT_DIR, { recursive: true });
     //copy files from previous version
-    const previousVersion = `output/${PREV_VERSION}/`;
-    if (existsSync(previousVersion)) {
-        copyFileSync(`${previousVersion}/imagesMeta.json`, IMAGES_META_FILE);
-        copyFileSync(`${previousVersion}/imageFileNames.json`, IMAGE_FILE_NAMES);
+    const previousVersionDir = `output/${PREV_VERSION}/`;
+
+    if (existsSync(previousVersionDir)) {
+        copyFileSync(`${previousVersionDir}/imagesMeta.json`, IMAGES_META_FILE);
+        copyFileSync(`${previousVersionDir}/imageFileNames.json`, IMAGE_FILE_NAMES);
     }
 }
 

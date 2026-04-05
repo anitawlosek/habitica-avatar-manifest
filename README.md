@@ -20,7 +20,10 @@ This project provides a clean, structured JSON manifest of all Habitica avatar c
 ### Avatar Categories Included
 - **Backgrounds** - All available background scenes
 - **Gear** - Weapons, armor, accessories organized by type and sets
+- **Eggs** - All hatchable eggs with mount text metadata
+- **Hatching Potions** - All hatching potions, including premium and wacky variants
 - **Pets** - All collectible pets with metadata
+- **Pet Tree** - Relational map of pets organized by egg, hatching potion, and special pets
 - **Mounts** - All rideable mounts
 - **Hair** - Colors, styles, bangs, flowers, beards, mustaches
 - **Body** - Shirt styles and body sizes (slim/broad)
@@ -36,6 +39,38 @@ All items follow a consistent `ItemMeta` structure:
   key: string;             // Unique identifier
   text: string;            // Display name
   imageFileNames: string[]; // Array of image file references
+  notes?: string;
+  price?: number;
+  currency?: string;
+  set?: string;
+}
+```
+
+#### Extended Types
+
+**`EggItemMeta`** (used in `egg`):
+```typescript
+{
+  // ...ItemMeta
+  mountText: string; // Display name for the hatched mount
+}
+```
+
+**`HatchingPotionItemMeta`** (used in `hatchingPotion`):
+```typescript
+{
+  // ...ItemMeta
+  premium: boolean; // Whether this is a premium potion
+  wacky?: boolean;  // Whether this is a wacky/limited potion
+}
+```
+
+**`PetTree`** (used in `petTree`):
+```typescript
+{
+  byEgg: Record<string, string[]>;            // egg id → list of pet ids
+  byHatchingPotion: Record<string, string[]>; // hatchingPotion id → list of pet ids
+  special: string[];                          // pet ids not hatched from eggs
 }
 ```
 
@@ -105,6 +140,38 @@ Download the latest files from the [output directory](./output/1.1.0/) or direct
     },
     "weapon": { /* ... */ },
     "armor": { /* ... */ }
+  },
+  "egg": {
+    "Wolf": {
+      "key": "Wolf",
+      "text": "Wolf Egg",
+      "mountText": "Wolf",
+      "imageFileNames": ["Pet_Egg_Wolf"]
+    }
+  },
+  "hatchingPotion": {
+    "Base": {
+      "key": "Base",
+      "text": "Base Potion",
+      "premium": false,
+      "imageFileNames": ["Pet_HatchingPotion_Base"]
+    },
+    "Vampire": {
+      "key": "Vampire",
+      "text": "Vampire Potion",
+      "premium": true,
+      "wacky": true,
+      "imageFileNames": ["Pet_HatchingPotion_Vampire"]
+    }
+  },
+  "petTree": {
+    "byEgg": {
+      "Wolf": ["Wolf-Base", "Wolf-CottonCandyBlue", "Wolf-Vampire"]
+    },
+    "byHatchingPotion": {
+      "Base": ["Wolf-Base", "TigerCub-Base"]
+    },
+    "special": ["Wolf-Veteran", "BearCub-Polar"]
   },
   "hair": {
     "color": { /* ... */ },
@@ -187,7 +254,7 @@ src/
 
 ## 🤖 Automated Updates
 
-The manifest is automatically updated daily at 2:00 AM UTC via GitHub Actions. The workflow:
+The manifest is automatically updated daily at 8:00 AM UTC via GitHub Actions. The workflow:
 - Fetches the latest Habitica API data
 - Regenerates the manifest (without image metadata for performance)
 - Commits changes with `[skip ci]` tag
@@ -220,7 +287,16 @@ Full TypeScript definitions are included:
 import { getHabiticaAvatarManifestItems, getHabiticaImagesMeta } from 'habitica-avatar-manifest';
 
 // Output types (processed manifest)
-import type { AvatarManifestItems, ItemMeta, GearItems, ImageMeta } from 'habitica-avatar-manifest';
+import type {
+  AvatarManifestItems,
+  ItemMeta,
+  GearItems,
+  ImageMeta,
+  PetTree,
+  EggItemMeta,
+  HatchingPotionItemMeta,
+  StableItemMeta,
+} from 'habitica-avatar-manifest';
 ```
 
 For detailed usage examples, see [USAGE.md](./USAGE.md).
