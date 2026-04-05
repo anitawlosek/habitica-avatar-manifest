@@ -25,6 +25,7 @@ This project provides a clean, structured JSON manifest of all Habitica avatar c
 - **Pets** - All collectible pets with metadata
 - **Pet Tree** - Relational map of pets organized by egg, hatching potion, and special pets
 - **Mounts** - All rideable mounts
+- **Mount Tree** - Relational map of mounts organized by egg, hatching potion, and special mounts
 - **Hair** - Colors, styles, bangs, flowers, beards, mustaches
 - **Body** - Shirt styles and body sizes (slim/broad)
 - **Skin** - All available skin tones
@@ -65,12 +66,12 @@ All items follow a consistent `ItemMeta` structure:
 }
 ```
 
-**`PetTree`** (used in `petTree`):
+**`StableTree`** (used in `petTree` and `mountTree`):
 ```typescript
 {
-  byEgg: Record<string, string[]>;            // egg id → list of pet ids
-  byHatchingPotion: Record<string, string[]>; // hatchingPotion id → list of pet ids
-  special: string[];                          // pet ids not hatched from eggs
+  byEgg: Record<string, string[]>;            // egg id → list of pet/mount ids
+  byHatchingPotion: Record<string, string[]>; // hatchingPotion id → list of pet/mount ids
+  special: string[];                          // ids not hatched from eggs
 }
 ```
 
@@ -96,7 +97,7 @@ When generated with `--all-images` flag, includes detailed image information:
 
 ### As a Package (Recommended)
 ```bash
-npm install github:anitawlosek/habitica-avatar-manifest#v1.2.0
+npm install github:anitawlosek/habitica-avatar-manifest#v1.2.1
 ```
 
 ```typescript
@@ -119,7 +120,7 @@ console.log(manifestItems.gear.sets.animal); // Animal gear set items
 ```
 
 ### Direct Download
-Download the latest files from the [output directory](./output/1.2.0/) or directly from the repository:
+Download the latest files from the [output directory](./output/1.2.1/) or directly from the repository:
 - `avatarManifestItems.json` - Main manifest data
 - `imagesMeta.json` - Image metadata 
 - `imageFileNames.json` - Image filename list
@@ -172,6 +173,15 @@ Download the latest files from the [output directory](./output/1.2.0/) or direct
       "Base": ["Wolf-Base", "TigerCub-Base"]
     },
     "special": ["Wolf-Veteran", "BearCub-Polar"]
+  },
+  "mountTree": {
+    "byEgg": {
+      "Wolf": ["Wolf-Base", "Wolf-CottonCandyBlue", "Wolf-Vampire"]
+    },
+    "byHatchingPotion": {
+      "Base": ["Wolf-Base", "TigerCub-Base"]
+    },
+    "special": ["Gryphon-RoyalPurple", "Aether-Invisible"]
   },
   "hair": {
     "color": { /* ... */ },
@@ -226,7 +236,7 @@ This will:
 1. Fetch latest data from Habitica API (`/api/v3/content`)
 2. Transform and normalize the data structure
 3. Probe all image URLs for dimensions and format
-4. Output files to the versioned `output/1.2.0/` directory:
+4. Output files to the versioned `output/1.2.1/` directory:
    - `avatarManifestItems.json` - Main manifest data
    - `imagesMeta.json` - Image metadata (dimensions, format)
    - `imageFileNames.json` - List of all image filenames
@@ -272,9 +282,9 @@ Manual updates can be triggered via the GitHub Actions "workflow_dispatch" event
 ### Data Sources
 
 All data is fetched directly from this repository's GitHub releases:
-- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.2.0/avatarManifestItems.json`
-- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.2.0/imagesMeta.json`
-- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.2.0/imageFileNames.json`
+- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.2.1/avatarManifestItems.json`
+- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.2.1/imagesMeta.json`
+- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.2.1/imageFileNames.json`
 
 This ensures you always get the latest data without needing to update the package. Output files are versioned to maintain backward compatibility.
 
@@ -292,7 +302,7 @@ import type {
   ItemMeta,
   GearItems,
   ImageMeta,
-  PetTree,
+  StableTree,
   EggItemMeta,
   HatchingPotionItemMeta,
   StableItemMeta,
