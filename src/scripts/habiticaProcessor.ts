@@ -14,7 +14,7 @@ import {
   GearItems,
   HairItems,
   BodyItems,
-  PetTree,
+  StableTree,
 } from '../types/manifest';
 import { getImageFileNames } from './imagesDetailsProvider';
 import { EggItemMeta, GearItemMeta, HatchingPotionItemMeta, ItemMeta, StableItemMeta } from '../types/item-meta';
@@ -199,7 +199,7 @@ function processMounts(habiticaContent: HabiticaContent): Record<string, StableI
   return result;
 }
 
-function processPetTree(habiticaContent: HabiticaContent): PetTree {
+function processPetTree(habiticaContent: HabiticaContent): StableTree {
   const byEgg: Record<string, string[]> = {};
   const byHatchingPotion: Record<string, string[]> = {};
   const special: string[] = [];
@@ -215,6 +215,26 @@ function processPetTree(habiticaContent: HabiticaContent): PetTree {
       special.push(pet.key);
     }
     
+  });
+
+  return { byEgg, byHatchingPotion, special };
+}
+
+function processMountTree(habiticaContent: HabiticaContent): StableTree {
+  const byEgg: Record<string, string[]> = {};
+  const byHatchingPotion: Record<string, string[]> = {};
+  const special: string[] = [];
+
+  Object.values(habiticaContent.mountInfo).forEach((mount: HabiticaMount) => {
+    if (mount.egg && mount.potion) {
+      if (!byEgg[mount.egg]) byEgg[mount.egg] = [];
+      byEgg[mount.egg].push(mount.key);
+
+      if (!byHatchingPotion[mount.potion]) byHatchingPotion[mount.potion] = [];
+      byHatchingPotion[mount.potion].push(mount.key);
+    } else {
+      special.push(mount.key);
+    }
   });
 
   return { byEgg, byHatchingPotion, special };
@@ -278,6 +298,7 @@ export async function generateAvatarManifest(habiticaContent: HabiticaContent): 
     pet: processPets(habiticaContent),
     petTree: processPetTree(habiticaContent),
     mount: processMounts(habiticaContent),
+    mountTree: processMountTree(habiticaContent),
     hair: processHair(habiticaContent),
     skin: processSkin(habiticaContent),
     body: processBody(habiticaContent),
