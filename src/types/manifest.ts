@@ -8,15 +8,18 @@ export type ImageMeta = {
 };
 
 export type GearItems = {
-  sets: Record<string, string[]>; // set name as key
-  weapon: Record<string, GearItemMeta>;
-  armor: Record<string, GearItemMeta>;
-  head: Record<string, GearItemMeta>;
-  shield: Record<string, GearItemMeta>;
-  back: Record<string, GearItemMeta>;
-  body: Record<string, GearItemMeta>;
-  headAccessory: Record<string, GearItemMeta>;
-  eyewear: Record<string, GearItemMeta>;
+  sets: Record<string, ItemMeta>
+  gearBySet: Record<string, Record<string, string>> // { "warrior_1": { armor: "armor_warrior_1", head: "head_warrior_1", ... } }
+  gearByType: {
+    weapon: Record<string, GearItemMeta>;
+    armor: Record<string, GearItemMeta>;
+    head: Record<string, GearItemMeta>;
+    shield: Record<string, GearItemMeta>;
+    back: Record<string, GearItemMeta>;
+    body: Record<string, GearItemMeta>;
+    headAccessory: Record<string, GearItemMeta>;
+    eyewear: Record<string, GearItemMeta>;
+  }
 }
 
 export type HairItems = {
