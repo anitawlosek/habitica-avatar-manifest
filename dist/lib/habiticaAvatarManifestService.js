@@ -1,5 +1,5 @@
 import { IMAGES_META_FILE, ITEMS_DETAILS_FILE, IMAGE_FILE_NAMES } from "../constants";
-const GITHUB_URL_BASE = `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/refs/heads/main`;
+const GITHUB_URL_BASE = `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/refs/heads/v1.3.0-dev`;
 async function getJsonFromUrl(file) {
     const response = await fetch(`${GITHUB_URL_BASE}/${file}`);
     if (!response.ok) {
