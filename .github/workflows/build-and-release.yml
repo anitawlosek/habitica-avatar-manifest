@@ -8,7 +8,9 @@ on:
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -107,7 +109,7 @@ jobs:
     - name: Create GitHub Release from release branch
       uses: softprops/action-gh-release@v2
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: v${{ steps.package-version.outputs.version }}
         target_commitish: v${{ steps.package-version.outputs.version }}
