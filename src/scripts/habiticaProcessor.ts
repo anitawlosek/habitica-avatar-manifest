@@ -214,6 +214,7 @@ function processPetTree(habiticaContent: HabiticaContent): PetTree {
     } else {
       special.push(pet.key);
     }
+    
   });
 
   return { byEgg, byHatchingPotion, special };
