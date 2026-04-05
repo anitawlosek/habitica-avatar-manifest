@@ -1,4 +1,4 @@
-import { EggItemMeta, HatchingPotionItemMeta, ItemMeta, StableItemMeta, WeaponItemMeta } from "./item-meta";
+import { EggItemMeta, HatchingPotionItemMeta, ItemMeta, StableItemMeta, GearItemMeta } from "./item-meta";
 
 export type ImageMeta = {
   fileName: string;
@@ -9,14 +9,14 @@ export type ImageMeta = {
 
 export type GearItems = {
   sets: Record<string, string[]>; // set name as key
-  weapon: Record<string, WeaponItemMeta>;
-  armor: Record<string, ItemMeta>;
-  head: Record<string, ItemMeta>;
-  shield: Record<string, ItemMeta>;
-  back: Record<string, ItemMeta>;
-  body: Record<string, ItemMeta>;
-  headAccessory: Record<string, ItemMeta>;
-  eyewear: Record<string, ItemMeta>;
+  weapon: Record<string, GearItemMeta>;
+  armor: Record<string, GearItemMeta>;
+  head: Record<string, GearItemMeta>;
+  shield: Record<string, GearItemMeta>;
+  back: Record<string, GearItemMeta>;
+  body: Record<string, GearItemMeta>;
+  headAccessory: Record<string, GearItemMeta>;
+  eyewear: Record<string, GearItemMeta>;
 }
 
 export type HairItems = {
@@ -37,8 +37,8 @@ export type BodyItems = {
 }
 
 export type PetTree = {
-  byType: Record<string, string[]>; // egg id, list of pet ids
-  byColor: Record<string, string[]>; // hatchingPotion id, list od pet ids
+  byEgg: Record<string, string[]>; // egg id, list of pet ids
+  byHatchingPotion: Record<string, string[]>; // hatchingPotion id, list od pet ids
   special: string[]; // list of pet ids that are not hached from eggs
 }
 

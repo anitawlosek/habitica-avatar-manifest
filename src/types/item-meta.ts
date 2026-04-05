@@ -8,14 +8,14 @@ export type ItemMeta = {
     set?: string;
 };
 
-export type WeaponItemMeta = ItemMeta & {
+export type GearItemMeta = ItemMeta & {
     twoHanded?: boolean;
 };
 
 export type StableItemMeta = ItemMeta & {
     type: "drop" | "premium" | "quest" | "wacky" | "special",
-    potion: string,
-    egg: string,
+    potion?: string,
+    egg?: string,
 };
 
 export type EggItemMeta = ItemMeta & {
@@ -24,5 +24,6 @@ export type EggItemMeta = ItemMeta & {
 
 export type HatchingPotionItemMeta = ItemMeta & {
     premium: boolean;
+    wacky?: boolean;
 }
 

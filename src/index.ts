@@ -4,19 +4,10 @@ import { writeFileSync, readFileSync, mkdirSync, existsSync, copyFileSync } from
 import { fetchHabiticaContent } from './scripts/habiticaContentProvider';
 import { ImagesMeta } from './types';
 import { getImagesMeta, handleAddedAndRemovedImages } from './scripts/imagesDetailsProvider';
-import { INPUT_DIR, HABITICA_CONTENT_FILE, OUTPUT_DIR, IMAGE_FILE_NAMES, IMAGES_META_FILE, ITEMS_DETAILS_FILE, PREV_VERSION } from './constants';
+import { OUTPUT_DIR, IMAGE_FILE_NAMES, IMAGES_META_FILE, ITEMS_DETAILS_FILE, PREV_VERSION } from './constants';
 
 // Get Habitica content data
 const habiticaData = await fetchHabiticaContent();
-
-
-// Check if there is directory to write files
-// If not, create it
-if (!existsSync(INPUT_DIR)) {
-    mkdirSync(INPUT_DIR, { recursive: true });
-}
-
-writeFileSync(HABITICA_CONTENT_FILE, JSON.stringify(habiticaData, null, 2));
 
 // Create avatar manifest
 const manifest = await generateAvatarManifest(habiticaData as HabiticaContent);
