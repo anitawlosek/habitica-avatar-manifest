@@ -40164,7 +40164,7 @@
     }
   },
   "petTree": {
-    "byType": {
+    "byEgg": {
       "Wolf": [
         "Wolf-Base",
         "Wolf-White",
@@ -41528,7 +41528,7 @@
         "Platypus-Golden"
       ]
     },
-    "byColor": {
+    "byHatchingPotion": {
       "Base": [
         "Wolf-Base",
         "TigerCub-Base",
