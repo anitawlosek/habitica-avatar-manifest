@@ -10,6 +10,9 @@ export type ItemMeta = {
 export type GearItemMeta = ItemMeta & {
     twoHanded?: boolean;
 };
+export type GearSetItemMeta = ItemMeta & {
+    gear: Record<string, string>;
+};
 export type StableItemMeta = ItemMeta & {
     type: "drop" | "premium" | "quest" | "wacky" | "special";
     potion?: string;

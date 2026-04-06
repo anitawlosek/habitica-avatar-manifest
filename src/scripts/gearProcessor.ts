@@ -1,6 +1,6 @@
 import { HabiticaContent, HabiticaGearItem } from '../types/habitica-content';
-import { GearItems } from '../types/manifest';
-import { GearItemMeta, ItemMeta } from '../types/item-meta';
+import { GearItems, GearSets } from '../types/manifest';
+import { GearItemMeta, GearSetItemMeta, ItemMeta } from '../types/item-meta';
 import { getImageFileNames } from './imagesDetailsProvider';
 
 // -------------------------
@@ -99,11 +99,11 @@ function getSetText(setKey: string, items: HabiticaGearItem[]): string {
 // Main export
 // -------------------------
 
-export function processGear(habiticaContent: HabiticaContent): { gear: GearItems; imageFileNames: string[] } {
+export function processGear(habiticaContent: HabiticaContent): { sets: GearSets; gear: GearItems; imageFileNames: string[] } {
   const gearFlat = habiticaContent.gear.flat;
   const imageFileNames: string[] = [];
 
-  const gearByType: GearItems['byType'] = {
+  const gearByType: GearItems = {
     weapon: {},
     armor: {},
     head: {},
@@ -136,17 +136,14 @@ export function processGear(habiticaContent: HabiticaContent): { gear: GearItems
   // Only keep sets with 2+ items
   const multiItemSetKeys = Object.keys(setItemsMap).filter(k => setItemsMap[k].length >= 2);
 
-  const gearBySet: GearItems['bySet'] = {};
-  for (const setKey of multiItemSetKeys) {
-    gearBySet[setKey] = {};
-    for (const item of setItemsMap[setKey]) {
-      gearBySet[setKey][item.type] = item.key;
-    }
-  }
-
-  const sets: Record<string, ItemMeta> = {};
+  const sets: GearSets = {};
   for (const setKey of multiItemSetKeys) {
     const items = setItemsMap[setKey];
+    const gearMap: GearSetItemMeta["gear"] = {};
+
+    for (const item of items) {
+      gearMap[item.type] = item.key;
+    }
 
     if (setKey.startsWith('mystery-')) {
       const mysteryKey = setKey.replace('mystery-', '');
@@ -154,16 +151,16 @@ export function processGear(habiticaContent: HabiticaContent): { gear: GearItems
       if (mysteryData) {
         const setImageFileNames = mysteryData.class ? [mysteryData.class] : [];
         imageFileNames.push(...setImageFileNames);
-        sets[setKey] = { key: setKey, text: normalizeSetText(mysteryData.text), imageFileNames: setImageFileNames };
+        sets[setKey] = { key: setKey, text: normalizeSetText(mysteryData.text), imageFileNames: setImageFileNames, gear: gearMap };
       }
     } else if (items[0].klass === 'armoire') {
       const raw = extractArmoireSetName(items) ?? getSetText(setKey, items);
       const text = normalizeSetText(raw);
-      sets[setKey] = { key: setKey, text, imageFileNames: [] };
+      sets[setKey] = { key: setKey, text, imageFileNames: [], gear: gearMap };
     } else {
-      sets[setKey] = { key: setKey, text: getSetText(setKey, items), imageFileNames: [] };  // getSetText already normalizes
+      sets[setKey] = { key: setKey, text: getSetText(setKey, items), imageFileNames: [], gear: gearMap };  // getSetText already normalizes
     }
   }
 
-  return { gear: { sets, bySet: gearBySet, byType: gearByType }, imageFileNames };
+  return { sets, gear: gearByType, imageFileNames };
 }

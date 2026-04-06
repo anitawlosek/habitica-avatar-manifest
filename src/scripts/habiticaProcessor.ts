@@ -226,11 +226,12 @@ function processChair(habiticaContent: HabiticaContent): Record<string, ItemMeta
 // -------------------------
 
 export async function generateAvatarManifest(habiticaContent: HabiticaContent): Promise<AvatarManifest> {
-  const { gear, imageFileNames: gearImageFileNames } = processGear(habiticaContent);
+  const { sets: gearSets, gear, imageFileNames: gearImageFileNames } = processGear(habiticaContent);
 
   const items = {
     background: processBackgrounds(habiticaContent),
     gear,
+    gearSets,
     egg: processEggs(habiticaContent),
     hatchingPotion: processHatchingPotions(habiticaContent),
     pet: processPets(habiticaContent),

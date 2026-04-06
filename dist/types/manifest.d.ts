@@ -1,4 +1,4 @@
-import { EggItemMeta, HatchingPotionItemMeta, ItemMeta, StableItemMeta, GearItemMeta } from "./item-meta";
+import { EggItemMeta, HatchingPotionItemMeta, ItemMeta, StableItemMeta, GearItemMeta, GearSetItemMeta } from "./item-meta";
 export type ImageMeta = {
     fileName: string;
     width: number;
@@ -6,19 +6,16 @@ export type ImageMeta = {
     format: 'png' | 'gif';
 };
 export type GearItems = {
-    sets: Record<string, ItemMeta>;
-    bySet: Record<string, Record<string, string>>;
-    byType: {
-        weapon: Record<string, GearItemMeta>;
-        armor: Record<string, GearItemMeta>;
-        head: Record<string, GearItemMeta>;
-        shield: Record<string, GearItemMeta>;
-        back: Record<string, GearItemMeta>;
-        body: Record<string, GearItemMeta>;
-        headAccessory: Record<string, GearItemMeta>;
-        eyewear: Record<string, GearItemMeta>;
-    };
+    weapon: Record<string, GearItemMeta>;
+    armor: Record<string, GearItemMeta>;
+    head: Record<string, GearItemMeta>;
+    shield: Record<string, GearItemMeta>;
+    back: Record<string, GearItemMeta>;
+    body: Record<string, GearItemMeta>;
+    headAccessory: Record<string, GearItemMeta>;
+    eyewear: Record<string, GearItemMeta>;
 };
+export type GearSets = Record<string, GearSetItemMeta>;
 export type HairItems = {
     color: Record<string, ItemMeta>;
     base: Record<string, ItemMeta>;
@@ -42,6 +39,7 @@ export type StableTree = {
 export type AvatarManifestItems = {
     background: Record<string, ItemMeta>;
     gear: GearItems;
+    gearSets: GearSets;
     egg: Record<string, EggItemMeta>;
     hatchingPotion: Record<string, HatchingPotionItemMeta>;
     pet: Record<string, StableItemMeta>;
