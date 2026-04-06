@@ -6845,7 +6845,7 @@
         ]
       }
     },
-    "gearBySet": {
+    "bySet": {
       "healer-1": {
         "weapon": "weapon_healer_1",
         "armor": "armor_healer_1",
@@ -9482,7 +9482,7 @@
         "eyewear": "eyewear_mystery_202510"
       }
     },
-    "gearByType": {
+    "byType": {
       "weapon": {
         "weapon_healer_0": {
           "key": "weapon_healer_0",

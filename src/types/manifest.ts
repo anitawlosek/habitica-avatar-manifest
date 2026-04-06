@@ -9,8 +9,8 @@ export type ImageMeta = {
 
 export type GearItems = {
   sets: Record<string, ItemMeta>
-  gearBySet: Record<string, Record<string, string>> // { "warrior_1": { armor: "armor_warrior_1", head: "head_warrior_1", ... } }
-  gearByType: {
+  bySet: Record<string, Record<string, string>> // { "warrior_1": { armor: "armor_warrior_1", head: "head_warrior_1", ... } }
+  byType: {
     weapon: Record<string, GearItemMeta>;
     armor: Record<string, GearItemMeta>;
     head: Record<string, GearItemMeta>;

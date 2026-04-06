@@ -103,7 +103,7 @@ export function processGear(habiticaContent: HabiticaContent): { gear: GearItems
   const gearFlat = habiticaContent.gear.flat;
   const imageFileNames: string[] = [];
 
-  const gearByType: GearItems['gearByType'] = {
+  const gearByType: GearItems['byType'] = {
     weapon: {},
     armor: {},
     head: {},
@@ -136,7 +136,7 @@ export function processGear(habiticaContent: HabiticaContent): { gear: GearItems
   // Only keep sets with 2+ items
   const multiItemSetKeys = Object.keys(setItemsMap).filter(k => setItemsMap[k].length >= 2);
 
-  const gearBySet: GearItems['gearBySet'] = {};
+  const gearBySet: GearItems['bySet'] = {};
   for (const setKey of multiItemSetKeys) {
     gearBySet[setKey] = {};
     for (const item of setItemsMap[setKey]) {
@@ -165,5 +165,5 @@ export function processGear(habiticaContent: HabiticaContent): { gear: GearItems
     }
   }
 
-  return { gear: { sets, gearBySet, gearByType }, imageFileNames };
+  return { gear: { sets, bySet: gearBySet, byType: gearByType }, imageFileNames };
 }
