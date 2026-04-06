@@ -25876,14 +25876,6 @@
         "shield": "shield_armoire_heraldsMessageScroll"
       }
     },
-    "hatchingPotions": {
-      "key": "hatchingPotions",
-      "text": "Potion",
-      "imageFileNames": [],
-      "gear": {
-        "weapon": "weapon_armoire_potionZombie"
-      }
-    },
     "regal": {
       "key": "regal",
       "text": "Regal",
@@ -25921,14 +25913,6 @@
       "gear": {
         "weapon": "weapon_armoire_huntingHorn",
         "shield": "shield_armoire_snareDrum"
-      }
-    },
-    "kite": {
-      "key": "kite",
-      "text": "Kite",
-      "imageFileNames": [],
-      "gear": {
-        "weapon": "weapon_armoire_yellowKite"
       }
     },
     "cleaningSupplies": {
@@ -27168,14 +27152,6 @@
         "shield": "shield_armoire_basketball"
       }
     },
-    "rainbow": {
-      "key": "rainbow",
-      "text": "Rainbow",
-      "imageFileNames": [],
-      "gear": {
-        "armor": "armor_armoire_diagonalRainbowShirt"
-      }
-    },
     "admiralsSet": {
       "key": "admiralsSet",
       "text": "Admiral’s",
@@ -27740,14 +27716,6 @@
       "gear": {
         "shield": "shield_mystery_202605",
         "back": "back_mystery_202605"
-      }
-    },
-    "petFood": {
-      "key": "petFood",
-      "text": "Pet Food",
-      "imageFileNames": [],
-      "gear": {
-        "shield": "shield_armoire_milkFood"
       }
     },
     "special-wondercon_red": {

@@ -133,8 +133,8 @@ export function processGear(habiticaContent: HabiticaContent): { sets: GearSets;
     }
   });
 
-  // Only keep sets with 2+ items
-  const multiItemSetKeys = Object.keys(setItemsMap).filter(k => setItemsMap[k].length >= 2);
+  // Only keep sets with 2+ distinct gear types
+  const multiItemSetKeys = Object.keys(setItemsMap).filter(k => new Set(setItemsMap[k].map(i => i.type)).size >= 2);
 
   const sets: GearSets = {};
   for (const setKey of multiItemSetKeys) {
