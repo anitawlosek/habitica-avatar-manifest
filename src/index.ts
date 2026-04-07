@@ -4,7 +4,7 @@ import { writeFileSync, readFileSync, mkdirSync, existsSync, copyFileSync } from
 import { fetchHabiticaContent } from './scripts/habiticaContentProvider';
 import { ImagesMeta } from './types';
 import { getImagesMeta, handleAddedAndRemovedImages } from './scripts/imagesDetailsProvider';
-import { OUTPUT_DIR, IMAGE_FILE_NAMES, IMAGES_META_FILE, ITEMS_DETAILS_FILE, PREV_VERSION, HABITICA_CONTENT_FILE } from './constants';
+import { OUTPUT_DIR, IMAGE_FILE_NAMES, IMAGES_META_FILE, ITEMS_DETAILS_FILE, PREV_VERSION } from './constants';
 import { AvatarManifestItems } from './types/manifest';
 import { mergeManifestItems } from './scripts/manifestMerger';
 import { validateRemovedImages } from './scripts/removedImagesValidator';
