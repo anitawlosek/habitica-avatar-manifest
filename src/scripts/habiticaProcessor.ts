@@ -1,7 +1,6 @@
 import { buffImageFileNames, buffItems, headBase, sleepItem } from './constants';
 import {
   HabiticaContent,
-  HabiticaGearItem,
   HabiticaPet,
   HabiticaMount,
   HabiticaAppearanceItem,
@@ -11,13 +10,13 @@ import {
 } from '../types/habitica-content';
 import {
   AvatarManifest,
-  GearItems,
   HairItems,
   BodyItems,
   StableTree,
 } from '../types/manifest';
 import { getImageFileNames } from './imagesDetailsProvider';
-import { EggItemMeta, GearItemMeta, HatchingPotionItemMeta, ItemMeta, StableItemMeta } from '../types/item-meta';
+import { EggItemMeta, HatchingPotionItemMeta, ItemMeta, StableItemMeta } from '../types/item-meta';
+import { processGear } from './gearProcessor';
 
 // -------------------------
 // Helpers
@@ -50,72 +49,9 @@ function createItemMeta(
   return itemMeta;
 }
 
-function createGearItemMeta(
-  type: string,
-  key: string,
-  text: string,
-  habiticaContent: HabiticaContent,
-  options?: {
-    notes?: string;
-    price?: number;
-    currency?: string;
-    set?: string;
-    twoHanded?: boolean;
-  }
-) {
-  const itemMeta: GearItemMeta = createItemMeta(type, key, text, habiticaContent, { 
-    notes: options?.notes, 
-    price: options?.price, 
-    currency: options?.currency, 
-    set: options?.set 
-  });
-
-  if (options?.twoHanded !== undefined) itemMeta.twoHanded = options.twoHanded;
-
-  return itemMeta;
-}
-
 // -------------------------
 // Processing Functions
 // -------------------------
-
-function processGear(habiticaContent: HabiticaContent): GearItems {
-  const gearFlat = habiticaContent.gear.flat;
-  const gear: GearItems = {
-    sets: {},
-    weapon: {},
-    armor: {},
-    head: {},
-    shield: {},
-    back: {},
-    body: {},
-    headAccessory: {},
-    eyewear: {},
-  };
-
-  Object.values(gearFlat).forEach((item: HabiticaGearItem) => {
-    const { key, text, type, set, notes, twoHanded } = item;
-    if (type in gear) {
-      (gear[type] as Record<string, ItemMeta>)[key] = createGearItemMeta(`gear.${type}`, key, text, habiticaContent, {
-        notes,
-        set,
-        twoHanded,
-      });
-    }
-
-    if (set) {
-      if (!gear.sets[set]) gear.sets[set] = [];
-      gear.sets[set].push(key);
-    }
-  });
-
-  const filteredSets = Object.fromEntries(
-    Object.entries(gear.sets).filter(([, items]) => items.length >= 2)
-  );
-  gear.sets = filteredSets;
-
-  return gear;
-}
 
 function processBackgrounds(habiticaContent: HabiticaContent): Record<string, ItemMeta> {
   const result: Record<string, ItemMeta> = {};
@@ -290,9 +226,12 @@ function processChair(habiticaContent: HabiticaContent): Record<string, ItemMeta
 // -------------------------
 
 export async function generateAvatarManifest(habiticaContent: HabiticaContent): Promise<AvatarManifest> {
+  const { sets: gearSets, gear, imageFileNames: gearImageFileNames } = processGear(habiticaContent);
+
   const items = {
     background: processBackgrounds(habiticaContent),
-    gear: processGear(habiticaContent),
+    gear,
+    gearSets,
     egg: processEggs(habiticaContent),
     hatchingPotion: processHatchingPotions(habiticaContent),
     pet: processPets(habiticaContent),
@@ -311,6 +250,7 @@ export async function generateAvatarManifest(habiticaContent: HabiticaContent): 
 
   const imageFileNames = Array.from(new Set([
     ...imageFileNamesList,
+    ...gearImageFileNames,
     ...buffImageFileNames,
     ...sleepItem.imageFileNames,
     headBase

@@ -5,7 +5,7 @@ Here's how to use the habitica-avatar-manifest library in your projects:
 ## Installation
 
 ```bash
-npm install github:anitawlosek/habitica-avatar-manifest#v1.2.1
+npm install github:anitawlosek/habitica-avatar-manifest#v1.3.0
 ```
 
 ## Basic Usage

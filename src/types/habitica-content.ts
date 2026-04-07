@@ -81,6 +81,15 @@ export type HabiticaEvent = {
 
 export type HabiticaGearSet = "animal" | "headband" | "glasses";
 
+export type HabiticaMysterySet = {
+  key: string;
+  text: string;
+  start: string;
+  end: string;
+  class: string;
+  items: HabiticaGearItem[];
+};
+
 export type HabiticaMemberClass = "healer" | "wizard" | "rogue" | "warrior";
 
 export type HabiticaGearClass = HabiticaMemberClass | "base" | "special" | "mystery" | "armoire";
@@ -196,7 +205,7 @@ export type HabiticaContent = {
   loginIncentives: Record<string, object>;
   mountInfo: Record<string, HabiticaMount>;
   mounts: Record<string, boolean>;
-  mystery: Record<string, object>;
+  mystery: Record<string, HabiticaMysterySet>;
   petInfo: Record<string, HabiticaPet>;
   pets: Record<string, boolean>;
   potion: object;
