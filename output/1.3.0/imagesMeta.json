@@ -4435,8 +4435,8 @@
   },
   "icon_background_mountain_scene_with_blossoms.png": {
     "fileName": "icon_background_mountain_scene_with_blossoms.png",
-    "width": 60,
-    "height": 60,
+    "width": 68,
+    "height": 68,
     "format": "png"
   },
   "background_garden_with_flower_beds.png": {
@@ -21377,6 +21377,12 @@
     "height": 68,
     "format": "png"
   },
+  "Mount_Head_LionCub-White.png": {
+    "fileName": "Mount_Head_LionCub-White.png",
+    "width": 105,
+    "height": 105,
+    "format": "png"
+  },
   "Mount_Body_LionCub-White.png": {
     "fileName": "Mount_Body_LionCub-White.png",
     "width": 105,
@@ -21393,6 +21399,12 @@
     "fileName": "stable_Mount_Icon_LionCub-White.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "Mount_Head_LionCub-Desert.png": {
+    "fileName": "Mount_Head_LionCub-Desert.png",
+    "width": 105,
+    "height": 105,
     "format": "png"
   },
   "Mount_Body_LionCub-Desert.png": {
@@ -21413,6 +21425,18 @@
     "height": 68,
     "format": "png"
   },
+  "Mount_Head_LionCub-Red.png": {
+    "fileName": "Mount_Head_LionCub-Red.png",
+    "width": 105,
+    "height": 105,
+    "format": "png"
+  },
+  "Mount_Body_LionCub-Red.png": {
+    "fileName": "Mount_Body_LionCub-Red.png",
+    "width": 105,
+    "height": 105,
+    "format": "png"
+  },
   "Mount_Icon_LionCub-Red.png": {
     "fileName": "Mount_Icon_LionCub-Red.png",
     "width": 81,
@@ -21423,6 +21447,12 @@
     "fileName": "stable_Mount_Icon_LionCub-Red.png",
     "width": 68,
     "height": 68,
+    "format": "png"
+  },
+  "Mount_Head_LionCub-Shade.png": {
+    "fileName": "Mount_Head_LionCub-Shade.png",
+    "width": 105,
+    "height": 105,
     "format": "png"
   },
   "Mount_Body_LionCub-Shade.png": {
@@ -80149,6 +80179,24 @@
   },
   "shop_armor_armoire_softYellowSuit.png": {
     "fileName": "shop_armor_armoire_softYellowSuit.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "broad_armor_armoire_handstandOutfit.png": {
+    "fileName": "broad_armor_armoire_handstandOutfit.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "slim_armor_armoire_handstandOutfit.png": {
+    "fileName": "slim_armor_armoire_handstandOutfit.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_armor_armoire_handstandOutfit.png": {
+    "fileName": "shop_armor_armoire_handstandOutfit.png",
     "width": 68,
     "height": 68,
     "format": "png"

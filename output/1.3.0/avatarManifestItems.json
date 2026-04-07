@@ -12817,6 +12817,17 @@
         ],
         "notes": "Yellow is an energetic color. Wear this to bed, and you will wake up with the sun the next morning ready to tackle a day full of tasks. Increases Constitution and Strength by 9 each. Enchanted Armoire: Yellow Loungewear Set (Item 2 of 3).",
         "set": "yellowLoungewear"
+      },
+      "armor_armoire_handstandOutfit": {
+        "key": "armor_armoire_handstandOutfit",
+        "text": "Handstand",
+        "imageFileNames": [
+          "broad_armor_armoire_handstandOutfit",
+          "slim_armor_armoire_handstandOutfit",
+          "shop_armor_armoire_handstandOutfit"
+        ],
+        "notes": "Things sure do look different when you’re upside-down, don’t they? If you’re feeling stuck, it’s time for a fresh perspective! Increases Perception by 10. Enchanted Armoire: Handstand Set (Item 1 of 1).",
+        "set": "handstand"
       }
     },
     "head": {
