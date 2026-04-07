@@ -20,6 +20,7 @@
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run clean && npm run build",
     "generate:all-images": "tsx ./src/index.ts --all-images",
+    "generate:clean": "tsx ./src/index.ts --clean",
     "generate": "tsx ./src/index.ts"
   },
   "repository": {
