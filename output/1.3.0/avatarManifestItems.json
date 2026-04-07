@@ -29232,6 +29232,16 @@
       "notes": "Pour this on an egg, and it will hatch as a Wacky Cryptid Pet.",
       "premium": false,
       "wacky": true
+    },
+    "Alien": {
+      "key": "Alien",
+      "text": "Alien",
+      "imageFileNames": [
+        "Pet_HatchingPotion_Alien"
+      ],
+      "notes": "Pour this on an egg, and it will hatch as a Wacky Alien Pet.",
+      "premium": false,
+      "wacky": true
     }
   },
   "pet": {
@@ -42050,6 +42060,17 @@
       "potion": "Cryptid",
       "egg": "Wolf"
     },
+    "Wolf-Alien": {
+      "key": "Wolf-Alien",
+      "text": "Alien Wolf",
+      "imageFileNames": [
+        "Pet-Wolf-Alien",
+        "stable_Pet-Wolf-Alien"
+      ],
+      "type": "wacky",
+      "potion": "Alien",
+      "egg": "Wolf"
+    },
     "TigerCub-Veggie": {
       "key": "TigerCub-Veggie",
       "text": "Garden Tiger Cub",
@@ -42114,6 +42135,17 @@
       ],
       "type": "wacky",
       "potion": "Cryptid",
+      "egg": "TigerCub"
+    },
+    "TigerCub-Alien": {
+      "key": "TigerCub-Alien",
+      "text": "Alien Tiger Cub",
+      "imageFileNames": [
+        "Pet-TigerCub-Alien",
+        "stable_Pet-TigerCub-Alien"
+      ],
+      "type": "wacky",
+      "potion": "Alien",
       "egg": "TigerCub"
     },
     "PandaCub-Veggie": {
@@ -42182,6 +42214,17 @@
       "potion": "Cryptid",
       "egg": "PandaCub"
     },
+    "PandaCub-Alien": {
+      "key": "PandaCub-Alien",
+      "text": "Alien Panda Cub",
+      "imageFileNames": [
+        "Pet-PandaCub-Alien",
+        "stable_Pet-PandaCub-Alien"
+      ],
+      "type": "wacky",
+      "potion": "Alien",
+      "egg": "PandaCub"
+    },
     "LionCub-Veggie": {
       "key": "LionCub-Veggie",
       "text": "Garden Lion Cub",
@@ -42246,6 +42289,17 @@
       ],
       "type": "wacky",
       "potion": "Cryptid",
+      "egg": "LionCub"
+    },
+    "LionCub-Alien": {
+      "key": "LionCub-Alien",
+      "text": "Alien Lion Cub",
+      "imageFileNames": [
+        "Pet-LionCub-Alien",
+        "stable_Pet-LionCub-Alien"
+      ],
+      "type": "wacky",
+      "potion": "Alien",
       "egg": "LionCub"
     },
     "Fox-Veggie": {
@@ -42314,6 +42368,17 @@
       "potion": "Cryptid",
       "egg": "Fox"
     },
+    "Fox-Alien": {
+      "key": "Fox-Alien",
+      "text": "Alien Fox",
+      "imageFileNames": [
+        "Pet-Fox-Alien",
+        "stable_Pet-Fox-Alien"
+      ],
+      "type": "wacky",
+      "potion": "Alien",
+      "egg": "Fox"
+    },
     "FlyingPig-Veggie": {
       "key": "FlyingPig-Veggie",
       "text": "Garden Flying Pig",
@@ -42378,6 +42443,17 @@
       ],
       "type": "wacky",
       "potion": "Cryptid",
+      "egg": "FlyingPig"
+    },
+    "FlyingPig-Alien": {
+      "key": "FlyingPig-Alien",
+      "text": "Alien Flying Pig",
+      "imageFileNames": [
+        "Pet-FlyingPig-Alien",
+        "stable_Pet-FlyingPig-Alien"
+      ],
+      "type": "wacky",
+      "potion": "Alien",
       "egg": "FlyingPig"
     },
     "Dragon-Veggie": {
@@ -42446,6 +42522,17 @@
       "potion": "Cryptid",
       "egg": "Dragon"
     },
+    "Dragon-Alien": {
+      "key": "Dragon-Alien",
+      "text": "Alien Dragon",
+      "imageFileNames": [
+        "Pet-Dragon-Alien",
+        "stable_Pet-Dragon-Alien"
+      ],
+      "type": "wacky",
+      "potion": "Alien",
+      "egg": "Dragon"
+    },
     "Cactus-Veggie": {
       "key": "Cactus-Veggie",
       "text": "Garden Cactus",
@@ -42512,6 +42599,17 @@
       "potion": "Cryptid",
       "egg": "Cactus"
     },
+    "Cactus-Alien": {
+      "key": "Cactus-Alien",
+      "text": "Alien Cactus",
+      "imageFileNames": [
+        "Pet-Cactus-Alien",
+        "stable_Pet-Cactus-Alien"
+      ],
+      "type": "wacky",
+      "potion": "Alien",
+      "egg": "Cactus"
+    },
     "BearCub-Veggie": {
       "key": "BearCub-Veggie",
       "text": "Garden Bear Cub",
@@ -42576,6 +42674,17 @@
       ],
       "type": "wacky",
       "potion": "Cryptid",
+      "egg": "BearCub"
+    },
+    "BearCub-Alien": {
+      "key": "BearCub-Alien",
+      "text": "Alien Bear Cub",
+      "imageFileNames": [
+        "Pet-BearCub-Alien",
+        "stable_Pet-BearCub-Alien"
+      ],
+      "type": "wacky",
+      "potion": "Alien",
       "egg": "BearCub"
     },
     "Wolf-Veteran": {
@@ -42934,7 +43043,8 @@
         "Wolf-VirtualPet",
         "Wolf-TeaShop",
         "Wolf-Fungi",
-        "Wolf-Cryptid"
+        "Wolf-Cryptid",
+        "Wolf-Alien"
       ],
       "TigerCub": [
         "TigerCub-Base",
@@ -43003,7 +43113,8 @@
         "TigerCub-VirtualPet",
         "TigerCub-TeaShop",
         "TigerCub-Fungi",
-        "TigerCub-Cryptid"
+        "TigerCub-Cryptid",
+        "TigerCub-Alien"
       ],
       "PandaCub": [
         "PandaCub-Base",
@@ -43072,7 +43183,8 @@
         "PandaCub-VirtualPet",
         "PandaCub-TeaShop",
         "PandaCub-Fungi",
-        "PandaCub-Cryptid"
+        "PandaCub-Cryptid",
+        "PandaCub-Alien"
       ],
       "LionCub": [
         "LionCub-Base",
@@ -43141,7 +43253,8 @@
         "LionCub-VirtualPet",
         "LionCub-TeaShop",
         "LionCub-Fungi",
-        "LionCub-Cryptid"
+        "LionCub-Cryptid",
+        "LionCub-Alien"
       ],
       "Fox": [
         "Fox-Base",
@@ -43210,7 +43323,8 @@
         "Fox-VirtualPet",
         "Fox-TeaShop",
         "Fox-Fungi",
-        "Fox-Cryptid"
+        "Fox-Cryptid",
+        "Fox-Alien"
       ],
       "FlyingPig": [
         "FlyingPig-Base",
@@ -43279,7 +43393,8 @@
         "FlyingPig-VirtualPet",
         "FlyingPig-TeaShop",
         "FlyingPig-Fungi",
-        "FlyingPig-Cryptid"
+        "FlyingPig-Cryptid",
+        "FlyingPig-Alien"
       ],
       "Dragon": [
         "Dragon-Base",
@@ -43348,7 +43463,8 @@
         "Dragon-VirtualPet",
         "Dragon-TeaShop",
         "Dragon-Fungi",
-        "Dragon-Cryptid"
+        "Dragon-Cryptid",
+        "Dragon-Alien"
       ],
       "Cactus": [
         "Cactus-Base",
@@ -43417,7 +43533,8 @@
         "Cactus-VirtualPet",
         "Cactus-TeaShop",
         "Cactus-Fungi",
-        "Cactus-Cryptid"
+        "Cactus-Cryptid",
+        "Cactus-Alien"
       ],
       "BearCub": [
         "BearCub-Base",
@@ -43486,7 +43603,8 @@
         "BearCub-VirtualPet",
         "BearCub-TeaShop",
         "BearCub-Fungi",
-        "BearCub-Cryptid"
+        "BearCub-Cryptid",
+        "BearCub-Alien"
       ],
       "Gryphon": [
         "Gryphon-Base",
@@ -45568,6 +45686,17 @@
         "Dragon-Cryptid",
         "Cactus-Cryptid",
         "BearCub-Cryptid"
+      ],
+      "Alien": [
+        "Wolf-Alien",
+        "TigerCub-Alien",
+        "PandaCub-Alien",
+        "LionCub-Alien",
+        "Fox-Alien",
+        "FlyingPig-Alien",
+        "Dragon-Alien",
+        "Cactus-Alien",
+        "BearCub-Alien"
       ]
     },
     "special": [
