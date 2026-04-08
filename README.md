@@ -168,7 +168,7 @@ src/
 
 ## Automated Updates
 
-The manifest is regenerated daily at 8:00 AM UTC via GitHub Actions and committed automatically. Manual runs can be triggered via `workflow_dispatch`.
+The manifest is regenerated daily at 6:00 AM UTC via GitHub Actions and committed automatically. Manual runs can be triggered via `workflow_dispatch`.
 
 ## License
 
