@@ -1,112 +1,89 @@
-# Example Usage
+# Usage Examples
 
-Here's how to use the habitica-avatar-manifest library in your projects:
-
-## Installation
-
-```bash
-npm install github:anitawlosek/habitica-avatar-manifest#v1.3.0
-```
-
-## Basic Usage
+## Gear Sets
 
 ```typescript
-import { 
-  getHabiticaAvatarManifestItems, 
-  getHabiticaImagesMeta, 
-  type AvatarManifestItems, 
-  type ImagesMeta 
-} from 'habitica-avatar-manifest';
+const items = await getHabiticaAvatarManifestItems();
 
-// Get the complete avatar manifest items
-const manifestItems: AvatarManifestItems = await getHabiticaAvatarManifestItems();
+// List all set names
+Object.keys(items.gearSets); // ['healer-1', 'healer-2', 'warrior-1', ...]
 
-// Access different avatar categories
-console.log(manifestItems.background); // All backgrounds
-console.log(manifestItems.gear.weapon); // All weapons
-console.log(manifestItems.hair.color); // All hair colors
-console.log(manifestItems.buff); // Buff items (snowballs, sparkles, etc.)
-console.log(manifestItems.sleep); // Sleep mode
+// Get the items in a set
+const set = items.gearSets['healer-1'];
+set.gear; // { weapon: 'weapon_healer_1', armor: 'armor_healer_1', head: 'head_healer_1', shield: 'shield_healer_1' }
 
-// Get image metadata (if available)
-const imagesMeta: ImagesMeta = await getHabiticaImagesMeta();
-console.log(imagesMeta['background_beach.png']); // { fileName: 'background_beach.png', width: 512, height: 512, format: 'png' }
+// Resolve a gear item from a set
+const armor = items.gear.armor[set.gear.armor];
+armor.text;           // "Healer Armor"
+armor.imageFileNames; // ['broad_armor_healer_1', 'slim_armor_healer_1', 'shop_armor_healer_1']
 ```
 
-## Working with Gear Sets
+## Image URLs
 
 ```typescript
-const manifestItems = await getHabiticaAvatarManifestItems();
+const BASE = 'https://habitica-assets.s3.amazonaws.com/mobileApp/images';
 
-// Find all gear sets
-const gearSets = manifestItems.gear.sets;
-console.log(Object.keys(gearSets)); // ['animal', 'wizard', ...]
+const items = await getHabiticaAvatarManifestItems();
+const beach = items.background.beach;
 
-// Get all items in the 'animal' set
-const animalSetItems = gearSets.animal;
-console.log(animalSetItems); // ['armor_animal_bear', 'head_animal_bear']
-
-// Get details for a specific gear item
-const bearArmor = manifestItems.gear.armor['armor_animal_bear'];
-console.log(bearArmor.text); // "Bear Armor"
-console.log(bearArmor.imageFileNames); // ['broad_armor_animal_bear', 'slim_armor_animal_bear', 'shop_armor_animal_bear']
-```
-
-## Image URL Construction
-
-```typescript
-const S3_BASE_URL = 'https://habitica-assets.s3.amazonaws.com/mobileApp/images';
-
-function getImageUrl(imageFileName: string, format: 'png' | 'gif' = 'png'): string {
-  return `${S3_BASE_URL}/${imageFileName}.${format}`;
-}
-
-// Example usage
-const manifestItems = await getHabiticaAvatarManifestItems();
-const beachBackground = manifestItems.background.beach;
-
-// Get all image URLs for this item
-const imageUrls = beachBackground.imageFileNames.map(fileName => getImageUrl(fileName));
-console.log(imageUrls); 
+beach.imageFileNames.map(f => `${BASE}/${f}.png`);
 // [
 //   'https://habitica-assets.s3.amazonaws.com/mobileApp/images/background_beach.png',
 //   'https://habitica-assets.s3.amazonaws.com/mobileApp/images/icon_background_beach.png'
 // ]
-
-// Get a specific image (first one)
-const primaryImageUrl = getImageUrl(beachBackground.imageFileNames[0]);
-console.log(primaryImageUrl); // https://habitica-assets.s3.amazonaws.com/mobileApp/images/background_beach.png
 ```
 
-## Working with New Item Categories
+## Image Metadata
 
 ```typescript
-const manifestItems = await getHabiticaAvatarManifestItems();
+const meta = await getHabiticaImagesMeta();
 
-// Access buff items (special effects)
-console.log(manifestItems.buff.snowball_wizard); 
-// { key: 'snowball_wizard', text: 'Snowball (Wizard)', imageFileNames: ['avatar_snowball_wizard'] }
+meta['background_beach.png']; // { fileName: 'background_beach.png', width: 512, height: 512, format: 'png' }
+```
 
-// Access sleep mode
-console.log(manifestItems.sleep.true);
-// { key: 'true', text: 'Sleep mode', imageFileNames: ['zzz'] }
+Only available when generated with `npm run generate:all-images`. See README for details.
 
-// Work with hair items that have color variations
-const blackHair = manifestItems.hair.color.black;
-const curlyHair = manifestItems.hair.base.curly;
-console.log(curlyHair.imageFileNames); // Multiple color variations for this hair style
+## Pets and Mounts
+
+```typescript
+const items = await getHabiticaAvatarManifestItems();
+
+// All pets hatched from Wolf eggs
+items.petTree.byEgg.Wolf; // ['Wolf-Base', 'Wolf-CottonCandyBlue', ...]
+
+// All pets hatched with Base potion
+items.petTree.byHatchingPotion.Base; // ['Wolf-Base', 'TigerCub-Base', ...]
+
+// Pets not hatched from eggs
+items.petTree.special; // ['Wolf-Veteran', 'BearCub-Polar', ...]
+
+// Resolve a pet item
+const pet = items.pet['Wolf-Base'];
+pet.text; // "Wolf (Base)"
+pet.type; // "drop" | "premium" | "quest" | "wacky" | "special"
+```
+
+Same structure applies to `mountTree` and `mount`.
+
+## Hair
+
+```typescript
+const items = await getHabiticaAvatarManifestItems();
+
+items.hair.color.black;
+items.hair.base.curly;   // imageFileNames contains one entry per color variation
+items.hair.bangs;
+items.hair.flower;
+items.hair.beard;
+items.hair.mustache;
 ```
 
 ## Error Handling
 
 ```typescript
-import { getHabiticaAvatarManifestItems } from 'habitica-avatar-manifest';
-
 try {
-  const manifestItems = await getHabiticaAvatarManifestItems();
-  // Use manifestItems...
+  const items = await getHabiticaAvatarManifestItems();
 } catch (error) {
-  console.error('Failed to load Habitica manifest:', error);
-  // Handle error appropriately - maybe show cached data or retry
+  // Network or parse failure — show cached data or retry
 }
 ```

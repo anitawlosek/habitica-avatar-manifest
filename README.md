@@ -1,348 +1,179 @@
 # Habitica Avatar Manifest
 
-> **Preprocessed, structured Habitica avatar data including sprites, items, and metadata, ready for use in apps and frontend projects.**
+> Preprocessed, structured Habitica avatar data — items, metadata, and image references — ready to use in your app.
 
 [![Generate Habitica Avatar Manifest](https://github.com/anitawlosek/habitica-avatar-manifest/actions/workflows/generate.yml/badge.svg)](https://github.com/anitawlosek/habitica-avatar-manifest/actions/workflows/generate.yml)
 
-This project provides a clean, structured JSON manifest of all Habitica avatar customization options by fetching data from the official Habitica API and transforming it into a developer-friendly format. Perfect for building avatar creators, character visualizers, or any app that needs Habitica avatar data.
+## Install
 
-## 🚀 What You Get
-
-- **📦 Single JSON file** (~855KB) with all avatar items and metadata
-- **🎨 26,000+ lines** of structured avatar data
-- **🔄 Daily updates** via automated GitHub Actions
-- **📱 Frontend-optimized** data structure
-- **🎯 TypeScript definitions** included
-- **🖼️ Image metadata** with dimensions and format detection
-
-## 📋 Features
-
-### Avatar Categories Included
-- **Backgrounds** - All available background scenes
-- **Gear** - Weapons, armor, accessories organized by type
-- **Gear Sets** - Named sets of gear items with metadata, grouped by set name
-- **Eggs** - All hatchable eggs with mount text metadata
-- **Hatching Potions** - All hatching potions, including premium and wacky variants
-- **Pets** - All collectible pets with metadata
-- **Pet Tree** - Relational map of pets organized by egg, hatching potion, and special pets
-- **Mounts** - All rideable mounts
-- **Mount Tree** - Relational map of mounts organized by egg, hatching potion, and special mounts
-- **Hair** - Colors, styles, bangs, flowers, beards, mustaches
-- **Body** - Shirt styles and body sizes (slim/broad)
-- **Skin** - All available skin tones
-- **Chair** - Wheelchair and accessibility options
-- **Buff** - Special effect items (snowballs, sparkles, seeds, etc.)
-- **Sleep** - Sleep mode indicator
-
-### Data Structure
-All items follow a consistent `ItemMeta` structure:
-```typescript
-{
-  key: string;             // Unique identifier
-  text: string;            // Display name
-  imageFileNames: string[]; // Array of image file references
-  notes?: string;
-  price?: number;
-  currency?: string;
-  set?: string;
-}
-```
-
-#### Extended Types
-
-**`EggItemMeta`** (used in `egg`):
-```typescript
-{
-  // ...ItemMeta
-  mountText: string; // Display name for the hatched mount
-}
-```
-
-**`HatchingPotionItemMeta`** (used in `hatchingPotion`):
-```typescript
-{
-  // ...ItemMeta
-  premium: boolean; // Whether this is a premium potion
-  wacky?: boolean;  // Whether this is a wacky/limited potion
-}
-```
-
-**`GearSetItemMeta`** (used in `gearSets`):
-```typescript
-{
-  // ...ItemMeta
-  gear: Record<string, string>; // gear type → gear item key, e.g. { armor: "armor_healer_1", head: "head_healer_1" }
-}
-```
-
-**`StableTree`** (used in `petTree` and `mountTree`):
-```typescript
-{
-  byEgg: Record<string, string[]>;            // egg id → list of pet/mount ids
-  byHatchingPotion: Record<string, string[]>; // hatchingPotion id → list of pet/mount ids
-  special: string[];                          // ids not hatched from eggs
-}
-```
-
-### Image Metadata (Optional)
-When generated with `--all-images` flag, includes detailed image information:
-```typescript
-{
-  fileName: string;      // Full filename with extension
-  width: number;         // Image width in pixels
-  height: number;        // Image height in pixels
-  format: 'png' | 'gif'; // Image format
-}
-```
-
-### Special Features
-- **Gear Sets**: Automatically groups gear items into sets with full item metadata, available as `gearSets` at the top level
-- **Performance Optimized**: Uses concurrent image probing with p-limit (10 concurrent requests)
-- **Image Format Detection**: Automatically detects PNG and GIF formats
-- **Hierarchical Hair**: Complex nested structure for hair customization options
-- **Type Safety**: Full TypeScript definitions for both input and output data
-
-## 🛠️ Usage
-
-### As a Package (Recommended)
 ```bash
 npm install github:anitawlosek/habitica-avatar-manifest#v1.3.0
 ```
 
+## Quick Start
+
+```typescript
+import { getHabiticaAvatarManifestItems } from 'habitica-avatar-manifest';
+
+const items = await getHabiticaAvatarManifestItems();
+
+items.background.beach;          // beach background
+items.gear.weapon;               // all weapons
+items.gearSets['healer-1'];      // healer set with gear references
+items.egg.Wolf;                  // Wolf egg
+items.pet['Wolf-Base'];          // Wolf-Base pet
+items.hair.color;                // all hair colors
+```
+
+Data is fetched directly from this repository, so you always get the latest without reinstalling.
+
+## Data Reference
+
+| Key | Type | Contents |
+|---|---|---|
+| `background` | `Record<string, ItemMeta>` | Background scenes |
+| `gear` | `GearItems` | Weapons, armor, accessories by type |
+| `gearSets` | `GearSets` | Named gear sets with item references |
+| `egg` | `Record<string, EggItemMeta>` | Hatchable eggs |
+| `hatchingPotion` | `Record<string, HatchingPotionItemMeta>` | Hatching potions |
+| `pet` | `Record<string, StableItemMeta>` | Collectible pets |
+| `petTree` | `StableTree` | Pets indexed by egg and potion |
+| `mount` | `Record<string, StableItemMeta>` | Rideable mounts |
+| `mountTree` | `StableTree` | Mounts indexed by egg and potion |
+| `hair` | `HairItems` | Colors, styles, bangs, flowers, beards, mustaches |
+| `skin` | `Record<string, ItemMeta>` | Skin tones |
+| `body` | `BodyItems` | Shirt styles and slim/broad sizes |
+| `chair` | `Record<string, ItemMeta>` | Wheelchair and accessibility options |
+| `buff` | `Record<string, ItemMeta>` | Special effect items (snowballs, sparkles, etc.) |
+| `sleep` | `Record<string, ItemMeta>` | Sleep mode indicator |
+
+### Types
+
+All items share a base `ItemMeta` shape:
+
+```typescript
+type ItemMeta = {
+  key: string;
+  text: string;
+  imageFileNames: string[]; // filenames without extension, for use with the Habitica S3 CDN
+  notes?: string;
+  price?: number;
+  currency?: string;
+  set?: string;
+};
+```
+
+Extended types for specific categories:
+
+```typescript
+type EggItemMeta = ItemMeta & {
+  mountText: string; // display name of the hatched mount
+};
+
+type HatchingPotionItemMeta = ItemMeta & {
+  premium: boolean;
+  wacky?: boolean;
+};
+
+type GearSetItemMeta = ItemMeta & {
+  gear: Record<string, string>; // gear type → item key, e.g. { armor: "armor_healer_1" }
+};
+
+type StableTree = {
+  byEgg: Record<string, string[]>;
+  byHatchingPotion: Record<string, string[]>;
+  special: string[];
+};
+```
+
+### Image URLs
+
+Image filenames from `imageFileNames` can be resolved against the Habitica S3 CDN:
+
+```typescript
+const BASE = 'https://habitica-assets.s3.amazonaws.com/mobileApp/images';
+const url = `${BASE}/${item.imageFileNames[0]}.png`;
+```
+
+## Image Metadata (Optional)
+
+Running `npm run generate:all-images` probes every image and produces `imagesMeta.json` with dimensions and format:
+
+```typescript
+import { getHabiticaImagesMeta } from 'habitica-avatar-manifest';
+
+const meta = await getHabiticaImagesMeta();
+meta['background_beach.png']; // { fileName, width, height, format }
+```
+
+This file is generated separately because probing ~30,000 images takes 10+ minutes.
+
+## TypeScript
+
 ```typescript
 import {
-  getHabiticaAvatarManifestItems, 
+  getHabiticaAvatarManifestItems,
   getHabiticaImagesMeta,
-  type AvatarManifestItems, 
-  type ItemMeta 
+  getHabiticaImageFileNames,
+  type AvatarManifestItems,
+  type ItemMeta,
+  type GearItems,
+  type GearSets,
+  type GearSetItemMeta,
+  type EggItemMeta,
+  type HatchingPotionItemMeta,
+  type StableItemMeta,
+  type StableTree,
+  type ImageMeta,
 } from 'habitica-avatar-manifest';
-
-// Fetch the latest manifest directly from GitHub
-const manifestItems: AvatarManifestItems = await getHabiticaAvatarManifestItems();
-
-// Get image metadata (if generated with --all-images)
-const imagesMeta = await getHabiticaImagesMeta();
-
-// Access avatar data
-console.log(manifestItems.background.beach); // Beach background item
-console.log(manifestItems.gearSets['healer-1']); // Healer 1 gear set
 ```
 
-### Direct Download
-Download the latest files from the [output directory](./output/1.3.0/) or directly from the repository:
-- `avatarManifestItems.json` - Main manifest data
-- `imagesMeta.json` - Image metadata 
-- `imageFileNames.json` - Image filename list
+For more usage examples, see [USAGE.md](./USAGE.md).
 
-### Example Data Structure
-```json
-{
-  "background": {
-    "beach": {
-      "key": "beach",
-      "text": "Beach",
-      "imageFileNames": ["background_beach", "icon_background_beach"]
-    }
-  },
-  "gear": {
-    "weapon": { /* ... */ },
-    "armor": { /* ... */ }
-  },
-  "gearSets": {
-    "healer-1": {
-      "key": "healer-1",
-      "text": "Healer 1",
-      "imageFileNames": [],
-      "gear": {
-        "weapon": "weapon_healer_1",
-        "armor": "armor_healer_1",
-        "head": "head_healer_1",
-        "shield": "shield_healer_1"
-      }
-    }
-  },
-  "egg": {
-    "Wolf": {
-      "key": "Wolf",
-      "text": "Wolf Egg",
-      "mountText": "Wolf",
-      "imageFileNames": ["Pet_Egg_Wolf"]
-    }
-  },
-  "hatchingPotion": {
-    "Base": {
-      "key": "Base",
-      "text": "Base Potion",
-      "premium": false,
-      "imageFileNames": ["Pet_HatchingPotion_Base"]
-    },
-    "Vampire": {
-      "key": "Vampire",
-      "text": "Vampire Potion",
-      "premium": true,
-      "wacky": true,
-      "imageFileNames": ["Pet_HatchingPotion_Vampire"]
-    }
-  },
-  "petTree": {
-    "byEgg": {
-      "Wolf": ["Wolf-Base", "Wolf-CottonCandyBlue", "Wolf-Vampire"]
-    },
-    "byHatchingPotion": {
-      "Base": ["Wolf-Base", "TigerCub-Base"]
-    },
-    "special": ["Wolf-Veteran", "BearCub-Polar"]
-  },
-  "mountTree": {
-    "byEgg": {
-      "Wolf": ["Wolf-Base", "Wolf-CottonCandyBlue", "Wolf-Vampire"]
-    },
-    "byHatchingPotion": {
-      "Base": ["Wolf-Base", "TigerCub-Base"]
-    },
-    "special": ["Gryphon-RoyalPurple", "Aether-Invisible"]
-  },
-  "hair": {
-    "color": { /* ... */ },
-    "base": { /* ... */ },
-    "bangs": { /* ... */ }
-  },
-  "buff": {
-    "snowball_wizard": {
-      "key": "snowball_wizard",
-      "text": "Snowball (Wizard)",
-      "imageFileNames": ["avatar_snowball_wizard"]
-    }
-  },
-  "sleep": {
-    "true": {
-      "key": "true",
-      "text": "Sleep mode",
-      "imageFileNames": ["zzz"]
-    }
-  }
-}
-```
+## Development
 
-## 🔧 Development
-
-### Prerequisites
-- Node.js 18+
-- TypeScript
-
-### Setup
 ```bash
 git clone https://github.com/anitawlosek/habitica-avatar-manifest.git
 cd habitica-avatar-manifest
 npm install
+
+npm run generate            # fast, no image probing
+npm run generate:all-images # includes image dimensions and format
 ```
 
-### Generate Manifest
-
-#### Basic Generation (Recommended)
-```bash
-npm run generate
-```
-
-Generates the manifest without image metadata probing. This is faster and suitable for most use cases.
-
-#### Full Generation with Image Metadata
-```bash
-npm run generate:all-images
-```
-
-This will:
-1. Fetch latest data from Habitica API (`/api/v3/content`)
-2. Transform and normalize the data structure
-3. Probe all image URLs for dimensions and format
-4. Output files to the versioned `output/1.3.0/` directory:
-   - `avatarManifestItems.json` - Main manifest data
-   - `imagesMeta.json` - Image metadata (dimensions, format)
-   - `imageFileNames.json` - List of all image filenames
-
-**Note**: Full generation with image metadata can take 10+ minutes due to the large number of images (~30,000+ URLs to check).
+Output is written to `output/1.3.0/`:
+- `avatarManifestItems.json` — main manifest
+- `imagesMeta.json` — image metadata
+- `imageFileNames.json` — flat list of all image filenames
 
 ### Project Structure
+
 ```
 src/
-├── index.ts                         # Main entry point
-├── constants.ts                     # Version and output paths
-├── lib/                             # Library exports for npm package
-│   ├── index.ts                     # Main library export
-│   └── habiticaAvatarManifestService.ts  # Service functions
+├── index.ts
+├── constants.ts
+├── lib/
+│   ├── index.ts
+│   └── habiticaAvatarManifestService.ts
 ├── scripts/
-│   ├── constants.ts                 # Static data (buffs, sleep items)
-│   ├── habiticaContentProvider.ts   # API client
-│   ├── habiticaProcessor.ts         # Data transformation logic
-│   └── imagesDetailsProvider.ts     # Image metadata detection
+│   ├── constants.ts
+│   ├── habiticaContentProvider.ts
+│   ├── habiticaProcessor.ts
+│   └── imagesDetailsProvider.ts
 └── types/
-    ├── habitica-content.ts          # Input API types
-    ├── manifest.ts                  # Output manifest types
-    └── index.ts                     # Type exports
+    ├── habitica-content.ts
+    ├── manifest.ts
+    └── index.ts
 ```
 
-## 🤖 Automated Updates
+## Automated Updates
 
-The manifest is automatically updated daily at 8:00 AM UTC via GitHub Actions. The workflow:
-- Fetches the latest Habitica API data
-- Regenerates the manifest (without image metadata for performance)
-- Commits changes with `[skip ci]` tag
+The manifest is regenerated daily at 8:00 AM UTC via GitHub Actions and committed automatically. Manual runs can be triggered via `workflow_dispatch`.
 
-Manual updates can be triggered via the GitHub Actions "workflow_dispatch" event.
+## License
 
-## � Library API
-
-### Functions
-
-- **`getHabiticaAvatarManifestItems()`** - Fetches the complete avatar manifest items from GitHub
-- **`getHabiticaImagesMeta()`** - Fetches image metadata (dimensions, format)  
-- **`getHabiticaImageFileNames()`** - Fetches list of all image filenames
-
-### Data Sources
-
-All data is fetched directly from this repository's GitHub releases:
-- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.3.0/avatarManifestItems.json`
-- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.3.0/imagesMeta.json`
-- `https://raw.githubusercontent.com/anitawlosek/habitica-avatar-manifest/main/output/1.3.0/imageFileNames.json`
-
-This ensures you always get the latest data without needing to update the package. Output files are versioned to maintain backward compatibility.
-
-## �📄 TypeScript Support
-
-Full TypeScript definitions are included:
-
-```typescript
-// Library functions
-import { getHabiticaAvatarManifestItems, getHabiticaImagesMeta } from 'habitica-avatar-manifest';
-
-// Output types (processed manifest)
-import type {
-  AvatarManifestItems,
-  ItemMeta,
-  GearItems,
-  GearSets,
-  GearSetItemMeta,
-  ImageMeta,
-  StableTree,
-  EggItemMeta,
-  HatchingPotionItemMeta,
-  StableItemMeta,
-} from 'habitica-avatar-manifest';
-```
-
-For detailed usage examples, see [USAGE.md](./USAGE.md).
-
-## 📜 License
-
-ISC License - see [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Habitica](https://habitica.com) for providing the public API
-- The Habitica community for creating amazing avatar content
-- [probe-image-size](https://github.com/nodeca/probe-image-size) for efficient image metadata detection
-- [p-limit](https://github.com/sindresorhus/p-limit) for concurrency control
+ISC — see [LICENSE](LICENSE).
 
 ---
 
-**Note**: This project is not officially affiliated with Habitica. It's an independent tool that uses Habitica's public API to provide structured data for developers.
+Not affiliated with Habitica. Uses the public Habitica API.
