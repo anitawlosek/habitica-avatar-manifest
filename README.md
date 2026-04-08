@@ -19,7 +19,8 @@ This project provides a clean, structured JSON manifest of all Habitica avatar c
 
 ### Avatar Categories Included
 - **Backgrounds** - All available background scenes
-- **Gear** - Weapons, armor, accessories organized by type and sets
+- **Gear** - Weapons, armor, accessories organized by type
+- **Gear Sets** - Named sets of gear items with metadata, grouped by set name
 - **Eggs** - All hatchable eggs with mount text metadata
 - **Hatching Potions** - All hatching potions, including premium and wacky variants
 - **Pets** - All collectible pets with metadata
@@ -66,6 +67,14 @@ All items follow a consistent `ItemMeta` structure:
 }
 ```
 
+**`GearSetItemMeta`** (used in `gearSets`):
+```typescript
+{
+  // ...ItemMeta
+  gear: Record<string, string>; // gear type → gear item key, e.g. { armor: "armor_healer_1", head: "head_healer_1" }
+}
+```
+
 **`StableTree`** (used in `petTree` and `mountTree`):
 ```typescript
 {
@@ -87,7 +96,7 @@ When generated with `--all-images` flag, includes detailed image information:
 ```
 
 ### Special Features
-- **Gear Sets**: Automatically groups gear items into sets (minimum 2 items per set)
+- **Gear Sets**: Automatically groups gear items into sets with full item metadata, available as `gearSets` at the top level
 - **Performance Optimized**: Uses concurrent image probing with p-limit (10 concurrent requests)
 - **Image Format Detection**: Automatically detects PNG and GIF formats
 - **Hierarchical Hair**: Complex nested structure for hair customization options
@@ -116,7 +125,7 @@ const imagesMeta = await getHabiticaImagesMeta();
 
 // Access avatar data
 console.log(manifestItems.background.beach); // Beach background item
-console.log(manifestItems.gear.sets.animal); // Animal gear set items
+console.log(manifestItems.gearSets['healer-1']); // Healer 1 gear set
 ```
 
 ### Direct Download
@@ -136,11 +145,21 @@ Download the latest files from the [output directory](./output/1.3.0/) or direct
     }
   },
   "gear": {
-    "sets": {
-      "animal": ["armor_animal_bear", "head_animal_bear"]
-    },
     "weapon": { /* ... */ },
     "armor": { /* ... */ }
+  },
+  "gearSets": {
+    "healer-1": {
+      "key": "healer-1",
+      "text": "Healer 1",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_healer_1",
+        "armor": "armor_healer_1",
+        "head": "head_healer_1",
+        "shield": "shield_healer_1"
+      }
+    }
   },
   "egg": {
     "Wolf": {
@@ -301,6 +320,8 @@ import type {
   AvatarManifestItems,
   ItemMeta,
   GearItems,
+  GearSets,
+  GearSetItemMeta,
   ImageMeta,
   StableTree,
   EggItemMeta,
