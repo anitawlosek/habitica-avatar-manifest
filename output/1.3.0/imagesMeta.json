@@ -85745,6 +85745,18 @@
     "height": 68,
     "format": "png"
   },
+  "head_armoire_verdantArmingCap.png": {
+    "fileName": "head_armoire_verdantArmingCap.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_head_armoire_verdantArmingCap.png": {
+    "fileName": "shop_head_armoire_verdantArmingCap.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "shield_healer_1.png": {
     "fileName": "shield_healer_1.png",
     "width": 90,
@@ -89197,6 +89209,18 @@
   },
   "shop_shield_armoire_softYellowPillow.png": {
     "fileName": "shop_shield_armoire_softYellowPillow.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_armoire_verdantBanner.png": {
+    "fileName": "shield_armoire_verdantBanner.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_shield_armoire_verdantBanner.png": {
+    "fileName": "shop_shield_armoire_verdantBanner.png",
     "width": 68,
     "height": 68,
     "format": "png"

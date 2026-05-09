@@ -17457,6 +17457,16 @@
         ],
         "notes": "Many spells have been sewn into this simple hat, giving it a youthful yellow color. Increases all stats by 3 each. Enchanted Armoire: Yellow Loungewear Set (Item 1 of 3).",
         "set": "yellowLoungewear"
+      },
+      "head_armoire_verdantArmingCap": {
+        "key": "head_armoire_verdantArmingCap",
+        "text": "Verdant Page Arming Cap",
+        "imageFileNames": [
+          "head_armoire_verdantArmingCap",
+          "shop_head_armoire_verdantArmingCap"
+        ],
+        "notes": "This comfy, cushioned coif makes you battle-ready and helps you withstand anything heavy that could come your way. Increases Perception and Constitution by 5 each. Enchanted Armoire: Verdant Page Set (Item 1 of 2).",
+        "set": "verdantPage"
       }
     },
     "shield": {
@@ -20346,6 +20356,16 @@
         ],
         "notes": "The experienced warrior packs a pillow for any expedition. Grow and shine as you consolidate all you’ve learned during past adventures… even while you nap. Increases Intelligence and Perception by 9 each. Enchanted Armoire: Yellow Loungewear Set (Item 3 of 3).",
         "set": "yellowLoungewear"
+      },
+      "shield_armoire_verdantBanner": {
+        "key": "shield_armoire_verdantBanner",
+        "text": "Verdant Page Banner",
+        "imageFileNames": [
+          "shield_armoire_verdantBanner",
+          "shop_shield_armoire_verdantBanner"
+        ],
+        "notes": "Wave your banner high to signal friends it’s time to rally together! Intelligence by 10. Enchanted Armoire: Verdant Page Set (Item 2 of 2).",
+        "set": "verdantPage"
       }
     },
     "back": {
@@ -27999,6 +28019,15 @@
       "gear": {
         "back": "back_mystery_202510",
         "eyewear": "eyewear_mystery_202510"
+      }
+    },
+    "verdantPage": {
+      "key": "verdantPage",
+      "text": "Verdant Page",
+      "imageFileNames": [],
+      "gear": {
+        "head": "head_armoire_verdantArmingCap",
+        "shield": "shield_armoire_verdantBanner"
       }
     }
   },
