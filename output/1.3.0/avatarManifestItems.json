@@ -3958,6 +3958,36 @@
       "notes": "A yummy yellow backdrop.",
       "price": 7,
       "currency": "loginIncentive"
+    },
+    "beach_with_volcano": {
+      "key": "beach_with_volcano",
+      "text": "Beach with Volcano",
+      "imageFileNames": [
+        "background_beach_with_volcano",
+        "icon_background_beach_with_volcano"
+      ],
+      "notes": "Watch nature's wonder on a Beach with a Volcano.",
+      "price": 7
+    },
+    "tropical_coral_garden": {
+      "key": "tropical_coral_garden",
+      "text": "Tropical Coral Garden",
+      "imageFileNames": [
+        "background_tropical_coral_garden",
+        "icon_background_tropical_coral_garden"
+      ],
+      "notes": "Dive into a Tropical Coral Garden.",
+      "price": 7
+    },
+    "vegetable_garden": {
+      "key": "vegetable_garden",
+      "text": "Vegetable Garden",
+      "imageFileNames": [
+        "background_vegetable_garden",
+        "icon_background_vegetable_garden"
+      ],
+      "notes": "Plant tasty greens in a Vegetable Garden.",
+      "price": 7
     }
   },
   "gear": {
@@ -7891,6 +7921,67 @@
         ],
         "notes": "Pretty and practical is the preeminent permutation. And for a particularly impressive presentation, give this parasol a spin! Increases all stats by 2 each. Enchanted Armoire: Pretty in Pink Set (Item 1 of 2) ",
         "set": "prettyInPink"
+      },
+      "weapon_special_summer2026Warrior": {
+        "key": "weapon_special_summer2026Warrior",
+        "text": "Gator Machete",
+        "imageFileNames": [
+          "weapon_special_summer2026Warrior",
+          "shop_weapon_special_summer2026Warrior"
+        ],
+        "notes": "This flashy, fancy weapon fits right into your swampcore aesthetic. Increases Strength by 15. Limited Edition Summer 2026 Gear. ",
+        "set": "summer2026AlligatorWarriorSet"
+      },
+      "weapon_special_summer2026Rogue": {
+        "key": "weapon_special_summer2026Rogue",
+        "text": "Tsunami Blade",
+        "imageFileNames": [
+          "weapon_special_summer2026Rogue",
+          "shop_weapon_special_summer2026Rogue"
+        ],
+        "notes": "This clever, curvy weapon fits right into your seacore aesthetic. Increases Strength by 8. Limited Edition Summer 2026 Gear. ",
+        "set": "summer2026TsunamiRogueSet"
+      },
+      "weapon_special_summer2026Healer": {
+        "key": "weapon_special_summer2026Healer",
+        "text": "Puffin Lance",
+        "imageFileNames": [
+          "weapon_special_summer2026Healer",
+          "shop_weapon_special_summer2026Healer"
+        ],
+        "notes": "This fine, feather-adorned weapon fits right into your islandcore aesthetic. Increases Intelligence by 9. Limited Edition Summer 2026 Gear. ",
+        "set": "summer2026PuffinHealerSet"
+      },
+      "weapon_special_summer2026Mage": {
+        "key": "weapon_special_summer2026Mage",
+        "text": "Tiger Shark Spear",
+        "imageFileNames": [
+          "weapon_special_summer2026Mage",
+          "shop_weapon_special_summer2026Mage"
+        ],
+        "notes": "This dangerous, double-ended weapon fits right into your oceancore aesthetic. Increases Intelligence by 15 and Perception by 7. Limited Edition Summer 2026 Gear. Two-handed item.",
+        "set": "summer2026TigerSharkMageSet",
+        "twoHanded": true
+      },
+      "weapon_mystery_202607": {
+        "key": "weapon_mystery_202607",
+        "text": "Oceanmancer's Fishy Familiars",
+        "imageFileNames": [
+          "weapon_mystery_202607",
+          "shop_weapon_mystery_202607"
+        ],
+        "notes": "These colorful companions will channel your aqueous abilities. Confers no benefit. July 2026 Subscriber Item. ",
+        "set": "mystery-202607"
+      },
+      "weapon_mystery_202608": {
+        "key": "weapon_mystery_202608",
+        "text": "Beaming Magenta Blade",
+        "imageFileNames": [
+          "weapon_mystery_202608",
+          "shop_weapon_mystery_202608"
+        ],
+        "notes": "Bright, beautiful, dangerous to your undone Dailies. Confers no benefit. August 2026 Subscriber Item. ",
+        "set": "mystery-202608"
       }
     },
     "armor": {
@@ -12828,6 +12919,50 @@
         ],
         "notes": "Things sure do look different when you’re upside-down, don’t they? If you’re feeling stuck, it’s time for a fresh perspective! Increases Perception by 10. Enchanted Armoire: Handstand Set (Item 1 of 1).",
         "set": "handstand"
+      },
+      "armor_special_summer2026Warrior": {
+        "key": "armor_special_summer2026Warrior",
+        "text": "Gator Suit",
+        "imageFileNames": [
+          "broad_armor_special_summer2026Warrior",
+          "slim_armor_special_summer2026Warrior",
+          "shop_armor_special_summer2026Warrior"
+        ],
+        "notes": "Conceal yourself in this suit, but don’t hide from your problems. Gather your gator grit and meet your tasks like the alligator you are. Increases Constitution by 9. Limited Edition Summer 2026 Gear.",
+        "set": "summer2026AlligatorWarriorSet"
+      },
+      "armor_special_summer2026Rogue": {
+        "key": "armor_special_summer2026Rogue",
+        "text": "Tsunami Suit",
+        "imageFileNames": [
+          "broad_armor_special_summer2026Rogue",
+          "slim_armor_special_summer2026Rogue",
+          "shop_armor_special_summer2026Rogue"
+        ],
+        "notes": "Cloak yourself in this tsunami suit, but don’t hide from your problems. Summon a strong storm to have your back and meet your tasks like the adventurer you are. Increases Perception by 15. Limited Edition Summer 2026 Gear.",
+        "set": "summer2026TsunamiRogueSet"
+      },
+      "armor_special_summer2026Healer": {
+        "key": "armor_special_summer2026Healer",
+        "text": "Puffin Suit",
+        "imageFileNames": [
+          "broad_armor_special_summer2026Healer",
+          "slim_armor_special_summer2026Healer",
+          "shop_armor_special_summer2026Healer"
+        ],
+        "notes": "Fit yourself in this suit, but don’t hide from your problems. Produce your puffin power and tackle your tasks like the puffin you are. Increases Constitution by 15. Limited Edition Summer 2026 Gear.",
+        "set": "summer2026PuffinHealerSet"
+      },
+      "armor_special_summer2026Mage": {
+        "key": "armor_special_summer2026Mage",
+        "text": "Tiger Shark Suit",
+        "imageFileNames": [
+          "broad_armor_special_summer2026Mage",
+          "slim_armor_special_summer2026Mage",
+          "shop_armor_special_summer2026Mage"
+        ],
+        "notes": "Slide into this suit, but don’t hide from your problems. Show your shark shine and swim right up to face those tasks like the shark you are. Increases Intelligence by 9. Limited Edition Summer 2026 Gear.",
+        "set": "summer2026TigerSharkMageSet"
       }
     },
     "head": {
@@ -17467,6 +17602,56 @@
         ],
         "notes": "This comfy, cushioned coif makes you battle-ready and helps you withstand anything heavy that could come your way. Increases Perception and Constitution by 5 each. Enchanted Armoire: Verdant Page Set (Item 1 of 2).",
         "set": "verdantPage"
+      },
+      "head_special_summer2026Warrior": {
+        "key": "head_special_summer2026Warrior",
+        "text": "Gator Helm",
+        "imageFileNames": [
+          "head_special_summer2026Warrior",
+          "shop_head_special_summer2026Warrior"
+        ],
+        "notes": "Go forth and be productive! If you get any pushback, just snap back and show your sharp teeth. Increases Strength by 9. Limited Edition Summer 2026 Gear.",
+        "set": "summer2026AlligatorWarriorSet"
+      },
+      "head_special_summer2026Rogue": {
+        "key": "head_special_summer2026Rogue",
+        "text": "Tsunami Helm",
+        "imageFileNames": [
+          "head_special_summer2026Rogue",
+          "shop_head_special_summer2026Rogue"
+        ],
+        "notes": "Go forth and be productive! If you lose your way, just follow the flow. Increases Perception by 9. Limited Edition Summer 2026 Gear.",
+        "set": "summer2026TsunamiRogueSet"
+      },
+      "head_special_summer2026Healer": {
+        "key": "head_special_summer2026Healer",
+        "text": "Puffin Helm",
+        "imageFileNames": [
+          "head_special_summer2026Healer",
+          "shop_head_special_summer2026Healer"
+        ],
+        "notes": "Go forth and be productive! If you encounter complications, just gather them up in your colorful beak and take them somewhere else. Increases Intelligence by 7. Limited Edition Summer 2026 Gear.",
+        "set": "summer2026PuffinHealerSet"
+      },
+      "head_special_summer2026Mage": {
+        "key": "head_special_summer2026Mage",
+        "text": "Tiger Shark Helm",
+        "imageFileNames": [
+          "head_special_summer2026Mage",
+          "shop_head_special_summer2026Mage"
+        ],
+        "notes": "Go forth and be productive! If an obstacle dares to get in your way, just crush it with your mighty jaws. Increases Perception by 7. Limited Edition Summer 2026 Gear.",
+        "set": "summer2026TigerSharkMageSet"
+      },
+      "head_mystery_202606": {
+        "key": "head_mystery_202606",
+        "text": "Holiday Hat",
+        "imageFileNames": [
+          "head_mystery_202606",
+          "shop_head_mystery_202606"
+        ],
+        "notes": "Holidays are made for enjoying the sunshine - but don’t get burned! Confers no benefit. June 2026 Subscriber Item.",
+        "set": "mystery-202606"
       }
     },
     "shield": {
@@ -20366,6 +20551,66 @@
         ],
         "notes": "Wave your banner high to signal friends it’s time to rally together! Increases Intelligence by 10. Enchanted Armoire: Verdant Page Set (Item 2 of 2).",
         "set": "verdantPage"
+      },
+      "shield_special_summer2026Warrior": {
+        "key": "shield_special_summer2026Warrior",
+        "text": "Gator Shield",
+        "imageFileNames": [
+          "shield_special_summer2026Warrior",
+          "shop_shield_special_summer2026Warrior"
+        ],
+        "notes": "Deflect oncoming challenges with this stylish, shiny shield. And when you’ve successfully cleared your list, crank up the music and have a party! Increases Constitution by 7. Limited Edition Summer 2026 Gear.",
+        "set": "summer2026AlligatorWarriorSet"
+      },
+      "shield_special_summer2026Rogue": {
+        "key": "shield_special_summer2026Rogue",
+        "text": "Tsunami Blade",
+        "imageFileNames": [
+          "shield_special_summer2026Rogue",
+          "shop_shield_special_summer2026Rogue"
+        ],
+        "notes": "This clever, curvy weapon fits right into your seacore aesthetic. Increases Strength by 8. Limited Edition Summer 2026 Gear.",
+        "set": "summer2026TsunamiRogueSet"
+      },
+      "shield_special_summer2026Healer": {
+        "key": "shield_special_summer2026Healer",
+        "text": "Puffin Potion",
+        "imageFileNames": [
+          "shield_special_summer2026Healer",
+          "shop_shield_special_summer2026Healer"
+        ],
+        "notes": "Keep your colony of fellow puffins healthy with this potion. It tastes great with fish! Increases Constitution by 9. Limited Edition Summer 2026 Gear.",
+        "set": "summer2026PuffinHealerSet"
+      },
+      "shield_mystery_202606": {
+        "key": "shield_mystery_202606",
+        "text": "Holiday Hammock",
+        "imageFileNames": [
+          "shield_mystery_202606",
+          "shop_shield_mystery_202606"
+        ],
+        "notes": "Between tasks, hop in this hammock, relax, and enjoy the scenery! Confers no benefit. June 2026 Subscriber Item.",
+        "set": "mystery-202606"
+      },
+      "shield_mystery_202607": {
+        "key": "shield_mystery_202607",
+        "text": "Oceanmancer's Briny Bubble",
+        "imageFileNames": [
+          "shield_mystery_202607",
+          "shop_shield_mystery_202607"
+        ],
+        "notes": "Tumultuous waters bend to your mighty magical will. Confers no benefit. July 2026 Subscriber Item.",
+        "set": "mystery-202607"
+      },
+      "shield_mystery_202608": {
+        "key": "shield_mystery_202608",
+        "text": "Brilliant Emerald Blade",
+        "imageFileNames": [
+          "shield_mystery_202608",
+          "shop_shield_mystery_202608"
+        ],
+        "notes": "Slice and dice all your tasks into manageable pieces! Confers no benefit. August 2026 Subscriber Item.",
+        "set": "mystery-202608"
       }
     },
     "back": {
@@ -22532,6 +22777,16 @@
         ],
         "notes": "These glasses will help you see the best in a situation, and these stylish frames help you look your best, too. Increases Perception by 8. Enchanted Armoire: Optimist Set (Item 2 of 4).",
         "set": "optimistSet"
+      },
+      "eyewear_mystery_202606": {
+        "key": "eyewear_mystery_202606",
+        "text": "Holiday Shades",
+        "imageFileNames": [
+          "eyewear_mystery_202606",
+          "shop_eyewear_mystery_202606"
+        ],
+        "notes": "Your eyes are shaded but your outlook is still sunny! Confers no benefit. June 2026 Subscriber Item.",
+        "set": "mystery-202606"
       }
     }
   },
@@ -28028,6 +28283,61 @@
       "gear": {
         "head": "head_armoire_verdantArmingCap",
         "shield": "shield_armoire_verdantBanner"
+      }
+    },
+    "summer2026AlligatorWarriorSet": {
+      "key": "summer2026AlligatorWarriorSet",
+      "text": "Gator",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_special_summer2026Warrior",
+        "armor": "armor_special_summer2026Warrior",
+        "head": "head_special_summer2026Warrior",
+        "shield": "shield_special_summer2026Warrior"
+      }
+    },
+    "summer2026TsunamiRogueSet": {
+      "key": "summer2026TsunamiRogueSet",
+      "text": "Tsunami",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_special_summer2026Rogue",
+        "armor": "armor_special_summer2026Rogue",
+        "head": "head_special_summer2026Rogue",
+        "shield": "shield_special_summer2026Rogue"
+      }
+    },
+    "summer2026PuffinHealerSet": {
+      "key": "summer2026PuffinHealerSet",
+      "text": "Puffin",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_special_summer2026Healer",
+        "armor": "armor_special_summer2026Healer",
+        "head": "head_special_summer2026Healer",
+        "shield": "shield_special_summer2026Healer"
+      }
+    },
+    "summer2026TigerSharkMageSet": {
+      "key": "summer2026TigerSharkMageSet",
+      "text": "Tiger Shark",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_special_summer2026Mage",
+        "armor": "armor_special_summer2026Mage",
+        "head": "head_special_summer2026Mage"
+      }
+    },
+    "mystery-202606": {
+      "key": "mystery-202606",
+      "text": "Holiday Hammock",
+      "imageFileNames": [
+        "shop_set_mystery_202606"
+      ],
+      "gear": {
+        "head": "head_mystery_202606",
+        "shield": "shield_mystery_202606",
+        "eyewear": "eyewear_mystery_202606"
       }
     }
   },

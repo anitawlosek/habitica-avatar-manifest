@@ -4607,6 +4607,42 @@
     "height": 68,
     "format": "png"
   },
+  "background_beach_with_volcano.png": {
+    "fileName": "background_beach_with_volcano.png",
+    "width": 141,
+    "height": 147,
+    "format": "png"
+  },
+  "icon_background_beach_with_volcano.png": {
+    "fileName": "icon_background_beach_with_volcano.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "background_tropical_coral_garden.png": {
+    "fileName": "background_tropical_coral_garden.png",
+    "width": 141,
+    "height": 147,
+    "format": "png"
+  },
+  "icon_background_tropical_coral_garden.png": {
+    "fileName": "icon_background_tropical_coral_garden.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "background_vegetable_garden.png": {
+    "fileName": "background_vegetable_garden.png",
+    "width": 141,
+    "height": 147,
+    "format": "png"
+  },
+  "icon_background_vegetable_garden.png": {
+    "fileName": "icon_background_vegetable_garden.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "background_birthday_bash.png": {
     "fileName": "background_birthday_bash.png",
     "width": 141,
@@ -70481,6 +70517,54 @@
     "height": 68,
     "format": "png"
   },
+  "weapon_special_summer2026Warrior.png": {
+    "fileName": "weapon_special_summer2026Warrior.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_special_summer2026Warrior.png": {
+    "fileName": "shop_weapon_special_summer2026Warrior.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "weapon_special_summer2026Rogue.png": {
+    "fileName": "weapon_special_summer2026Rogue.png",
+    "width": 114,
+    "height": 117,
+    "format": "png"
+  },
+  "shop_weapon_special_summer2026Rogue.png": {
+    "fileName": "shop_weapon_special_summer2026Rogue.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "weapon_special_summer2026Healer.png": {
+    "fileName": "weapon_special_summer2026Healer.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_special_summer2026Healer.png": {
+    "fileName": "shop_weapon_special_summer2026Healer.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "weapon_special_summer2026Mage.png": {
+    "fileName": "weapon_special_summer2026Mage.png",
+    "width": 114,
+    "height": 117,
+    "format": "png"
+  },
+  "shop_weapon_special_summer2026Mage.png": {
+    "fileName": "shop_weapon_special_summer2026Mage.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "weapon_mystery_201411.png": {
     "fileName": "weapon_mystery_201411.png",
     "width": 90,
@@ -70777,6 +70861,30 @@
   },
   "shop_weapon_mystery_202603.png": {
     "fileName": "shop_weapon_mystery_202603.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "weapon_mystery_202607.png": {
+    "fileName": "weapon_mystery_202607.png",
+    "width": 117,
+    "height": 120,
+    "format": "png"
+  },
+  "shop_weapon_mystery_202607.png": {
+    "fileName": "shop_weapon_mystery_202607.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "weapon_mystery_202608.png": {
+    "fileName": "weapon_mystery_202608.png",
+    "width": 117,
+    "height": 120,
+    "format": "png"
+  },
+  "shop_weapon_mystery_202608.png": {
+    "fileName": "shop_weapon_mystery_202608.png",
     "width": 68,
     "height": 68,
     "format": "png"
@@ -76669,6 +76777,78 @@
   },
   "shop_armor_special_spring2026Mage.png": {
     "fileName": "shop_armor_special_spring2026Mage.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "broad_armor_special_summer2026Warrior.png": {
+    "fileName": "broad_armor_special_summer2026Warrior.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "slim_armor_special_summer2026Warrior.png": {
+    "fileName": "slim_armor_special_summer2026Warrior.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_armor_special_summer2026Warrior.png": {
+    "fileName": "shop_armor_special_summer2026Warrior.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "broad_armor_special_summer2026Rogue.png": {
+    "fileName": "broad_armor_special_summer2026Rogue.png",
+    "width": 114,
+    "height": 117,
+    "format": "png"
+  },
+  "slim_armor_special_summer2026Rogue.png": {
+    "fileName": "slim_armor_special_summer2026Rogue.png",
+    "width": 114,
+    "height": 117,
+    "format": "png"
+  },
+  "shop_armor_special_summer2026Rogue.png": {
+    "fileName": "shop_armor_special_summer2026Rogue.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "broad_armor_special_summer2026Healer.png": {
+    "fileName": "broad_armor_special_summer2026Healer.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "slim_armor_special_summer2026Healer.png": {
+    "fileName": "slim_armor_special_summer2026Healer.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_armor_special_summer2026Healer.png": {
+    "fileName": "shop_armor_special_summer2026Healer.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "broad_armor_special_summer2026Mage.png": {
+    "fileName": "broad_armor_special_summer2026Mage.png",
+    "width": 114,
+    "height": 117,
+    "format": "png"
+  },
+  "slim_armor_special_summer2026Mage.png": {
+    "fileName": "slim_armor_special_summer2026Mage.png",
+    "width": 114,
+    "height": 117,
+    "format": "png"
+  },
+  "shop_armor_special_summer2026Mage.png": {
+    "fileName": "shop_armor_special_summer2026Mage.png",
     "width": 68,
     "height": 68,
     "format": "png"
@@ -83237,6 +83417,54 @@
     "height": 68,
     "format": "png"
   },
+  "head_special_summer2026Warrior.png": {
+    "fileName": "head_special_summer2026Warrior.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_head_special_summer2026Warrior.png": {
+    "fileName": "shop_head_special_summer2026Warrior.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "head_special_summer2026Rogue.png": {
+    "fileName": "head_special_summer2026Rogue.png",
+    "width": 114,
+    "height": 117,
+    "format": "png"
+  },
+  "shop_head_special_summer2026Rogue.png": {
+    "fileName": "shop_head_special_summer2026Rogue.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "head_special_summer2026Healer.png": {
+    "fileName": "head_special_summer2026Healer.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_head_special_summer2026Healer.png": {
+    "fileName": "shop_head_special_summer2026Healer.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "head_special_summer2026Mage.png": {
+    "fileName": "head_special_summer2026Mage.png",
+    "width": 114,
+    "height": 117,
+    "format": "png"
+  },
+  "shop_head_special_summer2026Mage.png": {
+    "fileName": "shop_head_special_summer2026Mage.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "head_mystery_201402.png": {
     "fileName": "head_mystery_201402.png",
     "width": 90,
@@ -84361,6 +84589,18 @@
   },
   "shop_head_mystery_202604.png": {
     "fileName": "shop_head_mystery_202604.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "head_mystery_202606.png": {
+    "fileName": "head_mystery_202606.png",
+    "width": 117,
+    "height": 120,
+    "format": "png"
+  },
+  "shop_head_mystery_202606.png": {
+    "fileName": "shop_head_mystery_202606.png",
     "width": 68,
     "height": 68,
     "format": "png"
@@ -87929,6 +88169,42 @@
     "height": 68,
     "format": "png"
   },
+  "shield_special_summer2026Warrior.png": {
+    "fileName": "shield_special_summer2026Warrior.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_shield_special_summer2026Warrior.png": {
+    "fileName": "shop_shield_special_summer2026Warrior.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_special_summer2026Rogue.png": {
+    "fileName": "shield_special_summer2026Rogue.png",
+    "width": 114,
+    "height": 117,
+    "format": "png"
+  },
+  "shop_shield_special_summer2026Rogue.png": {
+    "fileName": "shop_shield_special_summer2026Rogue.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_special_summer2026Healer.png": {
+    "fileName": "shield_special_summer2026Healer.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_shield_special_summer2026Healer.png": {
+    "fileName": "shop_shield_special_summer2026Healer.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "shield_mystery_201601.png": {
     "fileName": "shield_mystery_201601.png",
     "width": 120,
@@ -88117,6 +88393,42 @@
   },
   "shop_shield_mystery_202605.png": {
     "fileName": "shop_shield_mystery_202605.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_mystery_202606.png": {
+    "fileName": "shield_mystery_202606.png",
+    "width": 117,
+    "height": 120,
+    "format": "png"
+  },
+  "shop_shield_mystery_202606.png": {
+    "fileName": "shop_shield_mystery_202606.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_mystery_202607.png": {
+    "fileName": "shield_mystery_202607.png",
+    "width": 117,
+    "height": 120,
+    "format": "png"
+  },
+  "shop_shield_mystery_202607.png": {
+    "fileName": "shop_shield_mystery_202607.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_mystery_202608.png": {
+    "fileName": "shield_mystery_202608.png",
+    "width": 117,
+    "height": 120,
+    "format": "png"
+  },
+  "shop_shield_mystery_202608.png": {
+    "fileName": "shop_shield_mystery_202608.png",
     "width": 68,
     "height": 68,
     "format": "png"
@@ -91637,6 +91949,18 @@
     "height": 68,
     "format": "png"
   },
+  "eyewear_mystery_202606.png": {
+    "fileName": "eyewear_mystery_202606.png",
+    "width": 117,
+    "height": 120,
+    "format": "png"
+  },
+  "shop_eyewear_mystery_202606.png": {
+    "fileName": "shop_eyewear_mystery_202606.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "eyewear_mystery_301404.png": {
     "fileName": "eyewear_mystery_301404.png",
     "width": 90,
@@ -92515,6 +92839,12 @@
   },
   "shop_set_mystery_202602.png": {
     "fileName": "shop_set_mystery_202602.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shop_set_mystery_202606.png": {
+    "fileName": "shop_set_mystery_202606.png",
     "width": 68,
     "height": 68,
     "format": "png"
