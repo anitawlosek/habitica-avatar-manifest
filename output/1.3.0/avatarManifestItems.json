@@ -28339,6 +28339,17 @@
         "shield": "shield_mystery_202606",
         "eyewear": "eyewear_mystery_202606"
       }
+    },
+    "mystery-202607": {
+      "key": "mystery-202607",
+      "text": "Oceanmancer",
+      "imageFileNames": [
+        "shop_set_mystery_202607"
+      ],
+      "gear": {
+        "weapon": "weapon_mystery_202607",
+        "shield": "shield_mystery_202607"
+      }
     }
   },
   "egg": {
