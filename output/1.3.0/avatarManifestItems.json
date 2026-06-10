@@ -7982,6 +7982,26 @@
         ],
         "notes": "Bright, beautiful, dangerous to your undone Dailies. Confers no benefit. August 2026 Subscriber Item. ",
         "set": "mystery-202608"
+      },
+      "weapon_armoire_brightRainbowKite": {
+        "key": "weapon_armoire_brightRainbowKite",
+        "text": "Rainbow Kite",
+        "imageFileNames": [
+          "weapon_armoire_brightRainbowKite",
+          "shop_weapon_armoire_brightRainbowKite"
+        ],
+        "notes": "This kite’s colors are bright and loud. Watching it soar high will make you proud! Increases all stats by 3 each. Enchanted Armoire: Rainbow Kite Set (Item 1 of 2). ",
+        "set": "rainbowKite"
+      },
+      "weapon_armoire_pastelRainbowKite": {
+        "key": "weapon_armoire_pastelRainbowKite",
+        "text": "Pastel Rainbow Kite",
+        "imageFileNames": [
+          "weapon_armoire_pastelRainbowKite",
+          "shop_weapon_armoire_pastelRainbowKite"
+        ],
+        "notes": "This kite’s colors are muted and soft. It dances and spins as it soars aloft! Increases all stats by 3 each. Enchanted Armoire: Rainbow Kite Set (Item 2 of 2). ",
+        "set": "rainbowKite"
       }
     },
     "armor": {

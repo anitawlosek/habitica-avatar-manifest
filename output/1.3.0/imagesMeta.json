@@ -72245,6 +72245,30 @@
     "height": 68,
     "format": "png"
   },
+  "weapon_armoire_brightRainbowKite.png": {
+    "fileName": "weapon_armoire_brightRainbowKite.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_armoire_brightRainbowKite.png": {
+    "fileName": "shop_weapon_armoire_brightRainbowKite.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "weapon_armoire_pastelRainbowKite.png": {
+    "fileName": "weapon_armoire_pastelRainbowKite.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_armoire_pastelRainbowKite.png": {
+    "fileName": "shop_weapon_armoire_pastelRainbowKite.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "broad_armor_healer_1.png": {
     "fileName": "broad_armor_healer_1.png",
     "width": 90,
