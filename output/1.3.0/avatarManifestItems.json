@@ -28370,6 +28370,17 @@
         "weapon": "weapon_mystery_202607",
         "shield": "shield_mystery_202607"
       }
+    },
+    "mystery-202608": {
+      "key": "mystery-202608",
+      "text": "Beaming Blades",
+      "imageFileNames": [
+        "shop_set_mystery_202608"
+      ],
+      "gear": {
+        "weapon": "weapon_mystery_202608",
+        "shield": "shield_mystery_202608"
+      }
     }
   },
   "egg": {
