@@ -72269,6 +72269,18 @@
     "height": 68,
     "format": "png"
   },
+  "weapon_armoire_kendoShinai.png": {
+    "fileName": "weapon_armoire_kendoShinai.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_armoire_kendoShinai.png": {
+    "fileName": "shop_weapon_armoire_kendoShinai.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "broad_armor_healer_1.png": {
     "fileName": "broad_armor_healer_1.png",
     "width": 90,
@@ -80405,6 +80417,24 @@
     "height": 68,
     "format": "png"
   },
+  "broad_armor_armoire_kendoBogu.png": {
+    "fileName": "broad_armor_armoire_kendoBogu.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "slim_armor_armoire_kendoBogu.png": {
+    "fileName": "slim_armor_armoire_kendoBogu.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_armor_armoire_kendoBogu.png": {
+    "fileName": "shop_armor_armoire_kendoBogu.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "head_healer_1.png": {
     "fileName": "head_healer_1.png",
     "width": 90,
@@ -86017,6 +86047,18 @@
   },
   "shop_head_armoire_verdantArmingCap.png": {
     "fileName": "shop_head_armoire_verdantArmingCap.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "head_armoire_kendoMen.png": {
+    "fileName": "head_armoire_kendoMen.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_head_armoire_kendoMen.png": {
+    "fileName": "shop_head_armoire_kendoMen.png",
     "width": 68,
     "height": 68,
     "format": "png"

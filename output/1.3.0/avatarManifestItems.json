@@ -8002,6 +8002,16 @@
         ],
         "notes": "This kite’s colors are muted and soft. It dances and spins as it soars aloft! Increases all stats by 3 each. Enchanted Armoire: Rainbow Kite Set (Item 2 of 2). ",
         "set": "rainbowKite"
+      },
+      "weapon_armoire_kendoShinai": {
+        "key": "weapon_armoire_kendoShinai",
+        "text": "Kendo Shinai",
+        "imageFileNames": [
+          "weapon_armoire_kendoShinai",
+          "shop_weapon_armoire_kendoShinai"
+        ],
+        "notes": "Light and soft, you can use this bamboo practice sword as you strive to improve yourself. Increases Strength by 7. Enchanted Armoire: Kendo Set (Item 3 of 3).",
+        "set": "kendo"
       }
     },
     "armor": {
@@ -12983,6 +12993,17 @@
         ],
         "notes": "Slide into this suit, but don’t hide from your problems. Show your shark shine and swim right up to face those tasks like the shark you are. Increases Intelligence by 9. Limited Edition Summer 2026 Gear.",
         "set": "summer2026TigerSharkMageSet"
+      },
+      "armor_armoire_kendoBogu": {
+        "key": "armor_armoire_kendoBogu",
+        "text": "Kendo Bōgu",
+        "imageFileNames": [
+          "broad_armor_armoire_kendoBogu",
+          "slim_armor_armoire_kendoBogu",
+          "shop_armor_armoire_kendoBogu"
+        ],
+        "notes": "This might be training armor, but it offers more than enough protection for your path ahead. Increases Constitution by 7. Enchanted Armoire: Kendo Set (Item 2 of 3).",
+        "set": "kendo"
       }
     },
     "head": {
@@ -17672,6 +17693,16 @@
         ],
         "notes": "Holidays are made for enjoying the sunshine - but don’t get burned! Confers no benefit. June 2026 Subscriber Item.",
         "set": "mystery-202606"
+      },
+      "head_armoire_kendoMen": {
+        "key": "head_armoire_kendoMen",
+        "text": "Kendo Men",
+        "imageFileNames": [
+          "head_armoire_kendoMen",
+          "shop_head_armoire_kendoMen"
+        ],
+        "notes": "You might be surprised by how well you can see through the grille as you follow the way of the sword. Increases Perception by 7. Enchanted Armoire: Kendo Set (Item 1 of 3).",
+        "set": "kendo"
       }
     },
     "shield": {
@@ -28380,6 +28411,16 @@
       "gear": {
         "weapon": "weapon_mystery_202608",
         "shield": "shield_mystery_202608"
+      }
+    },
+    "kendo": {
+      "key": "kendo",
+      "text": "Kendo",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_armoire_kendoShinai",
+        "armor": "armor_armoire_kendoBogu",
+        "head": "head_armoire_kendoMen"
       }
     }
   },
