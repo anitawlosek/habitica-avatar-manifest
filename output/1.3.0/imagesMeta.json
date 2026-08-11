@@ -72281,6 +72281,18 @@
     "height": 68,
     "format": "png"
   },
+  "weapon_armoire_gardenRake.png": {
+    "fileName": "weapon_armoire_gardenRake.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_armoire_gardenRake.png": {
+    "fileName": "shop_weapon_armoire_gardenRake.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "broad_armor_healer_1.png": {
     "fileName": "broad_armor_healer_1.png",
     "width": 90,
@@ -89599,6 +89611,18 @@
   },
   "shop_shield_armoire_verdantBanner.png": {
     "fileName": "shop_shield_armoire_verdantBanner.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_armoire_gardenHose.png": {
+    "fileName": "shield_armoire_gardenHose.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_shield_armoire_gardenHose.png": {
+    "fileName": "shop_shield_armoire_gardenHose.png",
     "width": 68,
     "height": 68,
     "format": "png"

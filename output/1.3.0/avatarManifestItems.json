@@ -8012,6 +8012,16 @@
         ],
         "notes": "Light and soft, you can use this bamboo practice sword as you strive to improve yourself. Increases Strength by 7. Enchanted Armoire: Kendo Set (Item 3 of 3). ",
         "set": "kendo"
+      },
+      "weapon_armoire_gardenRake": {
+        "key": "weapon_armoire_gardenRake",
+        "text": "Garden Rake",
+        "imageFileNames": [
+          "weapon_armoire_gardenRake",
+          "shop_weapon_armoire_gardenRake"
+        ],
+        "notes": "Step 1: Rake all the fallen leaves into a giant pile. Step 2: Celebrate a job well done by jumping into the pile. Step 3: Repeat. Increases Constitution by 8. Enchanted Armoire: Gardener Set 2 (Item 1 of 2). ",
+        "set": "gardener2"
       }
     },
     "armor": {
@@ -20662,6 +20672,16 @@
         ],
         "notes": "Slice and dice all your tasks into manageable pieces! Confers no benefit. August 2026 Subscriber Item.",
         "set": "mystery-202608"
+      },
+      "shield_armoire_gardenHose": {
+        "key": "shield_armoire_gardenHose",
+        "text": "Garden Hose",
+        "imageFileNames": [
+          "shield_armoire_gardenHose",
+          "shop_shield_armoire_gardenHose"
+        ],
+        "notes": "This magical hose never kinks and can infinitely stretch to reach every inch of your space. All your flowers, trees, shrubs, and thirsty pets can enjoy a drink from it. Increases Perception by 8. Enchanted Armoire: Gardener Set 2 (Item 2 of 2).",
+        "set": "gardener2"
       }
     },
     "back": {
@@ -28421,6 +28441,15 @@
         "weapon": "weapon_armoire_kendoShinai",
         "armor": "armor_armoire_kendoBogu",
         "head": "head_armoire_kendoMen"
+      }
+    },
+    "gardener2": {
+      "key": "gardener2",
+      "text": "Gardener Set 2",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_armoire_gardenRake",
+        "shield": "shield_armoire_gardenHose"
       }
     }
   },
