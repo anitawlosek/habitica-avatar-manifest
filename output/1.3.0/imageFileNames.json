@@ -12029,8 +12029,6 @@
   "shop_weapon_armoire_pastelRainbowKite",
   "weapon_armoire_kendoShinai",
   "shop_weapon_armoire_kendoShinai",
-  "weapon_armoire_gardenRake",
-  "shop_weapon_armoire_gardenRake",
   "broad_armor_healer_1",
   "slim_armor_healer_1",
   "shop_armor_healer_1",
@@ -14918,8 +14916,6 @@
   "shop_shield_armoire_softYellowPillow",
   "shield_armoire_verdantBanner",
   "shop_shield_armoire_verdantBanner",
-  "shield_armoire_gardenHose",
-  "shop_shield_armoire_gardenHose",
   "body_special_wondercon_red",
   "shop_body_special_wondercon_red",
   "body_special_wondercon_gold",
@@ -15513,5 +15509,9 @@
   "avatar_floral_healer",
   "seafoam_star",
   "zzz",
-  "head_0"
+  "head_0",
+  "weapon_armoire_gardenRake",
+  "shop_weapon_armoire_gardenRake",
+  "shield_armoire_gardenHose",
+  "shop_shield_armoire_gardenHose"
 ]
