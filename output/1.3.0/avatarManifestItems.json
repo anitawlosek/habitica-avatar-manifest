@@ -3988,6 +3988,36 @@
       ],
       "notes": "Plant tasty greens in a Vegetable Garden.",
       "price": 7
+    },
+    "sunset_with_joshua_trees": {
+      "key": "sunset_with_joshua_trees",
+      "text": "Sunset with Joshua Trees",
+      "imageFileNames": [
+        "background_sunset_with_joshua_trees",
+        "icon_background_sunset_with_joshua_trees"
+      ],
+      "notes": "Take in the majestic sights of a Sunset with Joshua Trees.",
+      "price": 7
+    },
+    "outside_a_witchs_hut": {
+      "key": "outside_a_witchs_hut",
+      "text": "Outside a Witch's Hut",
+      "imageFileNames": [
+        "background_outside_a_witchs_hut",
+        "icon_background_outside_a_witchs_hut"
+      ],
+      "notes": "Dare to venture Outside a Witch's Hut.",
+      "price": 7
+    },
+    "path_in_late_autumn": {
+      "key": "path_in_late_autumn",
+      "text": "Path in Late Autumn",
+      "imageFileNames": [
+        "background_path_in_late_autumn",
+        "icon_background_path_in_late_autumn"
+      ],
+      "notes": "Search for adventure on a Path in Late Autumn.",
+      "price": 7
     }
   },
   "gear": {
@@ -8022,6 +8052,67 @@
         ],
         "notes": "Step 1: Rake all the fallen leaves into a giant pile. Step 2: Celebrate a job well done by jumping into the pile. Step 3: Repeat. Increases Constitution by 8. Enchanted Armoire: Gardener Set 2 (Item 1 of 2). ",
         "set": "gardener2"
+      },
+      "weapon_special_fall2026Warrior": {
+        "key": "weapon_special_fall2026Warrior",
+        "text": "Ghost Pumpkin Lantern",
+        "imageFileNames": [
+          "weapon_special_fall2026Warrior",
+          "shop_weapon_special_fall2026Warrior"
+        ],
+        "notes": "Don’t go anywhere without a light, especially when you can have one that doubles as a task-cutting scythe. Increases Strength by 15. Limited Edition Fall 2026 Gear. ",
+        "set": "fall2026GhostPumpkinWarriorSet"
+      },
+      "weapon_special_fall2026Rogue": {
+        "key": "weapon_special_fall2026Rogue",
+        "text": "Skeletal Raven Staff",
+        "imageFileNames": [
+          "weapon_special_fall2026Rogue",
+          "shop_weapon_special_fall2026Rogue"
+        ],
+        "notes": "Don’t go anywhere without a staff, especially one with a feathery friend perched on top. Increases Strength by 8. Limited Edition Fall 2026 Gear. ",
+        "set": "fall2026SkeletalRavenRogueSet"
+      },
+      "weapon_special_fall2026Healer": {
+        "key": "weapon_special_fall2026Healer",
+        "text": "Mystic Candle Wick",
+        "imageFileNames": [
+          "weapon_special_fall2026Healer",
+          "shop_weapon_special_fall2026Healer"
+        ],
+        "notes": "Don’t go anywhere without a flame, especially when magic will keep it forever alight. Increases Intelligence by 9. Limited Edition Fall 2026 Gear. ",
+        "set": "fall2026MysticCandleHealerSet"
+      },
+      "weapon_special_fall2026Mage": {
+        "key": "weapon_special_fall2026Mage",
+        "text": "Poison Mushroom Staff",
+        "imageFileNames": [
+          "weapon_special_fall2026Mage",
+          "shop_weapon_special_fall2026Mage"
+        ],
+        "notes": "Don’t go anywhere without mushroom magic, especially when its poison can slow a chaotic situation into a manageable one. Increases Intelligence by 15 and Perception by 7. Limited Edition Fall 2026 Gear. Two-handed item.",
+        "set": "fall2026PoisonMushroomMageSet",
+        "twoHanded": true
+      },
+      "weapon_mystery_202609": {
+        "key": "weapon_mystery_202609",
+        "text": "Harvest Harlequin Baton",
+        "imageFileNames": [
+          "weapon_mystery_202609",
+          "shop_weapon_mystery_202609"
+        ],
+        "notes": "This leaf-shaped baton jingles merrily while bright ribbons catch the crisp breeze. Confers no benefit. September 2026 Subscriber Item. ",
+        "set": "mystery-202609"
+      },
+      "weapon_mystery_202610": {
+        "key": "weapon_mystery_202610",
+        "text": "Optical Orb",
+        "imageFileNames": [
+          "weapon_mystery_202610",
+          "shop_weapon_mystery_202610"
+        ],
+        "notes": "Spy, weapon, or little floating buddy? Your call. Confers no benefit. October 2026 Subscriber Item. ",
+        "set": "mystery-202610"
       }
     },
     "armor": {
@@ -13014,6 +13105,72 @@
         ],
         "notes": "This might be training armor, but it offers more than enough protection for your path ahead. Increases Constitution by 7. Enchanted Armoire: Kendo Set (Item 2 of 3).",
         "set": "kendo"
+      },
+      "armor_special_fall2026Warrior": {
+        "key": "armor_special_fall2026Warrior",
+        "text": "Ghost Pumpkin Attire",
+        "imageFileNames": [
+          "broad_armor_special_fall2026Warrior",
+          "slim_armor_special_fall2026Warrior",
+          "shop_armor_special_fall2026Warrior"
+        ],
+        "notes": "You’re stylish but mostly you’re very ghostly. Increases Constitution by 9. Limited Edition Fall 2026 Gear.",
+        "set": "fall2026GhostPumpkinWarriorSet"
+      },
+      "armor_special_fall2026Rogue": {
+        "key": "armor_special_fall2026Rogue",
+        "text": "Skeletal Raven Suit",
+        "imageFileNames": [
+          "broad_armor_special_fall2026Rogue",
+          "slim_armor_special_fall2026Rogue",
+          "shop_armor_special_fall2026Rogue"
+        ],
+        "notes": "You’re stylish, swart, and looking the part. Increases Perception by 15. Limited Edition Fall 2026 Gear.",
+        "set": "fall2026SkeletalRavenRogueSet"
+      },
+      "armor_special_fall2026Healer": {
+        "key": "armor_special_fall2026Healer",
+        "text": "Mystic Candle Cloak",
+        "imageFileNames": [
+          "broad_armor_special_fall2026Healer",
+          "slim_armor_special_fall2026Healer",
+          "shop_armor_special_fall2026Healer"
+        ],
+        "notes": "You’re stylish, making tracks, and covered in wax. Increases Constitution by 15. Limited Edition Fall 2026 Gear.",
+        "set": "fall2026MysticCandleHealerSet"
+      },
+      "armor_special_fall2026Mage": {
+        "key": "armor_special_fall2026Mage",
+        "text": "Poison Mushroom Cloak",
+        "imageFileNames": [
+          "broad_armor_special_fall2026Mage",
+          "slim_armor_special_fall2026Mage",
+          "shop_armor_special_fall2026Mage"
+        ],
+        "notes": "You’re stylish, groomed, and a stunning mushroom. Increases Intelligence by 9. Limited Edition Fall 2026 Gear.",
+        "set": "fall2026PoisonMushroomMageSet"
+      },
+      "armor_mystery_202609": {
+        "key": "armor_mystery_202609",
+        "text": "Harvest Harlequin Suit",
+        "imageFileNames": [
+          "broad_armor_mystery_202609",
+          "slim_armor_mystery_202609",
+          "shop_armor_mystery_202609"
+        ],
+        "notes": "The jewel tones of autumn provide an excellent compliment to your upbeat antics. Confers no benefit. September 2026 Subscriber Item.",
+        "set": "mystery-202609"
+      },
+      "armor_mystery_202611": {
+        "key": "armor_mystery_202611",
+        "text": "Frost Dragon Armor",
+        "imageFileNames": [
+          "broad_armor_mystery_202611",
+          "slim_armor_mystery_202611",
+          "shop_armor_mystery_202611"
+        ],
+        "notes": "This armor is made from the shed scales of the elusive (and extremely cold) Frost Dragon. Confers no benefit. November 2026 Subscriber Item.",
+        "set": "mystery-202611"
       }
     },
     "head": {
@@ -17713,6 +17870,76 @@
         ],
         "notes": "You might be surprised by how well you can see through the grille as you follow the way of the sword. Increases Perception by 7. Enchanted Armoire: Kendo Set (Item 1 of 3).",
         "set": "kendo"
+      },
+      "head_special_fall2026Warrior": {
+        "key": "head_special_fall2026Warrior",
+        "text": "Ghost Pumpkin Head",
+        "imageFileNames": [
+          "head_special_fall2026Warrior",
+          "shop_head_special_fall2026Warrior"
+        ],
+        "notes": "Boo! It’s not a prank: your head is suddenly full of prudence, plans, and pumpkin seeds. Increases Strength by 9. Limited Edition Fall 2026 Gear.",
+        "set": "fall2026GhostPumpkinWarriorSet"
+      },
+      "head_special_fall2026Rogue": {
+        "key": "head_special_fall2026Rogue",
+        "text": "Skeletal Raven Skull",
+        "imageFileNames": [
+          "head_special_fall2026Rogue",
+          "shop_head_special_fall2026Rogue"
+        ],
+        "notes": "Boo! It’s not a prank: your head is suddenly refined and ravenlike. Increases Perception by 9. Limited Edition Fall 2026 Gear.",
+        "set": "fall2026SkeletalRavenRogueSet"
+      },
+      "head_special_fall2026Healer": {
+        "key": "head_special_fall2026Healer",
+        "text": "Mystic Candle Flame",
+        "imageFileNames": [
+          "head_special_fall2026Healer",
+          "shop_head_special_fall2026Healer"
+        ],
+        "notes": "Boo! It’s not a prank: your head is suddenly full of fabulous flames. Increases Intelligence by 7. Limited Edition Fall 2026 Gear.",
+        "set": "fall2026MysticCandleHealerSet"
+      },
+      "head_special_fall2026Mage": {
+        "key": "head_special_fall2026Mage",
+        "text": "Poison Mushroom Cap",
+        "imageFileNames": [
+          "head_special_fall2026Mage",
+          "shop_head_special_fall2026Mage"
+        ],
+        "notes": "Boo! It’s not a prank: your head is suddenly topped with fungi fun. Increases Perception by 7. Limited Edition Fall 2026 Gear.",
+        "set": "fall2026PoisonMushroomMageSet"
+      },
+      "head_mystery_202609": {
+        "key": "head_mystery_202609",
+        "text": "Harvest Harlequin Hat",
+        "imageFileNames": [
+          "head_mystery_202609",
+          "shop_head_mystery_202609"
+        ],
+        "notes": "The joy of the harvest is the perfect time for silly fun! Confers no benefit. September 2026 Subscriber Item.",
+        "set": "mystery-202609"
+      },
+      "head_mystery_202610": {
+        "key": "head_mystery_202610",
+        "text": "Optical Illusionist Mask",
+        "imageFileNames": [
+          "head_mystery_202610",
+          "shop_head_mystery_202610"
+        ],
+        "notes": "See through the fabric of time and space itself. Confers no benefit. October 2026 Subscriber Item.",
+        "set": "mystery-202610"
+      },
+      "head_mystery_202611": {
+        "key": "head_mystery_202611",
+        "text": "Frost Dragon Cowl",
+        "imageFileNames": [
+          "head_mystery_202611",
+          "shop_head_mystery_202611"
+        ],
+        "notes": "The glowing horns on this cowl will light your way through deep winter darkness. Confers no benefit. November 2026 Subscriber Item.",
+        "set": "mystery-202611"
       }
     },
     "shield": {
@@ -20682,6 +20909,46 @@
         ],
         "notes": "This magical hose never kinks and can infinitely stretch to reach every inch of your space. All your flowers, trees, shrubs, and thirsty pets can enjoy a drink from it. Increases Perception by 8. Enchanted Armoire: Gardener Set 2 (Item 2 of 2).",
         "set": "gardener2"
+      },
+      "shield_special_fall2026Warrior": {
+        "key": "shield_special_fall2026Warrior",
+        "text": "Ghost Pumpkin",
+        "imageFileNames": [
+          "shield_special_fall2026Warrior",
+          "shop_shield_special_fall2026Warrior"
+        ],
+        "notes": "Whether it’s time-saving tips or spooky riddles, this little buddy’s got what you need. Increases Constitution by 7. Limited Edition Fall 2026 Gear.",
+        "set": "fall2026GhostPumpkinWarriorSet"
+      },
+      "shield_special_fall2026Rogue": {
+        "key": "shield_special_fall2026Rogue",
+        "text": "Skeletal Raven Staff",
+        "imageFileNames": [
+          "shield_special_fall2026Rogue",
+          "shop_shield_special_fall2026Rogue"
+        ],
+        "notes": "Don’t go anywhere without a staff, especially one with a feathery friend perched on top. Increases Strength by 8. Limited Edition Fall 2026 Gear.",
+        "set": "fall2026SkeletalRavenRogueSet"
+      },
+      "shield_special_fall2026Healer": {
+        "key": "shield_special_fall2026Healer",
+        "text": "Mystic Candle Fire",
+        "imageFileNames": [
+          "shield_special_fall2026Healer",
+          "shop_shield_special_fall2026Healer"
+        ],
+        "notes": "Whether it’s a little more warmth or a burst of cozy ambiance, this is just what you need. Increases Constitution by 9. Limited Edition Fall 2026 Gear.",
+        "set": "fall2026MysticCandleHealerSet"
+      },
+      "shield_mystery_202610": {
+        "key": "shield_mystery_202610",
+        "text": "Optical Orb",
+        "imageFileNames": [
+          "shield_mystery_202610",
+          "shop_shield_mystery_202610"
+        ],
+        "notes": "Spy, weapon, or little floating buddy? Your call. Confers no benefit. October 2026 Subscriber Item.",
+        "set": "mystery-202610"
       }
     },
     "back": {
@@ -28450,6 +28717,61 @@
       "gear": {
         "weapon": "weapon_armoire_gardenRake",
         "shield": "shield_armoire_gardenHose"
+      }
+    },
+    "fall2026GhostPumpkinWarriorSet": {
+      "key": "fall2026GhostPumpkinWarriorSet",
+      "text": "Ghost Pumpkin",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_special_fall2026Warrior",
+        "armor": "armor_special_fall2026Warrior",
+        "head": "head_special_fall2026Warrior",
+        "shield": "shield_special_fall2026Warrior"
+      }
+    },
+    "fall2026SkeletalRavenRogueSet": {
+      "key": "fall2026SkeletalRavenRogueSet",
+      "text": "Skeletal Raven",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_special_fall2026Rogue",
+        "armor": "armor_special_fall2026Rogue",
+        "head": "head_special_fall2026Rogue",
+        "shield": "shield_special_fall2026Rogue"
+      }
+    },
+    "fall2026MysticCandleHealerSet": {
+      "key": "fall2026MysticCandleHealerSet",
+      "text": "Mystic Candle",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_special_fall2026Healer",
+        "armor": "armor_special_fall2026Healer",
+        "head": "head_special_fall2026Healer",
+        "shield": "shield_special_fall2026Healer"
+      }
+    },
+    "fall2026PoisonMushroomMageSet": {
+      "key": "fall2026PoisonMushroomMageSet",
+      "text": "Poison Mushroom",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_special_fall2026Mage",
+        "armor": "armor_special_fall2026Mage",
+        "head": "head_special_fall2026Mage"
+      }
+    },
+    "mystery-202609": {
+      "key": "mystery-202609",
+      "text": "Harvest Harlequin",
+      "imageFileNames": [
+        "shop_set_mystery_202609"
+      ],
+      "gear": {
+        "weapon": "weapon_mystery_202609",
+        "armor": "armor_mystery_202609",
+        "head": "head_mystery_202609"
       }
     }
   },
