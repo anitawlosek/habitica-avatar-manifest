@@ -28773,6 +28773,18 @@
         "armor": "armor_mystery_202609",
         "head": "head_mystery_202609"
       }
+    },
+    "mystery-202610": {
+      "key": "mystery-202610",
+      "text": "Optical Illusionist",
+      "imageFileNames": [
+        "shop_set_mystery_202610"
+      ],
+      "gear": {
+        "weapon": "weapon_mystery_202610",
+        "head": "head_mystery_202610",
+        "shield": "shield_mystery_202610"
+      }
     }
   },
   "egg": {
