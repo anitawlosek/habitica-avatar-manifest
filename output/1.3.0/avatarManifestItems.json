@@ -8113,6 +8113,16 @@
         ],
         "notes": "Spy, weapon, or little floating buddy? Your call. Confers no benefit. October 2026 Subscriber Item. ",
         "set": "mystery-202610"
+      },
+      "weapon_armoire_hammerOfHonor": {
+        "key": "weapon_armoire_hammerOfHonor",
+        "text": "Hammer of Honor",
+        "imageFileNames": [
+          "weapon_armoire_hammerOfHonor",
+          "shop_weapon_armoire_hammerOfHonor"
+        ],
+        "notes": "Hail, honorable knight! Thou hast a brave heart, a strong arm, and high moral character. All in the kingdom know thou shalt handle this hammer with honor. Increases Strength by 9. Enchanted Armoire: Knight of Honor Set (Item 1 of 2)",
+        "set": "knightOfHonor"
       }
     },
     "armor": {
@@ -20949,6 +20959,16 @@
         ],
         "notes": "Spy, weapon, or little floating buddy? Your call. Confers no benefit. October 2026 Subscriber Item.",
         "set": "mystery-202610"
+      },
+      "shield_armoire_shieldOfHonor": {
+        "key": "shield_armoire_shieldOfHonor",
+        "text": "Shield of Honor",
+        "imageFileNames": [
+          "shield_armoire_shieldOfHonor",
+          "shop_shield_armoire_shieldOfHonor"
+        ],
+        "notes": "Oh, honorable knight! Thou hast a firm will, a steady hand, and a persistent nature. All in the kingdom know thou shalt wield this shield with honor. Increases Constitution by 9. Enchanted Armoire: Knight of Honor Set (Item 2 of 2)",
+        "set": "knightOfHonor"
       }
     },
     "back": {
@@ -28784,6 +28804,15 @@
         "weapon": "weapon_mystery_202610",
         "head": "head_mystery_202610",
         "shield": "shield_mystery_202610"
+      }
+    },
+    "knightOfHonor": {
+      "key": "knightOfHonor",
+      "text": "Knight of Honor",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_armoire_hammerOfHonor",
+        "shield": "shield_armoire_shieldOfHonor"
       }
     }
   },
