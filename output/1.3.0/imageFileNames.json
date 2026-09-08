@@ -12049,8 +12049,6 @@
   "shop_weapon_armoire_kendoShinai",
   "weapon_armoire_gardenRake",
   "shop_weapon_armoire_gardenRake",
-  "weapon_armoire_hammerOfHonor",
-  "shop_weapon_armoire_hammerOfHonor",
   "broad_armor_healer_1",
   "slim_armor_healer_1",
   "shop_armor_healer_1",
@@ -14980,8 +14978,6 @@
   "shop_shield_armoire_verdantBanner",
   "shield_armoire_gardenHose",
   "shop_shield_armoire_gardenHose",
-  "shield_armoire_shieldOfHonor",
-  "shop_shield_armoire_shieldOfHonor",
   "body_special_wondercon_red",
   "shop_body_special_wondercon_red",
   "body_special_wondercon_gold",
@@ -15577,5 +15573,9 @@
   "avatar_floral_healer",
   "seafoam_star",
   "zzz",
-  "head_0"
+  "head_0",
+  "weapon_armoire_hammerOfHonor",
+  "shop_weapon_armoire_hammerOfHonor",
+  "shield_armoire_shieldOfHonor",
+  "shop_shield_armoire_shieldOfHonor"
 ]
