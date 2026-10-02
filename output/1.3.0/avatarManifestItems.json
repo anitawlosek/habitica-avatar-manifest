@@ -28814,6 +28814,17 @@
         "weapon": "weapon_armoire_hammerOfHonor",
         "shield": "shield_armoire_shieldOfHonor"
       }
+    },
+    "mystery-202611": {
+      "key": "mystery-202611",
+      "text": "Frost Dragon",
+      "imageFileNames": [
+        "shop_set_mystery_202611"
+      ],
+      "gear": {
+        "armor": "armor_mystery_202611",
+        "head": "head_mystery_202611"
+      }
     }
   },
   "egg": {
