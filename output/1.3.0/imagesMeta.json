@@ -80675,6 +80675,24 @@
     "height": 68,
     "format": "png"
   },
+  "broad_armor_armoire_secretsCloak.png": {
+    "fileName": "broad_armor_armoire_secretsCloak.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "slim_armor_armoire_secretsCloak.png": {
+    "fileName": "slim_armor_armoire_secretsCloak.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_armor_armoire_secretsCloak.png": {
+    "fileName": "shop_armor_armoire_secretsCloak.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "head_healer_1.png": {
     "fileName": "head_healer_1.png",
     "width": 90,
@@ -86383,6 +86401,18 @@
   },
   "shop_head_armoire_kendoMen.png": {
     "fileName": "shop_head_armoire_kendoMen.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "head_armoire_secretsHood.png": {
+    "fileName": "head_armoire_secretsHood.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_head_armoire_secretsHood.png": {
+    "fileName": "shop_head_armoire_secretsHood.png",
     "width": 68,
     "height": 68,
     "format": "png"
@@ -92563,6 +92593,18 @@
   },
   "shop_eyewear_armoire_roseColoredGlasses.png": {
     "fileName": "shop_eyewear_armoire_roseColoredGlasses.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "eyewear_armoire_secretsShades.png": {
+    "fileName": "eyewear_armoire_secretsShades.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_eyewear_armoire_secretsShades.png": {
+    "fileName": "shop_eyewear_armoire_secretsShades.png",
     "width": 68,
     "height": 68,
     "format": "png"

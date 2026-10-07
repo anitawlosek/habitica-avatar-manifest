@@ -13181,6 +13181,17 @@
         ],
         "notes": "This armor is made from the shed scales of the elusive (and extremely cold) Frost Dragon. Confers no benefit. November 2026 Subscriber Item.",
         "set": "mystery-202611"
+      },
+      "armor_armoire_secretsCloak": {
+        "key": "armor_armoire_secretsCloak",
+        "text": "Secrets Cloak",
+        "imageFileNames": [
+          "broad_armor_armoire_secretsCloak",
+          "slim_armor_armoire_secretsCloak",
+          "shop_armor_armoire_secretsCloak"
+        ],
+        "notes": "Shhhhh! We stitched secrets into this cloak. Don’t tell anybody! Increases Intelligence and Perception by 5 each. Enchanted Armoire: Secrets Set (Item 3 of 3)",
+        "set": "secrets"
       }
     },
     "head": {
@@ -17950,6 +17961,16 @@
         ],
         "notes": "The glowing horns on this cowl will light your way through deep winter darkness. Confers no benefit. November 2026 Subscriber Item.",
         "set": "mystery-202611"
+      },
+      "head_armoire_secretsHood": {
+        "key": "head_armoire_secretsHood",
+        "text": "Secrets Hood",
+        "imageFileNames": [
+          "head_armoire_secretsHood",
+          "shop_head_armoire_secretsHood"
+        ],
+        "notes": "We obviously can’t describe this hood in detail, because it’s a secret. Increases Intelligence and Perception by 5 each. Enchanted Armoire: Secrets Set (Item 1 of 3).",
+        "set": "secrets"
       }
     },
     "shield": {
@@ -23145,6 +23166,16 @@
         ],
         "notes": "Your eyes are shaded but your outlook is still sunny! Confers no benefit. June 2026 Subscriber Item.",
         "set": "mystery-202606"
+      },
+      "eyewear_armoire_secretsShades": {
+        "key": "eyewear_armoire_secretsShades",
+        "text": "Secrets Shades",
+        "imageFileNames": [
+          "eyewear_armoire_secretsShades",
+          "shop_eyewear_armoire_secretsShades"
+        ],
+        "notes": "There are shades that let you see secrets? We can neither confirm nor deny that rumor. Increases Intelligence and Perception by 5 each. Enchanted Armoire: Secrets Set (Item 2 of 3)",
+        "set": "secrets"
       }
     }
   },
@@ -28824,6 +28855,16 @@
       "gear": {
         "armor": "armor_mystery_202611",
         "head": "head_mystery_202611"
+      }
+    },
+    "secrets": {
+      "key": "secrets",
+      "text": "Secrets",
+      "imageFileNames": [],
+      "gear": {
+        "armor": "armor_armoire_secretsCloak",
+        "head": "head_armoire_secretsHood",
+        "eyewear": "eyewear_armoire_secretsShades"
       }
     }
   },

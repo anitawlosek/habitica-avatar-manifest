@@ -13428,6 +13428,9 @@
   "broad_armor_armoire_kendoBogu",
   "slim_armor_armoire_kendoBogu",
   "shop_armor_armoire_kendoBogu",
+  "broad_armor_armoire_secretsCloak",
+  "slim_armor_armoire_secretsCloak",
+  "shop_armor_armoire_secretsCloak",
   "head_healer_1",
   "shop_head_healer_1",
   "head_healer_2",
@@ -14380,6 +14383,8 @@
   "shop_head_armoire_verdantArmingCap",
   "head_armoire_kendoMen",
   "shop_head_armoire_kendoMen",
+  "head_armoire_secretsHood",
+  "shop_head_armoire_secretsHood",
   "shield_healer_1",
   "shop_shield_healer_1",
   "shield_healer_2",
@@ -15410,6 +15415,8 @@
   "shop_eyewear_armoire_jewelersEyeLoupe",
   "eyewear_armoire_roseColoredGlasses",
   "shop_eyewear_armoire_roseColoredGlasses",
+  "eyewear_armoire_secretsShades",
+  "shop_eyewear_armoire_secretsShades",
   "shop_set_mystery_201411",
   "shop_set_mystery_201502",
   "shop_set_mystery_201505",
@@ -15504,6 +15511,7 @@
   "shop_set_mystery_202504",
   "shop_set_mystery_202509",
   "shop_set_mystery_202604",
+  "shop_set_mystery_202611",
   "shop_set_mystery_301703",
   "shop_set_mystery_301704",
   "shop_set_mystery_201601",
@@ -15577,6 +15585,5 @@
   "avatar_floral_healer",
   "seafoam_star",
   "zzz",
-  "head_0",
-  "shop_set_mystery_202611"
+  "head_0"
 ]
