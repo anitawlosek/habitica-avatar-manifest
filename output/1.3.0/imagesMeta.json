@@ -90029,6 +90029,18 @@
     "height": 68,
     "format": "png"
   },
+  "shield_armoire_leafPile.png": {
+    "fileName": "shield_armoire_leafPile.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_shield_armoire_leafPile.png": {
+    "fileName": "shop_shield_armoire_leafPile.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "body_special_wondercon_red.png": {
     "fileName": "body_special_wondercon_red.png",
     "width": 90,
