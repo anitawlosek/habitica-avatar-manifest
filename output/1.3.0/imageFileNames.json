@@ -14987,8 +14987,6 @@
   "shop_shield_armoire_gardenHose",
   "shield_armoire_shieldOfHonor",
   "shop_shield_armoire_shieldOfHonor",
-  "shield_armoire_leafPile",
-  "shop_shield_armoire_leafPile",
   "body_special_wondercon_red",
   "shop_body_special_wondercon_red",
   "body_special_wondercon_gold",
@@ -15587,5 +15585,7 @@
   "avatar_floral_healer",
   "seafoam_star",
   "zzz",
-  "head_0"
+  "head_0",
+  "shield_armoire_leafPile",
+  "shop_shield_armoire_leafPile"
 ]
