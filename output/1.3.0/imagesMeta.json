@@ -4679,6 +4679,42 @@
     "height": 68,
     "format": "png"
   },
+  "background_snowy_meadow.png": {
+    "fileName": "background_snowy_meadow.png",
+    "width": 141,
+    "height": 147,
+    "format": "png"
+  },
+  "icon_background_snowy_meadow.png": {
+    "fileName": "icon_background_snowy_meadow.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "background_pastel_clouds_and_stars.png": {
+    "fileName": "background_pastel_clouds_and_stars.png",
+    "width": 141,
+    "height": 147,
+    "format": "png"
+  },
+  "icon_background_pastel_clouds_and_stars.png": {
+    "fileName": "icon_background_pastel_clouds_and_stars.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "background_nighttime_cherry_blossoms.png": {
+    "fileName": "background_nighttime_cherry_blossoms.png",
+    "width": 141,
+    "height": 147,
+    "format": "png"
+  },
+  "icon_background_nighttime_cherry_blossoms.png": {
+    "fileName": "icon_background_nighttime_cherry_blossoms.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "background_birthday_bash.png": {
     "fileName": "background_birthday_bash.png",
     "width": 141,
@@ -70649,6 +70685,54 @@
     "height": 68,
     "format": "png"
   },
+  "weapon_special_winter2027Warrior.png": {
+    "fileName": "weapon_special_winter2027Warrior.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_special_winter2027Warrior.png": {
+    "fileName": "shop_weapon_special_winter2027Warrior.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "weapon_special_winter2027Rogue.png": {
+    "fileName": "weapon_special_winter2027Rogue.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_special_winter2027Rogue.png": {
+    "fileName": "shop_weapon_special_winter2027Rogue.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "weapon_special_winter2027Healer.png": {
+    "fileName": "weapon_special_winter2027Healer.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_special_winter2027Healer.png": {
+    "fileName": "shop_weapon_special_winter2027Healer.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "weapon_special_winter2027Mage.png": {
+    "fileName": "weapon_special_winter2027Mage.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_special_winter2027Mage.png": {
+    "fileName": "shop_weapon_special_winter2027Mage.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "weapon_mystery_201411.png": {
     "fileName": "weapon_mystery_201411.png",
     "width": 90,
@@ -70993,6 +71077,30 @@
   },
   "shop_weapon_mystery_202610.png": {
     "fileName": "shop_weapon_mystery_202610.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "weapon_mystery_202612.png": {
+    "fileName": "weapon_mystery_202612.png",
+    "width": 117,
+    "height": 120,
+    "format": "png"
+  },
+  "shop_weapon_mystery_202612.png": {
+    "fileName": "shop_weapon_mystery_202612.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "weapon_mystery_202701.png": {
+    "fileName": "weapon_mystery_202701.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_weapon_mystery_202701.png": {
+    "fileName": "shop_weapon_mystery_202701.png",
     "width": 68,
     "height": 68,
     "format": "png"
@@ -77089,6 +77197,78 @@
   },
   "shop_armor_special_fall2026Mage.png": {
     "fileName": "shop_armor_special_fall2026Mage.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "broad_armor_special_winter2027Warrior.png": {
+    "fileName": "broad_armor_special_winter2027Warrior.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "slim_armor_special_winter2027Warrior.png": {
+    "fileName": "slim_armor_special_winter2027Warrior.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_armor_special_winter2027Warrior.png": {
+    "fileName": "shop_armor_special_winter2027Warrior.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "broad_armor_special_winter2027Rogue.png": {
+    "fileName": "broad_armor_special_winter2027Rogue.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "slim_armor_special_winter2027Rogue.png": {
+    "fileName": "slim_armor_special_winter2027Rogue.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_armor_special_winter2027Rogue.png": {
+    "fileName": "shop_armor_special_winter2027Rogue.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "broad_armor_special_winter2027Healer.png": {
+    "fileName": "broad_armor_special_winter2027Healer.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "slim_armor_special_winter2027Healer.png": {
+    "fileName": "slim_armor_special_winter2027Healer.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_armor_special_winter2027Healer.png": {
+    "fileName": "shop_armor_special_winter2027Healer.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "broad_armor_special_winter2027Mage.png": {
+    "fileName": "broad_armor_special_winter2027Mage.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "slim_armor_special_winter2027Mage.png": {
+    "fileName": "slim_armor_special_winter2027Mage.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_armor_special_winter2027Mage.png": {
+    "fileName": "shop_armor_special_winter2027Mage.png",
     "width": 68,
     "height": 68,
     "format": "png"
@@ -83825,6 +84005,54 @@
     "height": 68,
     "format": "png"
   },
+  "head_special_winter2027Warrior.png": {
+    "fileName": "head_special_winter2027Warrior.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_head_special_winter2027Warrior.png": {
+    "fileName": "shop_head_special_winter2027Warrior.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "head_special_winter2027Rogue.png": {
+    "fileName": "head_special_winter2027Rogue.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_head_special_winter2027Rogue.png": {
+    "fileName": "shop_head_special_winter2027Rogue.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "head_special_winter2027Healer.png": {
+    "fileName": "head_special_winter2027Healer.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_head_special_winter2027Healer.png": {
+    "fileName": "shop_head_special_winter2027Healer.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "head_special_winter2027Mage.png": {
+    "fileName": "head_special_winter2027Mage.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_head_special_winter2027Mage.png": {
+    "fileName": "shop_head_special_winter2027Mage.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "head_mystery_201402.png": {
     "fileName": "head_mystery_201402.png",
     "width": 90,
@@ -88661,6 +88889,42 @@
     "height": 68,
     "format": "png"
   },
+  "shield_special_winter2027Warrior.png": {
+    "fileName": "shield_special_winter2027Warrior.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_shield_special_winter2027Warrior.png": {
+    "fileName": "shop_shield_special_winter2027Warrior.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_special_winter2027Rogue.png": {
+    "fileName": "shield_special_winter2027Rogue.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_shield_special_winter2027Rogue.png": {
+    "fileName": "shop_shield_special_winter2027Rogue.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_special_winter2027Healer.png": {
+    "fileName": "shield_special_winter2027Healer.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_shield_special_winter2027Healer.png": {
+    "fileName": "shop_shield_special_winter2027Healer.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "shield_mystery_201601.png": {
     "fileName": "shield_mystery_201601.png",
     "width": 120,
@@ -88897,6 +89161,42 @@
   },
   "shop_shield_mystery_202610.png": {
     "fileName": "shop_shield_mystery_202610.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_mystery_202612.png": {
+    "fileName": "shield_mystery_202612.png",
+    "width": 117,
+    "height": 120,
+    "format": "png"
+  },
+  "shop_shield_mystery_202612.png": {
+    "fileName": "shop_shield_mystery_202612.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_mystery_202701.png": {
+    "fileName": "shield_mystery_202701.png",
+    "width": 114,
+    "height": 90,
+    "format": "png"
+  },
+  "shop_shield_mystery_202701.png": {
+    "fileName": "shop_shield_mystery_202701.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shield_mystery_202702.png": {
+    "fileName": "shield_mystery_202702.png",
+    "width": 117,
+    "height": 120,
+    "format": "png"
+  },
+  "shop_shield_mystery_202702.png": {
+    "fileName": "shop_shield_mystery_202702.png",
     "width": 68,
     "height": 68,
     "format": "png"
@@ -91949,6 +92249,18 @@
     "height": 68,
     "format": "png"
   },
+  "headAccessory_mystery_202702.png": {
+    "fileName": "headAccessory_mystery_202702.png",
+    "width": 117,
+    "height": 120,
+    "format": "png"
+  },
+  "shop_headAccessory_mystery_202702.png": {
+    "fileName": "shop_headAccessory_mystery_202702.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
   "headAccessory_mystery_301405.png": {
     "fileName": "headAccessory_mystery_301405.png",
     "width": 90,
@@ -92791,6 +93103,12 @@
   },
   "shop_set_mystery_202610.png": {
     "fileName": "shop_set_mystery_202610.png",
+    "width": 68,
+    "height": 68,
+    "format": "png"
+  },
+  "shop_set_mystery_202612.png": {
+    "fileName": "shop_set_mystery_202612.png",
     "width": 68,
     "height": 68,
     "format": "png"

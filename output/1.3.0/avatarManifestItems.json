@@ -4018,6 +4018,36 @@
       ],
       "notes": "Search for adventure on a Path in Late Autumn.",
       "price": 7
+    },
+    "snowy_meadow": {
+      "key": "snowy_meadow",
+      "text": "Snowy Meadow",
+      "imageFileNames": [
+        "background_snowy_meadow",
+        "icon_background_snowy_meadow"
+      ],
+      "notes": "Make tracks in a Snowy Meadow.",
+      "price": 7
+    },
+    "pastel_clouds_and_stars": {
+      "key": "pastel_clouds_and_stars",
+      "text": "Pastel Clouds and Stars",
+      "imageFileNames": [
+        "background_pastel_clouds_and_stars",
+        "icon_background_pastel_clouds_and_stars"
+      ],
+      "notes": "Float among Pastel Clouds and Stars.",
+      "price": 7
+    },
+    "nighttime_cherry_blossoms": {
+      "key": "nighttime_cherry_blossoms",
+      "text": "Nighttime Cherry Blossoms",
+      "imageFileNames": [
+        "background_nighttime_cherry_blossoms",
+        "icon_background_nighttime_cherry_blossoms"
+      ],
+      "notes": "Take a moonlit stroll under Nighttime Cherry Blossoms.",
+      "price": 7
     }
   },
   "gear": {
@@ -7517,7 +7547,7 @@
           "weapon_armoire_potionBase",
           "shop_weapon_armoire_potionBase"
         ],
-        "notes": "The pets you hatch with this potion are anything but basic! Increases Strength, Intelligence, Constitution, and Perception by 3 each. Enchanted Armoire: Potion Set (Item 1 of 10) ",
+        "notes": "The pets you hatch with this potion are anything but basic! Increases Strength, Intelligence, Constitution, and Perception by 3 each. Enchanted Armoire: Potion Set (Item 1 of 10). ",
         "set": "hatchingPotions"
       },
       "weapon_armoire_potionBlue": {
@@ -7527,7 +7557,7 @@
           "weapon_armoire_potionBlue",
           "shop_weapon_armoire_potionBlue"
         ],
-        "notes": "Life is a little bit fluffier and a whole lot bluer with this potion to make cotton candy blue beasts! Increases Intelligence by 4 and Constitution by 8. Enchanted Armoire: Potion Set (Item 9 of 10) ",
+        "notes": "Life is a little bit fluffier and a whole lot bluer with this potion to make cotton candy blue beasts! Increases Intelligence by 4 and Constitution by 8. Enchanted Armoire: Potion Set (Item 9 of 10). ",
         "set": "hatchingPotions"
       },
       "weapon_armoire_potionDesert": {
@@ -7537,7 +7567,7 @@
           "weapon_armoire_potionDesert",
           "shop_weapon_armoire_potionDesert"
         ],
-        "notes": "With this potion in hand, you don’t have to be stranded on a deserted island to find a desert-colored pet to share your dessert with! Increases Strength by 4 and Constitution by 8. Enchanted Armoire: Potion Set (Item 3 of 10) ",
+        "notes": "With this potion in hand, you don’t have to be stranded on a deserted island to find a desert-colored pet to share your dessert with! Increases Strength by 4 and Constitution by 8. Enchanted Armoire: Potion Set (Item 3 of 10). ",
         "set": "hatchingPotions"
       },
       "weapon_armoire_potionGolden": {
@@ -7547,7 +7577,7 @@
           "weapon_armoire_potionGolden",
           "shop_weapon_armoire_potionGolden"
         ],
-        "notes": "With this potion, your pet can have a heart of gold… and ears of gold… and a tail of gold… Increases Strength and Intelligence by 6 each. Enchanted Armoire: Potion Set (Item 10 of 10) ",
+        "notes": "With this potion, your pet can have a heart of gold… and ears of gold… and a tail of gold… Increases Strength and Intelligence by 6 each. Enchanted Armoire: Potion Set (Item 10 of 10). ",
         "set": "hatchingPotions"
       },
       "weapon_armoire_potionPink": {
@@ -7557,7 +7587,7 @@
           "weapon_armoire_potionPink",
           "shop_weapon_armoire_potionPink"
         ],
-        "notes": "Life is a little bit sweeter and a whole lot pinker with this cotton candy pink pet potion! Increases Intelligence by 4 and Constitution by 8. Enchanted Armoire: Potion Set (Item 8 of 10) ",
+        "notes": "Life is a little bit sweeter and a whole lot pinker with this cotton candy pink pet potion! Increases Intelligence by 4 and Constitution by 8. Enchanted Armoire: Potion Set (Item 8 of 10). ",
         "set": "hatchingPotions"
       },
       "weapon_armoire_potionRed": {
@@ -7567,7 +7597,7 @@
           "weapon_armoire_potionRed",
           "shop_weapon_armoire_potionRed"
         ],
-        "notes": "It’s a red-letter day because this hatching potion is no red herring! Increases Strength and Constitution by 6 each. Enchanted Armoire: Potion Set (Item 4 of 10) ",
+        "notes": "It’s a red-letter day because this hatching potion is no red herring! Increases Strength and Constitution by 6 each. Enchanted Armoire: Potion Set (Item 4 of 10). ",
         "set": "hatchingPotions"
       },
       "weapon_armoire_potionShade": {
@@ -7577,7 +7607,7 @@
           "weapon_armoire_potionShade",
           "shop_weapon_armoire_potionShade"
         ],
-        "notes": "Time to throw some shade (potion) on an egg to hatch yourself a shady pet! Increases Intelligence by 9 and Perception by 3. Enchanted Armoire: Potion Set (Item 5 of 10) ",
+        "notes": "Time to throw some shade (potion) on an egg to hatch yourself a shady pet! Increases Intelligence by 9 and Perception by 3. Enchanted Armoire: Potion Set (Item 5 of 10). ",
         "set": "hatchingPotions"
       },
       "weapon_armoire_potionSkeleton": {
@@ -7587,7 +7617,7 @@
           "weapon_armoire_potionSkeleton",
           "shop_weapon_armoire_potionSkeleton"
         ],
-        "notes": "Are you feeling productive? Is today a bones day? Be sure to carry this skeleton hatching potion with you! Increases Strength by 9 and Intelligence by 3. Enchanted Armoire: Potion Set (Item 6 of 10) ",
+        "notes": "Are you feeling productive? Is today a bones day? Be sure to carry this skeleton hatching potion with you! Increases Strength by 9 and Intelligence by 3. Enchanted Armoire: Potion Set (Item 6 of 10). ",
         "set": "hatchingPotions"
       },
       "weapon_armoire_potionWhite": {
@@ -7597,7 +7627,7 @@
           "weapon_armoire_potionWhite",
           "shop_weapon_armoire_potionWhite"
         ],
-        "notes": "You could almost lose a pet hatched with this potion in a snowstorm! Increases Constitution by 5 and Perception by 7. Enchanted Armoire: Potion Set (Item 2 of 10) ",
+        "notes": "You could almost lose a pet hatched with this potion in a snowstorm! Increases Constitution by 5 and Perception by 7. Enchanted Armoire: Potion Set (Item 2 of 10). ",
         "set": "hatchingPotions"
       },
       "weapon_armoire_potionZombie": {
@@ -7607,7 +7637,7 @@
           "weapon_armoire_potionZombie",
           "shop_weapon_armoire_potionZombie"
         ],
-        "notes": "Use this to hatch a zombie pet, but stay vigilant in case it starts nibbling on you! Increases Constitution by 4 and Perception by 8. Enchanted Armoire: Potion Set (Item 7 of 10) ",
+        "notes": "Use this to hatch a zombie pet, but stay vigilant in case it starts nibbling on you! Increases Constitution by 4 and Perception by 8. Enchanted Armoire: Potion Set (Item 7 of 10). ",
         "set": "hatchingPotions"
       },
       "weapon_armoire_regalSceptre": {
@@ -7659,7 +7689,7 @@
           "weapon_armoire_huntingHorn",
           "shop_weapon_armoire_huntingHorn"
         ],
-        "notes": "Twooooo! Twoo! Twoo! Gather your party for an adventure or quest by playing this horn. Increases Strength by 5 and Intelligence by 6. Enchanted Armoire: Musical Instrument Set 1 (Item 1 of 3) ",
+        "notes": "Twooooo! Twoo! Twoo! Gather your party for an adventure or quest by playing this horn. Increases Strength by 5 and Intelligence by 6. Enchanted Armoire: Musical Instrument Set 1 (Item 1 of 3). ",
         "set": "musicalInstrumentOne"
       },
       "weapon_armoire_blueKite": {
@@ -7669,7 +7699,7 @@
           "weapon_armoire_blueKite",
           "shop_weapon_armoire_blueKite"
         ],
-        "notes": "Sailing high up in the blue, what tricks can you make your kite do? Increases all stats by 3 each. Enchanted Armoire: Kite Set (Item 1 of 5) ",
+        "notes": "Sailing high up in the blue, what tricks can you make your kite do? Increases all stats by 3 each. Enchanted Armoire: Kite Set (Item 1 of 5). ",
         "set": "kite"
       },
       "weapon_armoire_greenKite": {
@@ -7679,7 +7709,7 @@
           "weapon_armoire_greenKite",
           "shop_weapon_armoire_greenKite"
         ],
-        "notes": "A more stunning kite you’ve never seen, with its shades of yellow and green. Increases all stats by 3 each. Enchanted Armoire: Kite Set (Item 2 of 5) ",
+        "notes": "A more stunning kite you’ve never seen, with its shades of yellow and green. Increases all stats by 3 each. Enchanted Armoire: Kite Set (Item 2 of 5). ",
         "set": "kite"
       },
       "weapon_armoire_orangeKite": {
@@ -7689,7 +7719,7 @@
           "weapon_armoire_orangeKite",
           "shop_weapon_armoire_orangeKite"
         ],
-        "notes": "With colors like sunrise and sunset, let’s see how high your kite can get! Increases all stats by 3 each. Enchanted Armoire: Kite Set (Item 3 of 5) ",
+        "notes": "With colors like sunrise and sunset, let’s see how high your kite can get! Increases all stats by 3 each. Enchanted Armoire: Kite Set (Item 3 of 5). ",
         "set": "kite"
       },
       "weapon_armoire_pinkKite": {
@@ -7699,7 +7729,7 @@
           "weapon_armoire_pinkKite",
           "shop_weapon_armoire_pinkKite"
         ],
-        "notes": "Diving, twirling, soaring high, your kite stands out against the sky. Increases all stats by 3 each. Enchanted Armoire: Kite Set (Item 4 of 5) ",
+        "notes": "Diving, twirling, soaring high, your kite stands out against the sky. Increases all stats by 3 each. Enchanted Armoire: Kite Set (Item 4 of 5). ",
         "set": "kite"
       },
       "weapon_armoire_yellowKite": {
@@ -7709,7 +7739,7 @@
           "weapon_armoire_yellowKite",
           "shop_weapon_armoire_yellowKite"
         ],
-        "notes": "Swooping and swerving to and fro, watch your cheerful kite go. Increases all stats by 3 each. Enchanted Armoire: Kite Set (Item 5 of 5) ",
+        "notes": "Swooping and swerving to and fro, watch your cheerful kite go. Increases all stats by 3 each. Enchanted Armoire: Kite Set (Item 5 of 5). ",
         "set": "kite"
       },
       "weapon_armoire_pushBroom": {
@@ -7719,7 +7749,7 @@
           "weapon_armoire_pushBroom",
           "shop_weapon_armoire_pushBroom"
         ],
-        "notes": "Take this tidying tool on your adventures and always be able to sweep a sooty stoop or clear cobwebs from corners. Increases Strength and Intelligence by 4 each. Enchanted Armoire: Cleaning Supplies Set (Item 1 of 3) ",
+        "notes": "Take this tidying tool on your adventures and always be able to sweep a sooty stoop or clear cobwebs from corners. Increases Strength and Intelligence by 4 each. Enchanted Armoire: Cleaning Supplies Set (Item 1 of 3). ",
         "set": "cleaningSupplies"
       },
       "weapon_armoire_featherDuster": {
@@ -7729,7 +7759,7 @@
           "weapon_armoire_featherDuster",
           "shop_weapon_armoire_featherDuster"
         ],
-        "notes": "Let these fancy feathers fly over all your old objects to make them shine like new. Just beware of the disturbed dust so you don’t sneeze! Increases Constitution and Perception by 4 each. Enchanted Armoire: Cleaning Supplies Set (Item 2 of 3) ",
+        "notes": "Let these fancy feathers fly over all your old objects to make them shine like new. Just beware of the disturbed dust so you don’t sneeze! Increases Constitution and Perception by 4 each. Enchanted Armoire: Cleaning Supplies Set (Item 2 of 3). ",
         "set": "cleaningSupplies"
       },
       "weapon_armoire_magicSpatula": {
@@ -7769,7 +7799,7 @@
           "weapon_armoire_mop",
           "shop_weapon_armoire_mop"
         ],
-        "notes": "Step 1: Dunk the mop in a bucket of water and suds. Step 2: Drag the mop along the floor. Step 3: Pretend the end of the mop handle is a microphone and sing your heart out. Step 4: Repeat Steps 1-3 until floor is clean. Increases Constitution and Perception by 4 each. Enchanted Armoire: Cleaning Supplies Set Two (Item 2 of 3) ",
+        "notes": "Step 1: Dunk the mop in a bucket of water and suds. Step 2: Drag the mop along the floor. Step 3: Pretend the end of the mop handle is a microphone and sing your heart out. Step 4: Repeat Steps 1-3 until floor is clean. Increases Constitution and Perception by 4 each. Enchanted Armoire: Cleaning Supplies Set Two (Item 2 of 3). ",
         "set": "cleaningSuppliesTwo"
       },
       "weapon_armoire_cleaningCloth": {
@@ -7779,7 +7809,7 @@
           "weapon_armoire_cleaningCloth",
           "shop_weapon_armoire_cleaningCloth"
         ],
-        "notes": "Take this tidying tool on your adventures and always be able to polish a pretty plaque or wipe a wooden windowsill. Increases Strength and Constitution by 4 each. Enchanted Armoire: Cleaning Supplies Set Two (Item 3 of 3) ",
+        "notes": "Take this tidying tool on your adventures and always be able to polish a pretty plaque or wipe a wooden windowsill. Increases Strength and Constitution by 4 each. Enchanted Armoire: Cleaning Supplies Set Two (Item 3 of 3). ",
         "set": "cleaningSuppliesTwo"
       },
       "weapon_armoire_ridingBroom": {
@@ -7789,7 +7819,7 @@
           "weapon_armoire_ridingBroom",
           "shop_weapon_armoire_ridingBroom"
         ],
-        "notes": "Run all your most magical errands on this fine broom—or, just take it for a joyride around the neighborhood. Whee! Increases Strength by 5 and Intelligence by 3. Enchanted Armoire: Spooky Sorcery Set (Item 1 of 3) ",
+        "notes": "Run all your most magical errands on this fine broom—or, just take it for a joyride around the neighborhood. Whee! Increases Strength by 5 and Intelligence by 3. Enchanted Armoire: Spooky Sorcery Set (Item 1 of 3). ",
         "set": "somethingSpooky"
       },
       "weapon_armoire_rollingPin": {
@@ -7939,7 +7969,7 @@
           "weapon_armoire_bambooFlute",
           "shop_weapon_armoire_bambooFlute"
         ],
-        "notes": "Hwhoooo! Hu-whooooo! Gather your party for a meditation session or self-care nap while relaxing to tunes played on this bamboo flute. Increases Constitution and Intelligence by 6 each. Enchanted Armoire: Musical Instrument Set 2 (Item 2 of 3) ",
+        "notes": "Hwhoooo! Hu-whooooo! Gather your party for a meditation session or self-care nap while relaxing to tunes played on this bamboo flute. Increases Constitution and Intelligence by 6 each. Enchanted Armoire: Musical Instrument Set 2 (Item 2 of 3). ",
         "set": "musicalInstrumentTwo"
       },
       "weapon_armoire_prettyPinkParasol": {
@@ -7949,7 +7979,7 @@
           "weapon_armoire_prettyPinkParasol",
           "shop_weapon_armoire_prettyPinkParasol"
         ],
-        "notes": "Pretty and practical is the preeminent permutation. And for a particularly impressive presentation, give this parasol a spin! Increases all stats by 2 each. Enchanted Armoire: Pretty in Pink Set (Item 1 of 2) ",
+        "notes": "Pretty and practical is the preeminent permutation. And for a particularly impressive presentation, give this parasol a spin! Increases all stats by 2 each. Enchanted Armoire: Pretty in Pink Set (Item 1 of 2). ",
         "set": "prettyInPink"
       },
       "weapon_special_summer2026Warrior": {
@@ -8121,8 +8151,69 @@
           "weapon_armoire_hammerOfHonor",
           "shop_weapon_armoire_hammerOfHonor"
         ],
-        "notes": "Hail, honorable knight! Thou hast a brave heart, a strong arm, and high moral character. All in the kingdom know thou shalt handle this hammer with honor. Increases Strength by 9. Enchanted Armoire: Knight of Honor Set (Item 1 of 2) ",
+        "notes": "Hail, honorable knight! Thou hast a brave heart, a strong arm, and high moral character. All in the kingdom know thou shalt handle this hammer with honor. Increases Strength by 9. Enchanted Armoire: Knight of Honor Set (Item 1 of 2). ",
         "set": "knightOfHonor"
+      },
+      "weapon_special_winter2027Warrior": {
+        "key": "weapon_special_winter2027Warrior",
+        "text": "Winter Solstice Staff",
+        "imageFileNames": [
+          "weapon_special_winter2027Warrior",
+          "shop_weapon_special_winter2027Warrior"
+        ],
+        "notes": "Wield this staff to discover cool options you might not have previously considered. Increases Strength by 15. Limited Edition Winter 2026-2027 Gear. ",
+        "set": "winter2027WinterSolsticeWarriorSet"
+      },
+      "weapon_special_winter2027Rogue": {
+        "key": "weapon_special_winter2027Rogue",
+        "text": "Jingle Bells",
+        "imageFileNames": [
+          "weapon_special_winter2027Rogue",
+          "shop_weapon_special_winter2027Rogue"
+        ],
+        "notes": "Throw these jingle bells to confuse your foes and slip away when they're not looking. Increases Strength by 8. Limited Edition Winter 2026-2027 Gear. ",
+        "set": "winter2027JingleBellRogueSet"
+      },
+      "weapon_special_winter2027Healer": {
+        "key": "weapon_special_winter2027Healer",
+        "text": "Holly Berry Crook",
+        "imageFileNames": [
+          "weapon_special_winter2027Healer",
+          "shop_weapon_special_winter2027Healer"
+        ],
+        "notes": "Let this shine, swing, and guide you swiftly past any doubts. Increases Intelligence by 9. Limited Edition Winter 2026-2027 Gear. ",
+        "set": "winter2027HollyBerryHealerSet"
+      },
+      "weapon_special_winter2027Mage": {
+        "key": "weapon_special_winter2027Mage",
+        "text": "Minty Stripe Staff",
+        "imageFileNames": [
+          "weapon_special_winter2027Mage",
+          "shop_weapon_special_winter2027Mage"
+        ],
+        "notes": "Wave this staff to discover fresh ways to accomplish old, tiring tasks. Increases Intelligence by 15 and Perception by 7. Limited Edition Winter 2026-2027 Gear. Two-handed item.",
+        "set": "winter2027MintyStripeMageSet",
+        "twoHanded": true
+      },
+      "weapon_mystery_202612": {
+        "key": "weapon_mystery_202612",
+        "text": "Sparkly Snow Globe",
+        "imageFileNames": [
+          "weapon_mystery_202612",
+          "shop_weapon_mystery_202612"
+        ],
+        "notes": "Your winter outfit looks so good you should be on display! Confers no benefit. December 2026 Subscriber Item. ",
+        "set": "mystery-202612"
+      },
+      "weapon_mystery_202701": {
+        "key": "weapon_mystery_202701",
+        "text": "Frostflame Fireball",
+        "imageFileNames": [
+          "weapon_mystery_202701",
+          "shop_weapon_mystery_202701"
+        ],
+        "notes": "The intensity of fire melds with the harsh cold of midwinter frost to form this powerful magic weapon. Confers no benefit. January 2027 Subscriber Item. ",
+        "set": "mystery-202701"
       }
     },
     "armor": {
@@ -12860,7 +12951,7 @@
           "slim_armor_armoire_corsairsCoatAndCape",
           "shop_armor_armoire_corsairsCoatAndCape"
         ],
-        "notes": "Whether you’re biding your time on the docks or watching for danger on the open seas, these will surely keep you feeling dry and looking dramatic. Just keep your balance on deck. Increases Constitution by 14. Enchanted Armoire: Corsair Set (Item 1 of 3)",
+        "notes": "Whether you’re biding your time on the docks or watching for danger on the open seas, these will surely keep you feeling dry and looking dramatic. Just keep your balance on deck. Increases Constitution by 14. Enchanted Armoire: Corsair Set (Item 1 of 3).",
         "set": "corsairSet"
       },
       "armor_armoire_dragonKnightsArmor": {
@@ -12871,7 +12962,7 @@
           "slim_armor_armoire_dragonKnightsArmor",
           "shop_armor_armoire_dragonKnightsArmor"
         ],
-        "notes": "Channel the strength and power of a dragon with this armor made of silver and shed scales. Increases Strength by 8. Enchanted Armoire: Dragon Knight Set (Item 2 of 3)",
+        "notes": "Channel the strength and power of a dragon with this armor made of silver and shed scales. Increases Strength by 8. Enchanted Armoire: Dragon Knight Set (Item 2 of 3).",
         "set": "dragonKnightSet"
       },
       "armor_armoire_funnyFoolCostume": {
@@ -12882,7 +12973,7 @@
           "slim_armor_armoire_funnyFoolCostume",
           "shop_armor_armoire_funnyFoolCostume"
         ],
-        "notes": "Dum-de-dum! Surely you jest. This colorful outfit looks amazing on you! Increases Strength by 15. Enchanted Armoire: Funny Fool Set (Item 2 of 3)",
+        "notes": "Dum-de-dum! Surely you jest. This colorful outfit looks amazing on you! Increases Strength by 15. Enchanted Armoire: Funny Fool Set (Item 2 of 3).",
         "set": "funnyFoolSet"
       },
       "armor_armoire_stormKnightArmor": {
@@ -12893,7 +12984,7 @@
           "slim_armor_armoire_stormKnightArmor",
           "shop_armor_armoire_stormKnightArmor"
         ],
-        "notes": "In this armor, you are nearly invincible. Your enemies will never see the storm’s end. Increases Perception by 11. Enchanted Armoire: Storm Knight Set (Item 2 of 3)",
+        "notes": "In this armor, you are nearly invincible. Your enemies will never see the storm’s end. Increases Perception by 11. Enchanted Armoire: Storm Knight Set (Item 2 of 3).",
         "set": "stormKnightSet"
       },
       "armor_armoire_festiveHelperOveralls": {
@@ -12904,7 +12995,7 @@
           "slim_armor_armoire_festiveHelperOveralls",
           "shop_armor_armoire_festiveHelperOveralls"
         ],
-        "notes": "Durable and comfortable, these overalls are great for working, playing, and assisting others. Plus, it has pockets! Increases Constitution by 12. Enchanted Armoire: Festive Helper Set (Item 2 of 2)",
+        "notes": "Durable and comfortable, these overalls are great for working, playing, and assisting others. Plus, it has pockets! Increases Constitution by 12. Enchanted Armoire: Festive Helper Set (Item 2 of 2).",
         "set": "festiveHelperSet"
       },
       "armor_armoire_snowyFluffTrimmedCoat": {
@@ -12959,7 +13050,7 @@
           "slim_armor_armoire_gildedKnightsPlate",
           "shop_armor_armoire_gildedKnightsPlate"
         ],
-        "notes": "In this armor, you are nearly invincible. Your enemies will surely hear you roar! Increases Perception by 11. Enchanted Armoire: Gilded Knight Set (Item 2 of 3)",
+        "notes": "In this armor, you are nearly invincible. Your enemies will surely hear you roar! Increases Perception by 11. Enchanted Armoire: Gilded Knight Set (Item 2 of 3).",
         "set": "gildedKnightSet"
       },
       "armor_armoire_beekeepersSuit": {
@@ -12970,7 +13061,7 @@
           "slim_armor_armoire_beekeepersSuit",
           "shop_armor_armoire_beekeepersSuit"
         ],
-        "notes": "Keep yourself safe as you look after your busy bumbles. Increases Constitution by 12. Enchanted Armoire: Beekeeper Set (Item 2 of 4)",
+        "notes": "Keep yourself safe as you look after your busy bumbles. Increases Constitution by 12. Enchanted Armoire: Beekeeper Set (Item 2 of 4).",
         "set": "beekeepersSet"
       },
       "armor_armoire_flyFishingWaders": {
@@ -12981,7 +13072,7 @@
           "slim_armor_armoire_flyFishingWaders",
           "shop_armor_armoire_flyFishingWaders"
         ],
-        "notes": "Stay perfectly warm and dry when you wade into a stream, pond, lake, or river. Increases Strength and Constitution by 7 each. Enchanted Armoire: Fly Fishing Set (Item 2 of 3)",
+        "notes": "Stay perfectly warm and dry when you wade into a stream, pond, lake, or river. Increases Strength and Constitution by 7 each. Enchanted Armoire: Fly Fishing Set (Item 2 of 3).",
         "set": "flyFishingSet"
       },
       "armor_armoire_redWaistcoat": {
@@ -12992,7 +13083,7 @@
           "slim_armor_armoire_redWaistcoat",
           "shop_armor_armoire_redWaistcoat"
         ],
-        "notes": "Look smart and stunning as you tackle your tasks. There’s something secret hidden in the vest pocket—what do you think it could be? Increases Constitution and Strength by 8 each. Enchanted Armoire: Red Waistcoat Set (Item 2 of 2)",
+        "notes": "Look smart and stunning as you tackle your tasks. There’s something secret hidden in the vest pocket—what do you think it could be? Increases Constitution and Strength by 8 each. Enchanted Armoire: Red Waistcoat Set (Item 2 of 2).",
         "set": "redWaistcoatSet"
       },
       "armor_armoire_softOrangeSuit": {
@@ -13036,7 +13127,7 @@
           "slim_armor_armoire_loneCowpokeOutfit",
           "shop_armor_armoire_loneCowpokeOutfit"
         ],
-        "notes": "Whoa, there! Want to make a statement when you ride into town as a mysterious stranger ready to be productive? Here’s the perfect outfit, complete with chaps and a shining, silver belt buckle. Increases Constitution by 10. Enchanted Armoire: Lone Cowpoke Set (Item 2 of 2)",
+        "notes": "Whoa, there! Want to make a statement when you ride into town as a mysterious stranger ready to be productive? Here’s the perfect outfit, complete with chaps and a shining, silver belt buckle. Increases Constitution by 10. Enchanted Armoire: Lone Cowpoke Set (Item 2 of 2).",
         "set": "loneCowpoke"
       },
       "armor_armoire_softYellowSuit": {
@@ -13190,8 +13281,52 @@
           "slim_armor_armoire_secretsCloak",
           "shop_armor_armoire_secretsCloak"
         ],
-        "notes": "Shhhhh! We stitched secrets into this cloak. Don’t tell anybody! Increases Intelligence and Perception by 5 each. Enchanted Armoire: Secrets Set (Item 3 of 3)",
+        "notes": "Shhhhh! We stitched secrets into this cloak. Don’t tell anybody! Increases Intelligence and Perception by 5 each. Enchanted Armoire: Secrets Set (Item 3 of 3).",
         "set": "secrets"
+      },
+      "armor_special_winter2027Warrior": {
+        "key": "armor_special_winter2027Warrior",
+        "text": "Winter Solstice Armor",
+        "imageFileNames": [
+          "broad_armor_special_winter2027Warrior",
+          "slim_armor_special_winter2027Warrior",
+          "shop_armor_special_winter2027Warrior"
+        ],
+        "notes": "Put on this armor as you contemplate your next steps and recharge your energy. Increases Constitution by 9. Limited Edition Winter 2026-2027 Gear.",
+        "set": "winter2027WinterSolsticeWarriorSet"
+      },
+      "armor_special_winter2027Rogue": {
+        "key": "armor_special_winter2027Rogue",
+        "text": "Jingle Bell Suit",
+        "imageFileNames": [
+          "broad_armor_special_winter2027Rogue",
+          "slim_armor_special_winter2027Rogue",
+          "shop_armor_special_winter2027Rogue"
+        ],
+        "notes": "Slip into this suit for a merry celebration and recharge after all you've accomplished. Increases Perception by 15. Limited Edition Winter 2026-2027 Gear.",
+        "set": "winter2027JingleBellRogueSet"
+      },
+      "armor_special_winter2027Healer": {
+        "key": "armor_special_winter2027Healer",
+        "text": "Holly Berry Cloak",
+        "imageFileNames": [
+          "broad_armor_special_winter2027Healer",
+          "slim_armor_special_winter2027Healer",
+          "shop_armor_special_winter2027Healer"
+        ],
+        "notes": "Wear this cloak to connect with nature and recharge your energy any time you need. Increases Constitution by 15. Limited Edition Winter 2026-2027 Gear.",
+        "set": "winter2027HollyBerryHealerSet"
+      },
+      "armor_special_winter2027Mage": {
+        "key": "armor_special_winter2027Mage",
+        "text": "Minty Stripe Robes",
+        "imageFileNames": [
+          "broad_armor_special_winter2027Mage",
+          "slim_armor_special_winter2027Mage",
+          "shop_armor_special_winter2027Mage"
+        ],
+        "notes": "Get cozy in these robes, grab a cup of peppermint cocoa, and recharge your energy. Increases Intelligence by 9. Limited Edition Winter 2026-2027 Gear.",
+        "set": "winter2027MintyStripeMageSet"
       }
     },
     "head": {
@@ -17649,7 +17784,7 @@
           "head_armoire_corsairsBandana",
           "shop_head_armoire_corsairsBandana"
         ],
-        "notes": "Whether you’re keeping your head covered in case a seagull flies overhead or making sure your foes never see you sweat, this bandana is essential. Just add a decorative bead for every adventure you complete. Increases Intelligence by 7. Enchanted Armoire: Corsair Set (Item 2 of 3)",
+        "notes": "Whether you’re keeping your head covered in case a seagull flies overhead or making sure your foes never see you sweat, this bandana is essential. Just add a decorative bead for every adventure you complete. Increases Intelligence by 7. Enchanted Armoire: Corsair Set (Item 2 of 3).",
         "set": "corsairSet"
       },
       "head_armoire_dragonKnightsHelm": {
@@ -17659,7 +17794,7 @@
           "head_armoire_dragonKnightsHelm",
           "shop_head_armoire_dragonKnightsHelm"
         ],
-        "notes": "With the fiery features on this helmet, dragons might mistake you for one of their own. Increases Intelligence by 8. Enchanted Armoire: Dragon Knight Set (Item 1 of 3)",
+        "notes": "With the fiery features on this helmet, dragons might mistake you for one of their own. Increases Intelligence by 8. Enchanted Armoire: Dragon Knight Set (Item 1 of 3).",
         "set": "dragonKnightSet"
       },
       "head_armoire_funnyFoolCap": {
@@ -17669,7 +17804,7 @@
           "head_armoire_funnyFoolCap",
           "shop_head_armoire_funnyFoolCap"
         ],
-        "notes": "The bells on this hat might make your opponents burst into giggles, but they just help you concentrate. Increases Constitution by 15. Enchanted Armoire: Funny Fool Set (Item 1 of 3)",
+        "notes": "The bells on this hat might make your opponents burst into giggles, but they just help you concentrate. Increases Constitution by 15. Enchanted Armoire: Funny Fool Set (Item 1 of 3).",
         "set": "funnyFoolSet"
       },
       "head_armoire_stormKnightHelm": {
@@ -17679,7 +17814,7 @@
           "head_armoire_stormKnightHelm",
           "shop_head_armoire_stormKnightHelm"
         ],
-        "notes": "Harness lightning through these antlers as you storm the castle. Increases Constitution by 11. Enchanted Armoire: Storm Knight Set (Item 1 of 3)",
+        "notes": "Harness lightning through these antlers as you storm the castle. Increases Constitution by 11. Enchanted Armoire: Storm Knight Set (Item 1 of 3).",
         "set": "stormKnightSet"
       },
       "head_armoire_festiveHelperHat": {
@@ -17689,7 +17824,7 @@
           "head_armoire_festiveHelperHat",
           "shop_head_armoire_festiveHelperHat"
         ],
-        "notes": "Holiday tip #27: have a helper hat handy. This one is big enough to keep an emergency toy underneath! Increases Intelligence by 12. Enchanted Armoire: Festive Helper Set (Item 1 of 2)",
+        "notes": "Holiday tip #27: have a helper hat handy. This one is big enough to keep an emergency toy underneath! Increases Intelligence by 12. Enchanted Armoire: Festive Helper Set (Item 1 of 2).",
         "set": "festiveHelperSet"
       },
       "head_armoire_snowyTrapperHat": {
@@ -17739,7 +17874,7 @@
           "head_armoire_gildedKnightsHelm",
           "shop_head_armoire_gildedKnightsHelm"
         ],
-        "notes": "Shine as bright as the sun through the darkness of any battle. Increases Constitution by 11. Enchanted Armoire: Gilded Knight Set (Item 1 of 3)",
+        "notes": "Shine as bright as the sun through the darkness of any battle. Increases Constitution by 11. Enchanted Armoire: Gilded Knight Set (Item 1 of 3).",
         "set": "gildedKnightSet"
       },
       "head_armoire_beekeepersHat": {
@@ -17749,7 +17884,7 @@
           "head_armoire_beekeepersHat",
           "shop_head_armoire_beekeepersHat"
         ],
-        "notes": "Keep your face safe as you tend to your buzzing buddies. Increases Perception by 12. Enchanted Armoire: Beekeeper Set (Item 1 of 4)",
+        "notes": "Keep your face safe as you tend to your buzzing buddies. Increases Perception by 12. Enchanted Armoire: Beekeeper Set (Item 1 of 4).",
         "set": "beekeepersSet"
       },
       "head_armoire_flyFishingHat": {
@@ -17759,7 +17894,7 @@
           "head_armoire_flyFishingHat",
           "shop_head_armoire_flyFishingHat"
         ],
-        "notes": "With a wide brim and spot to hold a spare lure, don’t go fly fishing without this beauty. Increases Strength and Perception by 7 each. Enchanted Armoire: Fly Fishing Set (Item 1 of 3)",
+        "notes": "With a wide brim and spot to hold a spare lure, don’t go fly fishing without this beauty. Increases Strength and Perception by 7 each. Enchanted Armoire: Fly Fishing Set (Item 1 of 3).",
         "set": "flyFishingSet"
       },
       "head_armoire_redNewsieHat": {
@@ -17769,7 +17904,7 @@
           "head_armoire_redNewsieHat",
           "shop_head_armoire_redNewsieHat"
         ],
-        "notes": "Extra! Extra! Read all about it: this cap is comfortable, fashionable, and practical. Increases Perception and Intelligence by 8 each. Enchanted Armoire: Red Waistcoat Set (Item 1 of 2)",
+        "notes": "Extra! Extra! Read all about it: this cap is comfortable, fashionable, and practical. Increases Perception and Intelligence by 8 each. Enchanted Armoire: Red Waistcoat Set (Item 1 of 2).",
         "set": "redWaistcoatSet"
       },
       "head_armoire_floppyOrangeHat": {
@@ -17809,7 +17944,7 @@
           "head_armoire_loneCowpokeHat",
           "shop_head_armoire_loneCowpokeHat"
         ],
-        "notes": "Howdy there, pardner! D’you hate when you’re out on the range, workin’ on tasks, and sun gets in your eyes? Well, good thing you’ve got a hat for that now. Increases Perception by 10. Enchanted Armoire: Lone Cowpoke Set (Item 1 of 2)",
+        "notes": "Howdy there, pardner! D’you hate when you’re out on the range, workin’ on tasks, and sun gets in your eyes? Well, good thing you’ve got a hat for that now. Increases Perception by 10. Enchanted Armoire: Lone Cowpoke Set (Item 1 of 2).",
         "set": "loneCowpoke"
       },
       "head_armoire_floppyYellowHat": {
@@ -17971,6 +18106,46 @@
         ],
         "notes": "We obviously can’t describe this hood in detail, because it’s a secret. Increases Intelligence and Perception by 5 each. Enchanted Armoire: Secrets Set (Item 1 of 3).",
         "set": "secrets"
+      },
+      "head_special_winter2027Warrior": {
+        "key": "head_special_winter2027Warrior",
+        "text": "Winter Solstice Helm",
+        "imageFileNames": [
+          "head_special_winter2027Warrior",
+          "shop_head_special_winter2027Warrior"
+        ],
+        "notes": "When tasks threaten to overheat your brain, this icy strong hat will protect it. Increases Strength by 9. Limited Edition Winter 2026-2027 Gear.",
+        "set": "winter2027WinterSolsticeWarriorSet"
+      },
+      "head_special_winter2027Rogue": {
+        "key": "head_special_winter2027Rogue",
+        "text": "Jingle Bell Mask",
+        "imageFileNames": [
+          "head_special_winter2027Rogue",
+          "shop_head_special_winter2027Rogue"
+        ],
+        "notes": "When distractions come creeping in, shake your head and ring these bells to refocus your attention. Increases Perception by 9. Limited Edition Winter 2026-2027 Gear.",
+        "set": "winter2027JingleBellRogueSet"
+      },
+      "head_special_winter2027Healer": {
+        "key": "head_special_winter2027Healer",
+        "text": "Holly Berry Headdress",
+        "imageFileNames": [
+          "head_special_winter2027Healer",
+          "shop_head_special_winter2027Healer"
+        ],
+        "notes": "When you're feeling tired from your tasks, this headdress will keep you sharp and sweet. Increases Intelligence by 7. Limited Edition Winter 2026-2027 Gear.",
+        "set": "winter2027HollyBerryHealerSet"
+      },
+      "head_special_winter2027Mage": {
+        "key": "head_special_winter2027Mage",
+        "text": "Minty Stripe Hat",
+        "imageFileNames": [
+          "head_special_winter2027Mage",
+          "shop_head_special_winter2027Mage"
+        ],
+        "notes": "When choices compound, this conical hat will point you in the right direction. Increases Perception by 7. Limited Edition Winter 2026-2027 Gear.",
+        "set": "winter2027MintyStripeMageSet"
       }
     },
     "shield": {
@@ -20528,7 +20703,7 @@
           "shield_armoire_milkFood",
           "shop_shield_armoire_milkFood"
         ],
-        "notes": "There are many sayings about the health benefits of milk, but the pets who favor it just love its creamy taste. Increases Constitution and Strength by 3 each. Enchanted Armoire: Pet Food Set (Item 10 of 10)",
+        "notes": "There are many sayings about the health benefits of milk, but the pets who favor it just love its creamy taste. Increases Constitution and Strength by 3 each. Enchanted Armoire: Pet Food Set (Item 10 of 10).",
         "set": "petFood"
       },
       "shield_armoire_medievalLaundry": {
@@ -20568,7 +20743,7 @@
           "shield_armoire_heraldsMessageScroll",
           "shop_shield_armoire_heraldsMessageScroll"
         ],
-        "notes": "What exciting news does this scroll contain? Could it be about a new pet or a long habit streak? Increases Perception by 6. Enchanted Armoire: Herald Set (Item 4 of 4)",
+        "notes": "What exciting news does this scroll contain? Could it be about a new pet or a long habit streak? Increases Perception by 6. Enchanted Armoire: Herald Set (Item 4 of 4).",
         "set": "herald"
       },
       "shield_armoire_softBlackPillow": {
@@ -20608,7 +20783,7 @@
           "shield_armoire_spanishGuitar",
           "shop_shield_armoire_spanishGuitar"
         ],
-        "notes": "Tink! Tink! Thrummm! Gather your party for a concert or celebration by playing this guitar. Increases Perception by 5 and Intelligence by 6. Enchanted Armoire: Musical Instrument Set 1 (Item 2 of 3)",
+        "notes": "Tink! Tink! Thrummm! Gather your party for a concert or celebration by playing this guitar. Increases Perception by 5 and Intelligence by 6. Enchanted Armoire: Musical Instrument Set 1 (Item 2 of 3).",
         "set": "musicalInstrumentOne"
       },
       "shield_armoire_snareDrum": {
@@ -20618,7 +20793,7 @@
           "shield_armoire_snareDrum",
           "shop_shield_armoire_snareDrum"
         ],
-        "notes": "Rat-a-tat-tat! Gather your party for a parade or march into battle by playing this drum. Increases Constitution by 5 and Intelligence by 6. Enchanted Armoire: Musical Instrument Set 1 (Item 3 of 3)",
+        "notes": "Rat-a-tat-tat! Gather your party for a parade or march into battle by playing this drum. Increases Constitution by 5 and Intelligence by 6. Enchanted Armoire: Musical Instrument Set 1 (Item 3 of 3).",
         "set": "musicalInstrumentOne"
       },
       "shield_armoire_treasureMap": {
@@ -20698,7 +20873,7 @@
           "shield_armoire_bucket",
           "shop_shield_armoire_bucket"
         ],
-        "notes": "Though this bucket is helpful in holding a mixture of water and cleaning solution, you could also use it to collect, carry, and cart around just about anything that fits inside! Increases Strength and Intelligence by 4 each. Enchanted Armoire: Cleaning Supplies Set 2 (Item 1 of 3)",
+        "notes": "Though this bucket is helpful in holding a mixture of water and cleaning solution, you could also use it to collect, carry, and cart around just about anything that fits inside! Increases Strength and Intelligence by 4 each. Enchanted Armoire: Cleaning Supplies Set 2 (Item 1 of 3).",
         "set": "cleaningSuppliesTwo"
       },
       "shield_armoire_saucepan": {
@@ -20728,7 +20903,7 @@
           "shield_armoire_softWhitePillow",
           "shop_shield_armoire_softWhitePillow"
         ],
-        "notes": "The organized warrior packs a pillow for any expedition. Protect yourself from overlooked obligations… even while you nap. Increases Intelligence and Perception by 6 each. Enchanted Armoire: White Loungewear Set (Item 3 of 3)",
+        "notes": "The organized warrior packs a pillow for any expedition. Protect yourself from overlooked obligations… even while you nap. Increases Intelligence and Perception by 6 each. Enchanted Armoire: White Loungewear Set (Item 3 of 3).",
         "set": "whiteLoungeWear"
       },
       "shield_armoire_hattersPocketWatch": {
@@ -20778,7 +20953,7 @@
           "shield_armoire_safetyFlashlight",
           "shop_shield_armoire_safetyFlashlight"
         ],
-        "notes": "Wait, did you hear that noise? Quick! Shine your flashlight into the shadows over there. Hmmm. Looks like it was just the wind. Or was it…? Increases Constitution by 10. Enchanted Armoire: Fright Night Set (Item 1 of 2)",
+        "notes": "Wait, did you hear that noise? Quick! Shine your flashlight into the shadows over there. Hmmm. Looks like it was just the wind. Or was it…? Increases Constitution by 10. Enchanted Armoire: Fright Night Set (Item 1 of 2).",
         "set": "frightNightSet"
       },
       "shield_armoire_fancyFloralFan": {
@@ -20808,7 +20983,7 @@
           "shield_armoire_beekeepersHive",
           "shop_shield_armoire_beekeepersHive"
         ],
-        "notes": "Beehives serve as both homes and worksites. You might need to talk to your bees about a good work-life balance. Increases Strength by 12. Enchanted Armoire: Beekeeper Set (Item 4 of 4)",
+        "notes": "Beehives serve as both homes and worksites. You might need to talk to your bees about a good work-life balance. Increases Strength by 12. Enchanted Armoire: Beekeeper Set (Item 4 of 4).",
         "set": "beekeepersSet"
       },
       "shield_armoire_flyFishingRod": {
@@ -20818,7 +20993,7 @@
           "shield_armoire_flyFishingRod",
           "shop_shield_armoire_flyFishingRod"
         ],
-        "notes": "Put a lure on this long and flexible rod and fish will mistake it for an insect every single time. Increases Strength and Intelligence by 7 each. Enchanted Armoire: Fly Fishing Set (Item 3 of 3)",
+        "notes": "Put a lure on this long and flexible rod and fish will mistake it for an insect every single time. Increases Strength and Intelligence by 7 each. Enchanted Armoire: Fly Fishing Set (Item 3 of 3).",
         "set": "flyFishingSet"
       },
       "shield_armoire_softOrangePillow": {
@@ -20838,7 +21013,7 @@
           "shield_armoire_doubleBass",
           "shop_shield_armoire_doubleBass"
         ],
-        "notes": "Bom doo bom brrrr brr brr brrrr! Gather your party for some grounding or dancing as you listen to music on this deep double bass. Increases Constitution and Strength by 6 each. Enchanted Armoire: Musical Instrument Set 2 (Item 3 of 3)",
+        "notes": "Bom doo bom brrrr brr brr brrrr! Gather your party for some grounding or dancing as you listen to music on this deep double bass. Increases Constitution and Strength by 6 each. Enchanted Armoire: Musical Instrument Set 2 (Item 3 of 3).",
         "set": "musicalInstrumentTwo"
       },
       "shield_armoire_prettyPinkGiftBox": {
@@ -20848,7 +21023,7 @@
           "shield_armoire_prettyPinkGiftBox",
           "shop_shield_armoire_prettyPinkGiftBox"
         ],
-        "notes": "Is this gift from a dear friend? A caring relative? A true love? A secret admirer? Whoever sent it knows you’ll be pleased with what’s inside. Increases all stats by 2 each. Enchanted Armoire: Pretty in Pink Set (Item 2 of 2)",
+        "notes": "Is this gift from a dear friend? A caring relative? A true love? A secret admirer? Whoever sent it knows you’ll be pleased with what’s inside. Increases all stats by 2 each. Enchanted Armoire: Pretty in Pink Set (Item 2 of 2).",
         "set": "prettyInPink"
       },
       "shield_armoire_softYellowPillow": {
@@ -20988,7 +21163,7 @@
           "shield_armoire_shieldOfHonor",
           "shop_shield_armoire_shieldOfHonor"
         ],
-        "notes": "Oh, honorable knight! Thou hast a firm will, a steady hand, and a persistent nature. All in the kingdom know thou shalt wield this shield with honor. Increases Constitution by 9. Enchanted Armoire: Knight of Honor Set (Item 2 of 2)",
+        "notes": "Oh, honorable knight! Thou hast a firm will, a steady hand, and a persistent nature. All in the kingdom know thou shalt wield this shield with honor. Increases Constitution by 9. Enchanted Armoire: Knight of Honor Set (Item 2 of 2).",
         "set": "knightOfHonor"
       },
       "shield_armoire_leafPile": {
@@ -21000,6 +21175,66 @@
         ],
         "notes": "Some of the best tasks consist of both fun and hard work. We won’t tell if you take a running leap into these leaves as long as you rake them back into a pile again afterward. Increases Constitution by 11. Enchanted Armoire: Independent Item.",
         "set": "leafPile"
+      },
+      "shield_special_winter2027Warrior": {
+        "key": "shield_special_winter2027Warrior",
+        "text": "Winter Solstice Snowball",
+        "imageFileNames": [
+          "shield_special_winter2027Warrior",
+          "shop_shield_special_winter2027Warrior"
+        ],
+        "notes": "On the solstice you could build a snowball! It will be strong and never let you down! Increases Constitution by 7. Limited Edition Winter 2026-2027 Gear.",
+        "set": "winter2027WinterSolsticeWarriorSet"
+      },
+      "shield_special_winter2027Rogue": {
+        "key": "shield_special_winter2027Rogue",
+        "text": "More Jingle Bells",
+        "imageFileNames": [
+          "shield_special_winter2027Rogue",
+          "shop_shield_special_winter2027Rogue"
+        ],
+        "notes": "Jingle bells, jingle bells, jingle all the day! Oh what fun it is to have music as you work and play! Increases Strength by 8. Limited Edition Winter 2026-2027 Gear.",
+        "set": "winter2027JingleBellRogueSet"
+      },
+      "shield_special_winter2027Healer": {
+        "key": "shield_special_winter2027Healer",
+        "text": "Holly Berries",
+        "imageFileNames": [
+          "shield_special_winter2027Healer",
+          "shop_shield_special_winter2027Healer"
+        ],
+        "notes": "The holly and the berry, oh they are both well known! Of all the things you could bring along, this holly is your own! Increases Constitution by 9. Limited Edition Winter 2026-2027 Gear.",
+        "set": "winter2027HollyBerryHealerSet"
+      },
+      "shield_mystery_202612": {
+        "key": "shield_mystery_202612",
+        "text": "Sparkly Snow",
+        "imageFileNames": [
+          "shield_mystery_202612",
+          "shop_shield_mystery_202612"
+        ],
+        "notes": "Don’t worry, it’s just a little glitter! Confers no benefit. December 2026 Subscriber Item.",
+        "set": "mystery-202612"
+      },
+      "shield_mystery_202701": {
+        "key": "shield_mystery_202701",
+        "text": "Frostflame Fireball",
+        "imageFileNames": [
+          "shield_mystery_202701",
+          "shop_shield_mystery_202701"
+        ],
+        "notes": "The intensity of fire melds with the harsh cold of midwinter frost to form this powerful magic weapon. Confers no benefit. January 2027 Subscriber Item.",
+        "set": "mystery-202701"
+      },
+      "shield_mystery_202702": {
+        "key": "shield_mystery_202702",
+        "text": "Springtime Petal Sprinkle",
+        "imageFileNames": [
+          "shield_mystery_202702",
+          "shop_shield_mystery_202702"
+        ],
+        "notes": "May petals surround you in an aesthetically pleasing manner wherever you go. Confers no benefit. February 2027 Subscriber Item.",
+        "set": "mystery-202702"
       }
     },
     "back": {
@@ -21647,7 +21882,7 @@
           "back_armoire_harpsichord",
           "shop_back_armoire_harpsichord"
         ],
-        "notes": "Pting! Ptiiing! Gather your party for a dinner or picnic and listen to a tinny melody on this harpsichord. Increases Perception and Intelligence by 6 each. Enchanted Armoire: Musical Instrument Set 2 (Item 1 of 3)",
+        "notes": "Pting! Ptiiing! Gather your party for a dinner or picnic and listen to a tinny melody on this harpsichord. Increases Perception and Intelligence by 6 each. Enchanted Armoire: Musical Instrument Set 2 (Item 1 of 3).",
         "set": "musicalInstrumentTwo"
       }
     },
@@ -22647,6 +22882,16 @@
         ],
         "notes": "These goggles will help you zero in on any task, large or small! Increases Perception by 8. Enchanted Armoire: Bookbinder Set (Item 1 of 4).",
         "set": "bookbinder"
+      },
+      "headAccessory_mystery_202702": {
+        "key": "headAccessory_mystery_202702",
+        "text": "Springtime Petal Antlers",
+        "imageFileNames": [
+          "headAccessory_mystery_202702",
+          "shop_headAccessory_mystery_202702"
+        ],
+        "notes": "Your springtime magic is so powerful your antlers sprouted blossoms. How delightful! Confers no benefit. February 2027 Subscriber Item.",
+        "set": "mystery-202702"
       }
     },
     "eyewear": {
@@ -23184,7 +23429,7 @@
           "eyewear_armoire_secretsShades",
           "shop_eyewear_armoire_secretsShades"
         ],
-        "notes": "There are shades that let you see secrets? We can neither confirm nor deny that rumor. Increases Intelligence and Perception by 5 each. Enchanted Armoire: Secrets Set (Item 2 of 3)",
+        "notes": "There are shades that let you see secrets? We can neither confirm nor deny that rumor. Increases Intelligence and Perception by 5 each. Enchanted Armoire: Secrets Set (Item 2 of 3).",
         "set": "secrets"
       }
     }
@@ -28875,6 +29120,60 @@
         "armor": "armor_armoire_secretsCloak",
         "head": "head_armoire_secretsHood",
         "eyewear": "eyewear_armoire_secretsShades"
+      }
+    },
+    "winter2027WinterSolsticeWarriorSet": {
+      "key": "winter2027WinterSolsticeWarriorSet",
+      "text": "Winter Solstice",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_special_winter2027Warrior",
+        "armor": "armor_special_winter2027Warrior",
+        "head": "head_special_winter2027Warrior",
+        "shield": "shield_special_winter2027Warrior"
+      }
+    },
+    "winter2027JingleBellRogueSet": {
+      "key": "winter2027JingleBellRogueSet",
+      "text": "Jingle Bell Rogue",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_special_winter2027Rogue",
+        "armor": "armor_special_winter2027Rogue",
+        "head": "head_special_winter2027Rogue",
+        "shield": "shield_special_winter2027Rogue"
+      }
+    },
+    "winter2027HollyBerryHealerSet": {
+      "key": "winter2027HollyBerryHealerSet",
+      "text": "Holly",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_special_winter2027Healer",
+        "armor": "armor_special_winter2027Healer",
+        "head": "head_special_winter2027Healer",
+        "shield": "shield_special_winter2027Healer"
+      }
+    },
+    "winter2027MintyStripeMageSet": {
+      "key": "winter2027MintyStripeMageSet",
+      "text": "Minty Stripe",
+      "imageFileNames": [],
+      "gear": {
+        "weapon": "weapon_special_winter2027Mage",
+        "armor": "armor_special_winter2027Mage",
+        "head": "head_special_winter2027Mage"
+      }
+    },
+    "mystery-202612": {
+      "key": "mystery-202612",
+      "text": "Sparkly Snow Globe",
+      "imageFileNames": [
+        "shop_set_mystery_202612"
+      ],
+      "gear": {
+        "weapon": "weapon_mystery_202612",
+        "shield": "shield_mystery_202612"
       }
     }
   },
